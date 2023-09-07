@@ -13,6 +13,11 @@
 |   [134. 加油站](https://leetcode.cn/problems/gas-station/)   |   数组   | 遍历、贪心 | Medium |
 |  [164. 最大间距](https://leetcode.cn/problems/maximum-gap/)  |   数组   |    排序    |  Hard  |
 | [204. 计数质数](https://leetcode.cn/problems/count-primes/)  |   数组   |    数学    | Medium |
+| [242. 有效的字母异位词](https://leetcode.cn/problems/valid-anagram/) |  字符串  |   哈希表   |  Easy  |
+|   [283. 移动零](https://leetcode.cn/problems/move-zeroes/)   |   数组   |    指针    |  Easy  |
+|                                                              |          |            |        |
+|                                                              |          |            |        |
+|                                                              |          |            |        |
 |                                                              |          |            |        |
 |                                                              |          |            |        |
 |                                                              |          |            |        |

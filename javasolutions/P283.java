@@ -1,9 +1,13 @@
 package javasolutions;
 
-//https://leetcode-cn.com/problems/move-zeroes/
-public class leetcode283 {
+/**
+ * @author Bota5ky
+ * @link <a href="https://leetcode.cn/problems/move-zeroes/">283. 移动零</a>
+ * @since 2023-09-07 13:40
+ */
+class P283 {
     public void moveZeroes(int[] nums) {
-        for (int i = 0, j = 0; j < nums.length;) {
+        for (int i = 0, j = 0; j < nums.length; ) {
             if (nums[i] != 0) {
                 i++;
                 j++;
