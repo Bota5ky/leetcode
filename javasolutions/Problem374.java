@@ -1,7 +1,11 @@
 package javasolutions;
 
-//https://leetcode-cn.com/problems/guess-number-higher-or-lower/
-public class leetcode374 {
+/**
+ * @author Bota5ky
+ * @link <a href="https://leetcode.cn/problems/guess-number-higher-or-lower/">374. 猜数字大小</a>
+ * @since 2023-09-07 13:53
+ */
+class Problem374 {
     public int guessNumber(int n) {
         for (int i = 1, j = n; i <= j; ) {
             int mid = i + (j - i) / 2;

@@ -5,7 +5,7 @@ package javasolutions;
  * @link <a href="https://leetcode.cn/problems/unique-paths/">62. 不同路径</a>
  * @since 2023-09-07 10:48
  */
-class P62 {
+class Problem62 {
     public int uniquePaths(int m, int n) {
         int[][] pos = new int[m][n];
         for (int i = 0; i < m; i++) {

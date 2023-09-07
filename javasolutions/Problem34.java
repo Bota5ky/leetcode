@@ -5,7 +5,7 @@ package javasolutions;
  * @link <a href="https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/">34. 在排序数组中查找元素的第一个和最后一个位置</a>
  * @since 2023-09-07 10:08
  */
-class P34 {
+class Problem34 {
     public int[] searchRange(int[] nums, int target) {
         int[] res = {-1, -1};
         int i = 0, j = nums.length - 1;

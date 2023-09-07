@@ -5,7 +5,7 @@ package javasolutions;
  * @link <a href="https://leetcode.cn/problems/valid-anagram/">242. 有效的字母异位词</a>
  * @since 2023-09-07 13:38
  */
-class P242 {
+class Problem242 {
     public boolean isAnagram(String s, String t) {
         int[] cnt = new int[26];
         for (int i = 0; i < s.length(); i++) {

@@ -15,6 +15,11 @@
 | [204. 计数质数](https://leetcode.cn/problems/count-primes/)  |   数组   |    数学    | Medium |
 | [242. 有效的字母异位词](https://leetcode.cn/problems/valid-anagram/) |  字符串  |   哈希表   |  Easy  |
 |   [283. 移动零](https://leetcode.cn/problems/move-zeroes/)   |   数组   |    指针    |  Easy  |
+|   [372. 超级次方](https://leetcode.cn/problems/super-pow/)   |   数字   |    数学    | Medium |
+| [374. 猜数字大小](https://leetcode.cn/problems/guess-number-higher-or-lower/) |   随机   |  二分查找  |  Easy  |
+| [406. 根据身高重建队列](https://leetcode.cn/problems/queue-reconstruction-by-height/) | 二维数组 |    排序    | Medium |
+|                                                              |          |            |        |
+|                                                              |          |            |        |
 |                                                              |          |            |        |
 |                                                              |          |            |        |
 |                                                              |          |            |        |
