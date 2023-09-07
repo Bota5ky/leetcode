@@ -2,8 +2,12 @@ package javasolutions;
 
 import java.util.Arrays;
 
-//https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/
-public class leetcode452 {
+/**
+ * @author Bota5ky
+ * @link <a href="https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons/">452. 用最少数量的箭引爆气球</a>
+ * @since 2023-09-07 14:04
+ */
+class Problem452 {
     public int findMinArrowShots(int[][] points) {
         if (points.length == 0)
             return 0;

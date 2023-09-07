@@ -2,8 +2,12 @@ package javasolutions;
 
 import java.util.Arrays;
 
-//https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements/
-public class leetcode453 {
+/**
+ * @author Bota5ky
+ * @link <a href="https://leetcode.cn/problems/minimum-moves-to-equal-array-elements/">453. 最小操作次数使数组元素相等</a>
+ * @since 2023-09-07 14:05
+ */
+class Problem453 {
     public int minMoves(int[] nums) {
         Arrays.sort(nums);
         int sum = 0;

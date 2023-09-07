@@ -1,6 +1,11 @@
 package javasolutions;
 
-public class leetcode748 {
+/**
+ * @author Bota5ky
+ * @link <a href="https://leetcode.cn/problems/shortest-completing-word/">748. 最短补全词</a>
+ * @since 2023-09-07 14:18
+ */
+class Problem748 {
     public String shortestCompletingWord(String licensePlate, String[] words) {
         licensePlate = licensePlate.toLowerCase();
         int[] plateCnt = count(licensePlate);

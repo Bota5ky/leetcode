@@ -2,7 +2,12 @@ package javasolutions;
 
 import java.util.Arrays;
 
-public class leetcode1005 {
+/**
+ * @author Bota5ky
+ * @link <a href="https://leetcode.cn/problems/maximize-sum-of-array-after-k-negations/">1005. K 次取反后最大化的数组和</a>
+ * @since 2023-09-07 14:23
+ */
+class Problem1005 {
     public int largestSumAfterKNegations(int[] nums, int k) {
         Arrays.sort(nums);
         int minAbs = Math.abs(nums[0]);
@@ -13,8 +18,8 @@ public class leetcode1005 {
                 break;
             }
             if (nums[i] < 0) {
-                nums[i] = - nums[i];
-                k --;
+                nums[i] = -nums[i];
+                k--;
             }
         }
         if (k % 2 == 1) {

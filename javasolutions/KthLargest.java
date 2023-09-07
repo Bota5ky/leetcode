@@ -2,36 +2,16 @@ package javasolutions;
 
 import java.util.ArrayList;
 
-//https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/
-// public class leetcode703 {
-//     private PriorityQueue<Integer> queue;
-//     private int limit;
-
-//     public leetcode703(int k, int[] nums) {
-//         limit = k;
-//         queue = new PriorityQueue<>(k);
-//         for (int num : nums) {
-//             add(num);
-//         }
-//     }
-
-//     public int add(int val) {
-//         if (queue.size() < limit) {
-//             queue.add(val);
-//         } else if (val > queue.peek()) {
-//             queue.poll();
-//             queue.add(val);
-//         }
-
-//         return queue.peek();
-//     }
-// }
-
-public class leetcode703 {
+/**
+ * @author Bota5ky
+ * @link <a href="https://leetcode.cn/problems/kth-largest-element-in-a-stream/">703. 数据流中的第 K 大元素</a>
+ * @since 2023-09-07 14:12
+ */
+class KthLargest {
     private int limit;
     private ArrayList<Integer> stack;
 
-    public leetcode703(int k, int[] nums) {
+    public KthLargest(int k, int[] nums) {
         limit = k;
         stack = new ArrayList<>();
         for (int i = 0; i < nums.length && i < k; i++) {

@@ -4,7 +4,12 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class leetcode506 {
+/**
+ * @author Bota5ky
+ * @link <a href="https://leetcode.cn/problems/relative-ranks/">506. 相对名次</a>
+ * @since 2023-09-07 14:07
+ */
+class Problem506 {
     public String[] findRelativeRanks(int[] score) {
         Map<Integer, Integer> originPosition = new HashMap<>();
         for (int i = 0; i < score.length; i++) {

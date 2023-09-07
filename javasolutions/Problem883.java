@@ -1,7 +1,11 @@
 package javasolutions;
 
-//https://leetcode-cn.com/problems/projection-area-of-3d-shapes/
-public class leetcode883 {
+/**
+ * @author Bota5ky
+ * @link <a href="https://leetcode.cn/problems/projection-area-of-3d-shapes/">883. 三维形体投影面积</a>
+ * @since 2023-09-07 14:21
+ */
+class Problem883 {
     public int projectionArea(int[][] grid) {
         int[] rowmax = new int[grid.length];
         int[] colmax = new int[grid[0].length];
