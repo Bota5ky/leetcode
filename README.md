@@ -29,6 +29,19 @@
 | [1005. K 次取反后最大化的数组和](https://leetcode.cn/problems/maximize-sum-of-array-after-k-negations/) |   数组   | 哈希、贪心、排序 |  Easy  |
 | [1030. 距离顺序排列矩阵单元格](https://leetcode.cn/problems/matrix-cells-in-distance-order/) | 二维矩阵 |       排序       |  Easy  |
 | [1512. 好数对的数目](https://leetcode.cn/problems/number-of-good-pairs/) |   数组   |       数学       |  Easy  |
+| [面试题 01.01. 判定字符是否唯一](https://leetcode.cn/problems/is-unique-lcci/) |  字符串  |      位运算      |  Easy  |
+| [面试题 01.02. 判定是否互为字符重排](https://leetcode.cn/problems/check-permutation-lcci/) |  字符串  |   排序、哈希表   |  Easy  |
+| [面试题 01.03. URL化](https://leetcode.cn/problems/string-to-url-lcci/) |          |                  |        |
+| [面试题 01.04. 回文排列](https://leetcode.cn/problems/palindrome-permutation-lcci/) |          |                  |        |
+| [面试题 01.05. 一次编辑](https://leetcode.cn/problems/one-away-lcci/) |          |                  |        |
+| [面试题 01.06. 字符串压缩](https://leetcode.cn/problems/compress-string-lcci/) |          |                  |        |
+|                                                              |          |                  |        |
+|                                                              |          |                  |        |
+|                                                              |          |                  |        |
+|                                                              |          |                  |        |
+|                                                              |          |                  |        |
+|                                                              |          |                  |        |
+|                                                              |          |                  |        |
 |                                                              |          |                  |        |
 |                                                              |          |                  |        |
 |                                                              |          |                  |        |
