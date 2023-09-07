@@ -2,8 +2,8 @@ package gosolutions
 
 import . "gosolutions/model"
 
-// 数字反向存放
-// https://leetcode-cn.com/problems/sum-lists-lcci/
+// 面试题 02.05. 链表求和 https://leetcode.cn/problems/sum-lists-lcci/
+// 2. 两数相加 https://leetcode.cn/problems/add-two-numbers/
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	plus := 0
 	pre := &ListNode{}
@@ -24,5 +24,3 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	}
 	return ret.Next
 }
-
-//数字正向存放

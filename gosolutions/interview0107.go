@@ -1,7 +1,7 @@
 package gosolutions
 
-// https://leetcode-cn.com/problems/rotate-matrix-lcci/
-func rotate(matrix [][]int) {
+// 面试题 01.07. 旋转矩阵 https://leetcode.cn/problems/rotate-matrix-lcci/
+func rotateMatrix(matrix [][]int) {
 	//转置
 	for i := 0; i < len(matrix); i++ {
 		for j := i + 1; j < len(matrix[i]); j++ {

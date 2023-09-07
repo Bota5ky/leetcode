@@ -2,8 +2,7 @@ package gosolutions
 
 import . "gosolutions/model"
 
-// O(n) 时间复杂度和 O(1) 空间复杂度
-// https://leetcode-cn.com/problems/palindrome-linked-list-lcci/
+// 面试题 02.06. 回文链表 https://leetcode.cn/problems/palindrome-linked-list-lcci/
 func isPalindrome(head *ListNode) bool {
 	if head == nil || head.Next == nil {
 		return true

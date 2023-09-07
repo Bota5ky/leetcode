@@ -1,7 +1,9 @@
 package gosolutions
 
+import . "gosolutions/model"
+
 // https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/
-func deleteNode(head *ListNode, val int) *ListNode {
+func deleteNodeByValue(head *ListNode, val int) *ListNode {
 	mark := &ListNode{0, head}
 	res := mark
 	for head != nil {

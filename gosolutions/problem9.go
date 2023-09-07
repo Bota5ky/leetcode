@@ -1,7 +1,7 @@
 package gosolutions
 
 // https://leetcode-cn.com/problems/palindrome-number/
-func isPalindrome(x int) bool {
+func isPalindromeNumber(x int) bool {
 	if x < 0 {
 		return false
 	}

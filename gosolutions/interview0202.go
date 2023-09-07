@@ -2,8 +2,7 @@ package gosolutions
 
 import . "gosolutions/model"
 
-// 双指针
-// https://leetcode-cn.com/problems/kth-node-from-end-of-list-lcci/
+// 面试题 02.02. 返回倒数第 k 个节点 https://leetcode.cn/problems/kth-node-from-end-of-list-lcci/
 func kthToLast(head *ListNode, k int) int {
 	rear := head
 	for rear != nil && k > 0 {

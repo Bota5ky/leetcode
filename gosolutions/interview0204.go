@@ -2,7 +2,7 @@ package gosolutions
 
 import . "gosolutions/model"
 
-// https://leetcode-cn.com/problems/partition-list-lcci/
+// 面试题 02.04. 分割链表 https://leetcode.cn/problems/partition-list-lcci/
 func partition(head *ListNode, x int) *ListNode {
 	res := head
 	rear := head

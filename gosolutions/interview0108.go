@@ -1,6 +1,7 @@
 package gosolutions
 
-// https://leetcode-cn.com/problems/zero-matrix-lcci/
+// 面试题 01.08. 零矩阵 https://leetcode.cn/problems/zero-matrix-lcci/
+// 73. 矩阵置零 https://leetcode.cn/problems/set-matrix-zeroes/
 func setZeroes(matrix [][]int) {
 	if len(matrix) == 0 || len(matrix[0]) == 0 {
 		return

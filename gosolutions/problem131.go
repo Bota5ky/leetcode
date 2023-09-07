@@ -1,12 +1,12 @@
 package gosolutions
 
-// https://leetcode-cn.com/problems/palindrome-partitioning/
-func partition(s string) [][]string {
+// https://leetcode.cn/problems/palindrome-partitioning/
+func partitionString(s string) [][]string {
 	var res [][]string
 	for i := len(s) - 1; i >= 0; i-- {
 		var temp [][]string
 		if isPalindrome3(s[i:]) {
-			temp = partition(s[:i]) //[][]string
+			temp = partitionString(s[:i]) //[][]string
 			if i == 0 {
 				res = append(res, []string{s[i:]})
 			} else {
