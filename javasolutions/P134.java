@@ -1,7 +1,11 @@
 package javasolutions;
 
-//https://leetcode-cn.com/problems/gas-station/
-class leetcode134 {
+/**
+ * @author Bota5ky
+ * @link <a href="https://leetcode.cn/problems/gas-station/">134. 加油站</a>
+ * @since 2023-09-07 11:31
+ */
+class P134 {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         for (int i = 0; i < gas.length; i++) {
             int cnt = 0;

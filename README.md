@@ -4,9 +4,18 @@
 
 以下按照**数据结构**和**算法**进行整理分类：
 
-|                             题目                             | 数据结构 |   算法   |  难度  |
-| :----------------------------------------------------------: | :------: | :------: | :----: |
-|               [LCP 17. 速算机器人](LCP17.java)               |  字符串  | 简单映射 |  Esay  |
-| [34. 在排序数组中查找元素的第一个和最后一个位置](array/problem34.java) |   数组   | 二分查找 | Medium |
-|                                                              |          |          |        |
+|                             题目                             | 数据结构 |    算法    |  难度  |
+| :----------------------------------------------------------: | :------: | :--------: | :----: |
+|  [LCP 17. 速算机器人](https://leetcode.cn/problems/nGK0Fy/)  |  字符串  |  简单映射  |  Easy  |
+| [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/) |   数组   |  二分查找  | Medium |
+|  [62. 不同路径](https://leetcode.cn/problems/unique-paths/)  | 二维矩阵 |  动态规划  | Medium |
+| [118. 杨辉三角](https://leetcode.cn/problems/pascals-triangle/) | 二维数组 |    数学    |  Easy  |
+|   [134. 加油站](https://leetcode.cn/problems/gas-station/)   |   数组   | 遍历、贪心 | Medium |
+|  [164. 最大间距](https://leetcode.cn/problems/maximum-gap/)  |   数组   |    排序    |  Hard  |
+| [204. 计数质数](https://leetcode.cn/problems/count-primes/)  |   数组   |    数学    | Medium |
+|                                                              |          |            |        |
+|                                                              |          |            |        |
+|                                                              |          |            |        |
+|                                                              |          |            |        |
+|                                                              |          |            |        |
 

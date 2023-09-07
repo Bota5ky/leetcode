@@ -2,8 +2,12 @@ package javasolutions;
 
 import java.util.Arrays;
 
-//https://leetcode-cn.com/problems/count-primes/
-public class leetcode204 {
+/**
+ * @author Bota5ky
+ * @link <a href="https://leetcode.cn/problems/count-primes/">204. 计数质数</a>
+ * @since 2023-09-07 12:43
+ */
+public class P204 {
     public int countPrimes(int n) {
         int[] isPrime = new int[n];
         Arrays.fill(isPrime, 1);

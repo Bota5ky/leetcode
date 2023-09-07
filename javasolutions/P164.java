@@ -2,8 +2,12 @@ package javasolutions;
 
 import java.util.Arrays;
 
-//https://leetcode-cn.com/problems/maximum-gap/
-class leetcode164 {
+/**
+ * @author Bota5ky
+ * @link <a href="https://leetcode.cn/problems/maximum-gap/">164. 最大间距</a>
+ * @since 2023-09-07 11:36
+ */
+class P164 {
     public int maximumGap(int[] nums) {
         Arrays.sort(nums);
         int gap = 0;

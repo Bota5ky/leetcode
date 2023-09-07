@@ -3,7 +3,12 @@ package javasolutions;
 import java.util.ArrayList;
 import java.util.List;
 
-class leetcode118 {
+/**
+ * @author Bota5ky
+ * @link <a href="https://leetcode.cn/problems/pascals-triangle/">118. 杨辉三角</a>
+ * @since 2023-09-07 11:25
+ */
+class P118 {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
         for (int i = 0; i < numRows; i++) {
