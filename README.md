@@ -67,10 +67,10 @@
 
 #### 指针
 
-|                           题目                           | 数据结构 | 算法 | 难度 |
-| :------------------------------------------------------: | :------: | :--: | :--: |
-| [283. 移动零](https://leetcode.cn/problems/move-zeroes/) |   数组   | 指针 | Easy |
-|                                                          |          |      |      |
+|                             题目                             | 数据结构 | 算法 | 难度 |
+| :----------------------------------------------------------: | :------: | :--: | :--: |
+|   [283. 移动零](https://leetcode.cn/problems/move-zeroes/)   |   数组   | 指针 | Easy |
+| [面试题 02.07. 链表相交](https://leetcode.cn/problems/intersection-of-two-linked-lists-lcci/) |   链表   | 指针 | Easy |
 
 #### 位运算
 
@@ -98,23 +98,18 @@
 | [面试题 02.04. 分割链表](https://leetcode.cn/problems/partition-list-lcci/) |          |          |      |
 | [面试题 02.05. 链表求和](https://leetcode.cn/problems/sum-lists-lcci/)<br>[2. 两数相加](https://leetcode.cn/problems/add-two-numbers/) |          |          |      |
 | [面试题 02.06. 回文链表](https://leetcode.cn/problems/palindrome-linked-list-lcci/) |          |          |      |
-|                                                              |          |          |      |
-|                                                              |          |          |      |
-|                                                              |          |          |      |
-|                                                              |          |          |      |
-|                                                              |          |          |      |
-|                                                              |          |          |      |
-|                                                              |          |          |      |
-|                                                              |          |          |      |
-|                                                              |          |          |      |
+| [面试题 02.08. 环路检测](https://leetcode.cn/problems/linked-list-cycle-lcci/)<br>[142. 环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/) |          |          |      |
+| [面试题 03.01. 三合一](https://leetcode.cn/problems/three-in-one-lcci/) |          |          |      |
+| [面试题 03.02. 栈的最小值](https://leetcode.cn/problems/min-stack-lcci/)<br>[剑指 Offer 30. 包含min函数的栈](https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof/) |          |          |      |
+| [面试题 03.03. 堆盘子](https://leetcode.cn/problems/stack-of-plates-lcci/) |          |          |      |
+| [面试题 03.04. 化栈为队](https://leetcode.cn/problems/implement-queue-using-stacks-lcci/)<br>[剑指 Offer 09. 用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) |          |          |      |
+| [面试题 03.05. 栈排序](https://leetcode.cn/problems/sort-of-stacks-lcci/) |          |          |      |
+| [面试题 03.06. 动物收容所](https://leetcode.cn/problems/animal-shelter-lcci/) |          |          |      |
+| [面试题 04.01. 节点间通路](https://leetcode.cn/problems/route-between-nodes-lcci/) |          |          |      |
 |                                                              |          |          |      |
 |                                                              |          |          |      |
 |                                                              |          |          |      |
 | [剑指 Offer 18. 删除链表的节点](https://leetcode.cn/problems/shan-chu-lian-biao-de-jie-dian-lcof/) |          |          |      |
-|                                                              |          |          |      |
-|                                                              |          |          |      |
-|                                                              |          |          |      |
-|                                                              |          |          |      |
 
 
 
