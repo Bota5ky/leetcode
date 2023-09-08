@@ -1,4 +1,4 @@
-package interview
+package palindrome_permutation_lcci
 
 // 面试题 01.04. 回文排列 https://leetcode.cn/problems/palindrome-permutation-lcci/
 func canPermutePalindrome(s string) bool {

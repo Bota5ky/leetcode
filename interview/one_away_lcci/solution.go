@@ -1,4 +1,4 @@
-package interview
+package one_away_lcci
 
 // 面试题 01.05. 一次编辑 https://leetcode.cn/problems/one-away-lcci/
 func oneEditAway(first string, second string) bool {

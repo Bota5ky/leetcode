@@ -1,4 +1,4 @@
-package interview
+package check_permutation_lcci
 
 // CheckPermutation 面试题 01.02. 判定是否互为字符重排 https://leetcode.cn/problems/check-permutation-lcci/
 func CheckPermutation(s1 string, s2 string) bool {

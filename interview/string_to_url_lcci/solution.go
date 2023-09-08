@@ -1,4 +1,4 @@
-package interview
+package string_to_url_lcci
 
 import "strings"
 
