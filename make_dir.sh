@@ -1,6 +1,6 @@
 #!/bin/bash
 
-path="offer"
+path="common/question_1350_to_inf"
 
 for file in "$path"/*; do
   if [ -f "$file" ]; then
