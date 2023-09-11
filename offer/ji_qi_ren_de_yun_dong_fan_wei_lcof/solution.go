@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode.cn/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/
+// 剑指 Offer 13. 机器人的运动范围 https://leetcode.cn/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/
 func movingCount(m int, n int, k int) int {
 	passed := make(map[[2]int]bool)
 	return vaildcnts(0, 0, k, m, n, passed)

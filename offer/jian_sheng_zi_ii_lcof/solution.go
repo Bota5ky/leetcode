@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode.cn/problems/jian-sheng-zi-ii-lcof/
+// 剑指 Offer 14- II. 剪绳子 II https://leetcode.cn/problems/jian-sheng-zi-ii-lcof/
 func cuttingRope2(n int) int {
 	switch n {
 	case 2:

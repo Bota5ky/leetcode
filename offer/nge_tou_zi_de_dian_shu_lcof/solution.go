@@ -2,11 +2,8 @@ package offer
 
 import "math"
 
-// https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof/
+// 剑指 Offer 60. n个骰子的点数 https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof/
 func twoSum2(n int) []float64 {
-	//f(n,s)=f(n-1,s-1)+f(n-1,s-2)+f(n-1,s-3)+f(n-1,s-4)+f(n-1,s-5)+f(n-1,s-6)
-	//f(1,1)=f(1,2)=f(1,3)=f(1,4)=f(1,5)=f(1,6)=1
-	//s=n~6n之间
 	total := math.Pow(6, float64(n))
 	f := make([][]int, n+1)
 	for i := 1; i <= n; i++ {
@@ -44,3 +41,7 @@ func twoSum2(n int) []float64 {
 	}
 	return res
 }
+
+// f(n,s)=f(n-1,s-1)+f(n-1,s-2)+f(n-1,s-3)+f(n-1,s-4)+f(n-1,s-5)+f(n-1,s-6)
+// f(1,1)=f(1,2)=f(1,3)=f(1,4)=f(1,5)=f(1,6)=1
+// s=n~6n之间

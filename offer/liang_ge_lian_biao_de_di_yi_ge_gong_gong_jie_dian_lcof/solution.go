@@ -1,6 +1,8 @@
 package offer
 
-// https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/
+import . "leetcode/model"
+
+// 剑指 Offer 52. 两个链表的第一个公共节点 https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/
 func getIntersectionNode(headA, headB *ListNode) *ListNode {
 	a := headA
 	b := headB
