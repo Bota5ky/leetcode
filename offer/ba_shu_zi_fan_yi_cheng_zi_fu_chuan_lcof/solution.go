@@ -1,4 +1,4 @@
-package offer
+package ba_shu_zi_fan_yi_cheng_zi_fu_chuan_lcof
 
 // 剑指 Offer 46. 把数字翻译成字符串 https://leetcode.cn/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/
 func translateNum(num int) int {

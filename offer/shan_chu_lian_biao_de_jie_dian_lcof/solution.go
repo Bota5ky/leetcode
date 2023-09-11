@@ -1,4 +1,4 @@
-package offer
+package shan_chu_lian_biao_de_jie_dian_lcof
 
 import . "leetcode/model"
 

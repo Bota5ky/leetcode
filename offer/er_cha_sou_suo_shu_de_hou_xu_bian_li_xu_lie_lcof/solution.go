@@ -1,4 +1,4 @@
-package offer
+package er_cha_sou_suo_shu_de_hou_xu_bian_li_xu_lie_lcof
 
 // 剑指 Offer 33. 二叉搜索树的后序遍历序列 https://leetcode.cn/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/
 func verifyPostorder(postorder []int) bool {

@@ -1,4 +1,4 @@
-package offer
+package shu_zu_zhong_shu_zi_chu_xian_de_ci_shu_lcof
 
 // 剑指 Offer 56 - I. 数组中数字出现的次数 https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/
 func singleNumbers(nums []int) []int {

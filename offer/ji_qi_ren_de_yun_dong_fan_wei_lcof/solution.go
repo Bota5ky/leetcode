@@ -1,4 +1,4 @@
-package offer
+package ji_qi_ren_de_yun_dong_fan_wei_lcof
 
 // 剑指 Offer 13. 机器人的运动范围 https://leetcode.cn/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/
 func movingCount(m int, n int, k int) int {

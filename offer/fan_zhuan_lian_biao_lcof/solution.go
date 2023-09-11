@@ -1,4 +1,4 @@
-package offer
+package fan_zhuan_lian_biao_lcof
 
 import . "leetcode/model"
 
@@ -7,17 +7,17 @@ func reverseList(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
 		return head
 	}
-	var prehead *ListNode
+	var preHead *ListNode
 	rear := head.Next
 	for head != nil {
-		head.Next = prehead
-		prehead = head
+		head.Next = preHead
+		preHead = head
 		head = rear
 		if rear != nil {
 			rear = rear.Next
 		}
 	}
-	return prehead
+	return preHead
 }
 
 func reverseList2(head *ListNode) *ListNode {

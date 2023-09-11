@@ -1,4 +1,4 @@
-package offer
+package shu_zhi_de_zheng_shu_ci_fang_lcof
 
 // 剑指 Offer 16. 数值的整数次方 https://leetcode.cn/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/
 func myPow(x float64, n int) float64 {

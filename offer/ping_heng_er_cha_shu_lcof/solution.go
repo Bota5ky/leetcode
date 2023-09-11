@@ -1,4 +1,4 @@
-package offer
+package ping_heng_er_cha_shu_lcof
 
 import . "leetcode/model"
 

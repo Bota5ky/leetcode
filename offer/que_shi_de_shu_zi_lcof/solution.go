@@ -1,4 +1,4 @@
-package offer
+package que_shi_de_shu_zi_lcof
 
 // 剑指 Offer 53 - II. 0～n-1中缺失的数字 https://leetcode.cn/problems/que-shi-de-shu-zi-lcof/
 func missingNumber(nums []int) int {

@@ -1,4 +1,4 @@
-package offer
+package zai_pai_xu_shu_zu_zhong_cha_zhao_shu_zi_lcof
 
 // 剑指 Offer 53 - I. 在排序数组中查找数字 I https://leetcode.cn/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/
 func search1(nums []int, target int) int {

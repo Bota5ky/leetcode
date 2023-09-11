@@ -1,4 +1,4 @@
-package offer
+package zheng_ze_biao_da_shi_pi_pei_lcof
 
 // 剑指 Offer 19. 正则表达式匹配 https://leetcode.cn/problems/zheng-ze-biao-da-shi-pi-pei-lcof/
 func isMatch(s string, p string) bool {

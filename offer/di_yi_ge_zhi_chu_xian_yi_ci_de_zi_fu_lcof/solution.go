@@ -1,4 +1,4 @@
-package offer
+package di_yi_ge_zhi_chu_xian_yi_ci_de_zi_fu_lcof
 
 import "strings"
 

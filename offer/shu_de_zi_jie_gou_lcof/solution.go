@@ -1,4 +1,4 @@
-package offer
+package shu_de_zi_jie_gou_lcof
 
 import . "leetcode/model"
 

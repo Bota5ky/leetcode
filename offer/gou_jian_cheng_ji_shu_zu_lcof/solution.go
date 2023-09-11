@@ -1,4 +1,4 @@
-package offer
+package gou_jian_cheng_ji_shu_zu_lcof
 
 // 剑指 Offer 66. 构建乘积数组 https://leetcode.cn/problems/gou-jian-cheng-ji-shu-zu-lcof/
 func constructArr(a []int) []int {

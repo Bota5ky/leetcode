@@ -1,4 +1,4 @@
-package offer
+package shu_zu_zhong_zhong_fu_de_shu_zi_lcof
 
 // 剑指 Offer 03. 数组中重复的数字 https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/
 func findRepeatNumber(nums []int) int {

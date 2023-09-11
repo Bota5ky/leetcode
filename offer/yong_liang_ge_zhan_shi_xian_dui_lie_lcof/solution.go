@@ -1,4 +1,4 @@
-package offer
+package yong_liang_ge_zhan_shi_xian_dui_lie_lcof
 
 // CQueue 剑指 Offer 09. 用两个栈实现队列 https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/
 type CQueue struct {

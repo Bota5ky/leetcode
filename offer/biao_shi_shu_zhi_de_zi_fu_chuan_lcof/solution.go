@@ -1,4 +1,4 @@
-package offer
+package biao_shi_shu_zhi_de_zi_fu_chuan_lcof
 
 // 剑指 Offer 20. 表示数值的字符串 https://leetcode.cn/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/
 func isNumber(s string) bool {

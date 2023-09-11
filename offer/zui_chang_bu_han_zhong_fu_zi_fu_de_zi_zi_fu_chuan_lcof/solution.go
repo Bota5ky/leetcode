@@ -1,4 +1,4 @@
-package offer
+package zui_chang_bu_han_zhong_fu_zi_fu_de_zi_zi_fu_chuan_lcof
 
 // 剑指 Offer 48. 最长不含重复字符的子字符串 https://leetcode.cn/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/
 func lengthOfLongestSubstring(s string) int {

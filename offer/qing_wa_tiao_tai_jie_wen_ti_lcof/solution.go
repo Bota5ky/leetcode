@@ -1,4 +1,4 @@
-package offer
+package qing_wa_tiao_tai_jie_wen_ti_lcof
 
 // 剑指 Offer 10- II. 青蛙跳台阶问题 https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/
 func numWays(n int) int {

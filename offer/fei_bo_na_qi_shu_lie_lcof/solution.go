@@ -1,4 +1,4 @@
-package offer
+package fei_bo_na_qi_shu_lie_lcof
 
 // 剑指 Offer 10- I. 斐波那契数列 https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof/
 func fib(n int) int {

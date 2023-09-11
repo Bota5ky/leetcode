@@ -1,7 +1,7 @@
-package offer
+package shu_zu_zhong_shu_zi_chu_xian_de_ci_shu_ii_lcof
 
 // 剑指 Offer 56 - II. 数组中数字出现的次数 II https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/
-func singleNumber2(nums []int) int {
+func singleNumber(nums []int) int {
 	res := make([]int, 32)
 	for _, v := range nums {
 		for i := 0; v > 0; i++ {

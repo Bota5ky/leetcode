@@ -1,4 +1,4 @@
-package offer
+package zui_xiao_de_kge_shu_lcof
 
 // 剑指 Offer 40. 最小的k个数 https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/
 func getLeastNumbers(arr []int, k int) []int {

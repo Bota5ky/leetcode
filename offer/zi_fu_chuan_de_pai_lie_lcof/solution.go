@@ -1,4 +1,4 @@
-package offer
+package zi_fu_chuan_de_pai_lie_lcof
 
 // 剑指 Offer 38. 字符串的排列 https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof/
 func permutation(s string) []string {

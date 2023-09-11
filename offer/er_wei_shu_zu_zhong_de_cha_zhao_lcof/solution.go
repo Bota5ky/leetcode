@@ -1,4 +1,4 @@
-package offer
+package er_wei_shu_zu_zhong_de_cha_zhao_lcof
 
 // 剑指 Offer 04. 二维数组中的查找 https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/
 func findNumberIn2DArray(matrix [][]int, target int) bool {
