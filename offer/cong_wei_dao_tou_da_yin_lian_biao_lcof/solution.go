@@ -1,6 +1,8 @@
 package offer
 
-// https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/
+import . "leetcode/model"
+
+// 剑指 Offer 06. 从尾到头打印链表 https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/
 func reversePrint(head *ListNode) []int {
 	var ret []int
 	for head != nil {

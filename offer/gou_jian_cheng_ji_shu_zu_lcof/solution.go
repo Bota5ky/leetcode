@@ -1,7 +1,6 @@
 package offer
 
-// 从左到右 从右到左 各遍历一次
-// https://leetcode.cn/problems/gou-jian-cheng-ji-shu-zu-lcof/
+// 剑指 Offer 66. 构建乘积数组 https://leetcode.cn/problems/gou-jian-cheng-ji-shu-zu-lcof/
 func constructArr(a []int) []int {
 	if len(a) == 0 {
 		return []int{}
@@ -23,3 +22,5 @@ func constructArr(a []int) []int {
 	}
 	return res
 }
+
+// 从左到右 从右到左 各遍历一次

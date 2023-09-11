@@ -1,6 +1,8 @@
 package offer
 
-// https://leetcode.cn/problems/dui-cheng-de-er-cha-shu-lcof/
+import . "leetcode/model"
+
+// 剑指 Offer 28. 对称的二叉树 https://leetcode.cn/problems/dui-cheng-de-er-cha-shu-lcof/
 func isSymmetric(root *TreeNode) bool {
 	return isSym(root, root)
 }

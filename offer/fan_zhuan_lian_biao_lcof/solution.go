@@ -1,7 +1,8 @@
 package offer
 
-// 迭代
-// https://leetcode.cn/problems/fan-zhuan-lian-biao-lcof/
+import . "leetcode/model"
+
+// 剑指 Offer 24. 反转链表 https://leetcode.cn/problems/fan-zhuan-lian-biao-lcof/
 func reverseList(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
 		return head
@@ -19,7 +20,6 @@ func reverseList(head *ListNode) *ListNode {
 	return prehead
 }
 
-// 递归
 func reverseList2(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
 		return head

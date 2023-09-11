@@ -1,6 +1,8 @@
 package offer
 
-// https://leetcode.cn/problems/er-cha-shu-de-shen-du-lcof/
+import . "leetcode/model"
+
+// 剑指 Offer 55 - I. 二叉树的深度 https://leetcode.cn/problems/er-cha-shu-de-shen-du-lcof/
 func maxDepth(root *TreeNode) int {
 	if root == nil {
 		return 0

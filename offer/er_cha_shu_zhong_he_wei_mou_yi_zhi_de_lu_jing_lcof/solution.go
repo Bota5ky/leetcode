@@ -1,6 +1,8 @@
 package offer
 
-// https://leetcode.cn/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/
+import . "leetcode/model"
+
+// 剑指 Offer 34. 二叉树中和为某一值的路径 https://leetcode.cn/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/
 func pathSum(root *TreeNode, sum int) [][]int {
 	var ret [][]int
 	if root == nil {

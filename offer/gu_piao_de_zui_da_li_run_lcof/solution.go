@@ -1,7 +1,7 @@
 package offer
 
-// 和121相同
-// https://leetcode.cn/problems/gu-piao-de-zui-da-li-run-lcof/
+// 121. 买卖股票的最佳时机 https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/
+// 剑指 Offer 63. 股票的最大利润 https://leetcode.cn/problems/gu-piao-de-zui-da-li-run-lcof/
 func maxProfit(prices []int) int {
 	minStack := make([]int, len(prices))
 	max := 0

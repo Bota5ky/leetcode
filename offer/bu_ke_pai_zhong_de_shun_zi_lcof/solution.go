@@ -2,7 +2,7 @@ package offer
 
 import "sort"
 
-// https://leetcode.cn/problems/bu-ke-pai-zhong-de-shun-zi-lcof/
+// 剑指 Offer 61. 扑克牌中的顺子 https://leetcode.cn/problems/bu-ke-pai-zhong-de-shun-zi-lcof/
 func isStraight(nums []int) bool {
 	sort.Ints(nums)
 	numOfZero := 0

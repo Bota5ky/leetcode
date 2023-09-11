@@ -2,7 +2,7 @@ package offer
 
 import "strconv"
 
-// https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/
+// 剑指 Offer 45. 把数组排成最小的数 https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/
 func minNumber(nums []int) string {
 	var strNums []string
 	for i := 0; i < len(nums); i++ {

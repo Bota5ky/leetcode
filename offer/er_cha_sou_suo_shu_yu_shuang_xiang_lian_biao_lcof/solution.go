@@ -1,7 +1,9 @@
 package offer
 
-// 未测试
-// https://leetcode.cn/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/
+import . "leetcode/model"
+
+// TODO
+// 剑指 Offer 36. 二叉搜索树与双向链表 https://leetcode.cn/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/
 var prenode *TreeNode  //比当前root节点小的节点
 var realHead *TreeNode //定义链表头部的结点，最小值
 // 中序递归遍历修改链表指针即可实现
