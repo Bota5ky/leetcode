@@ -1,6 +1,8 @@
 package offer
 
-// https://leetcode.cn/problems/shu-de-zi-jie-gou-lcof/
+import . "leetcode/model"
+
+// 剑指 Offer 26. 树的子结构 https://leetcode.cn/problems/shu-de-zi-jie-gou-lcof/
 func isSubStructure(A *TreeNode, B *TreeNode) bool {
 	//遍历判断是否是相同节点
 	if A == nil {

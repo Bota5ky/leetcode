@@ -1,18 +1,15 @@
 package offer
 
-// MedianFinder MedianFinder
-// https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/
+// MedianFinder 剑指 Offer 41. 数据流中的中位数 https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/
 type MedianFinder struct {
 	maxheap []int
 	minheap []int
 }
 
-// Constructor1 ** initialize your data structure here. */
-func Constructor1() MedianFinder {
+func Constructor() MedianFinder {
 	return MedianFinder{}
 }
 
-// AddNum AddNum
 func (t *MedianFinder) AddNum(num int) {
 	if len(t.minheap) == 0 || num >= t.minheap[0] {
 		insertNum(&t.minheap, num)
@@ -29,7 +26,6 @@ func (t *MedianFinder) AddNum(num int) {
 	}
 }
 
-// FindMedian FindMedian
 func (t *MedianFinder) FindMedian() float64 {
 	if (len(t.maxheap)+len(t.minheap))%2 == 1 {
 		return float64(t.minheap[0])

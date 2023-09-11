@@ -1,12 +1,12 @@
 package offer
 
 import (
+	. "leetcode/model"
 	"strconv"
 	"strings"
 )
 
-// Codec strings.Join 还有一个函数未写完
-// https://leetcode.cn/problems/xu-lie-hua-er-cha-shu-lcof/
+// Codec 剑指 Offer 37. 序列化二叉树 https://leetcode.cn/problems/xu-lie-hua-er-cha-shu-lcof/  TODO
 func Codec(root *TreeNode) string {
 	var ret []string
 	stack := []*TreeNode{root}

@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/
+// 剑指 Offer 11. 旋转数组的最小数字 https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/
 func minArray(numbers []int) int {
 	i := 0
 	j := len(numbers) - 1

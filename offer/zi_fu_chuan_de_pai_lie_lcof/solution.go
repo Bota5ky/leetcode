@@ -1,19 +1,16 @@
 package offer
 
-// 返回值    返回[1:]开始后面的所有组合结果
-// 每次做什么
-// 终止条件
-// https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof/
+// 剑指 Offer 38. 字符串的排列 https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof/
 func permutation(s string) []string {
 	if len(s) < 2 {
 		return []string{s}
-	} //  []string{a}  "a"
-	strs := permutation(s[1:])
+	}
+	strings := permutation(s[1:])
 	var ret []string
 	m := make(map[string]bool)
-	for i := 0; i < len(strs); i++ { //strs[i]
+	for i := 0; i < len(strings); i++ {
 		temp := []byte{s[0]}
-		temp = append(temp, []byte(strs[i])...)
+		temp = append(temp, []byte(strings[i])...)
 		for j := 0; j < len(temp); j++ {
 			t := make([]byte, len(temp))
 			copy(t, temp)

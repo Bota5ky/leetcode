@@ -1,16 +1,8 @@
 package offer
 
-// TreeNode Definition for a binary tree node.
-// https://leetcode.cn/problems/zhong-jian-er-cha-shu-lcof/
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+import . "leetcode/model"
 
-// 返回值
-// 每次作甚
-// 退出条件
+// 剑指 Offer 07. 重建二叉树 https://leetcode.cn/problems/zhong-jian-er-cha-shu-lcof/
 func buildTree(preorder []int, inorder []int) *TreeNode {
 	if len(inorder) == 0 {
 		return nil

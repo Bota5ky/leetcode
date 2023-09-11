@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/
+// 剑指 Offer 56 - II. 数组中数字出现的次数 II https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/
 func singleNumber2(nums []int) int {
 	res := make([]int, 32)
 	for _, v := range nums {
@@ -17,14 +17,3 @@ func singleNumber2(nums []int) int {
 	}
 	return ret
 }
-
-//当存在负数时	go语言中位运算取反符号与异或相同^
-// //和137相同
-// func singleNumber(nums []int) int {
-//     once,twice:=0,0
-//     for _,v:=range nums{
-//         once=^twice &(once^v)
-//         twice=^once &(twice^v)
-//     }
-//     return once
-// }

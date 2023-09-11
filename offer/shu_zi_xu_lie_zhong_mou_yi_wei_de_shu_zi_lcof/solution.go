@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode.cn/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/
+// 剑指 Offer 44. 数字序列中某一位的数字 https://leetcode.cn/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/
 func findNthDigit(n int) int {
 	if n < 10 {
 		return n
@@ -21,7 +21,7 @@ func findNthDigit(n int) int {
 	return j % 10
 }
 
-//1位数  0~9       10个    10
-//2位数  10~99     90个    180
-//3位数  100~999   900个   2700
-//4位数  1000~9999 9000个
+// 1位数  0~9       10个    10
+// 2位数  10~99     90个    180
+// 3位数  100~999   900个   2700
+// 4位数  1000~9999 9000个

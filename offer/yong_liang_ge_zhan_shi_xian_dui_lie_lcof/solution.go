@@ -1,13 +1,11 @@
 package offer
 
-// CQueue CQueue
-// https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/
+// CQueue 剑指 Offer 09. 用两个栈实现队列 https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/
 type CQueue struct {
 	stack1 []int
 	stack2 []int
 }
 
-// Constructor Constructor
 func Constructor() CQueue {
 	return CQueue{
 		make([]int, 0),
@@ -15,12 +13,10 @@ func Constructor() CQueue {
 	}
 }
 
-// AppendTail AppendTail
 func (t *CQueue) AppendTail(value int) {
 	t.stack1 = append(t.stack1, value)
 }
 
-// DeleteHead DeleteHead
 func (t *CQueue) DeleteHead() int {
 	if len(t.stack2) == 0 {
 		for len(t.stack1) > 0 {
