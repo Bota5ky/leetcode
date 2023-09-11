@@ -1,6 +1,6 @@
 package question_1001_to_1350
 
-// https://leetcode-cn.com/problems/as-far-from-land-as-possible/
+// https://leetcode.cn/problems/as-far-from-land-as-possible/
 func maxDistance(grid [][]int) int {
 	level := 1
 	for {

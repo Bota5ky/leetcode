@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/bulb-switcher-iii/
+// https://leetcode.cn/problems/bulb-switcher-iii/
 func numTimesAllBlue(light []int) int {
 	cnt := 0
 	sum := 0

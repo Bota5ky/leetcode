@@ -1,6 +1,6 @@
 package find_closest_lcci
 
-// https://leetcode-cn.com/problems/find-closest-lcci/
+// https://leetcode.cn/problems/find-closest-lcci/
 func findClosest(words []string, word1 string, word2 string) int {
 	//string->[]int坐标位置,再用binary search
 	m := make(map[string][]int)

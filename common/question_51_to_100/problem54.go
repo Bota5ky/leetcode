@@ -1,7 +1,7 @@
 package question_51_to_100
 
 // 和offer29相同
-// https://leetcode-cn.com/problems/spiral-matrix/
+// https://leetcode.cn/problems/spiral-matrix/
 func spiralOrder(matrix [][]int) []int {
 	var res []int
 	if len(matrix) == 0 || len(matrix[0]) == 0 {

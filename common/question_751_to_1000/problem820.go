@@ -1,6 +1,6 @@
 package question_751_to_1000
 
-// https://leetcode-cn.com/problems/short-encoding-of-words/
+// https://leetcode.cn/problems/short-encoding-of-words/
 func minimumLengthEncoding(words []string) int {
 	cnt := 0
 	root := &trie2{}

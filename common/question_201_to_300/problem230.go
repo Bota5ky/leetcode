@@ -1,6 +1,6 @@
 package question_201_to_300
 
-// https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/
+// https://leetcode.cn/problems/kth-smallest-element-in-a-bst/
 func kthSmallest(root *TreeNode, k int) int {
 	var nums []int
 	traverse(root, &nums)

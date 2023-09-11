@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/balance-a-binary-search-tree/
+// https://leetcode.cn/problems/balance-a-binary-search-tree/
 func balanceBST(root *TreeNode) *TreeNode {
 	var ret []int
 	list(root, &ret)

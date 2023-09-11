@@ -3,7 +3,7 @@ package question_301_to_450
 import "sort"
 
 // Twitter Twitter
-// https://leetcode-cn.com/problems/design-twitter/
+// https://leetcode.cn/problems/design-twitter/
 type Twitter struct {
 	post    map[int][]tweets
 	follows map[int][]int //订阅对象

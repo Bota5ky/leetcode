@@ -2,7 +2,7 @@ package offer
 
 import "strings"
 
-// https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/
+// https://leetcode.cn/problems/fan-zhuan-dan-ci-shun-xu-lcof/
 func reverseWords(s string) string {
 	var ret string
 	words := strings.Split(s, " ")

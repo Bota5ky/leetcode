@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/path-sum/
+// https://leetcode.cn/problems/path-sum/
 func hasPathSum(root *TreeNode, sum int) bool {
 	if root == nil {
 		return false

@@ -1,6 +1,6 @@
 package question_201_to_300
 
-// https://leetcode-cn.com/problems/number-of-digit-one/
+// https://leetcode.cn/problems/number-of-digit-one/
 func countDigitOne(n int) int {
 	f := [11]int{0, 1, 20, 300, 4000, 50000, 600000, 7000000, 80000000, 900000000, 1000000000}
 	j := 1

@@ -1,6 +1,6 @@
 package question_1001_to_1350
 
-// https://leetcode-cn.com/problems/best-sightseeing-pair/
+// https://leetcode.cn/problems/best-sightseeing-pair/
 func maxScoreSightseeingPair(A []int) int {
 	B := make([]int, len(A))
 	for c, v := range A {

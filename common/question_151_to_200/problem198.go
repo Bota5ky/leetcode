@@ -1,6 +1,6 @@
 package question_151_to_200
 
-// https://leetcode-cn.com/problems/house-robber/
+// https://leetcode.cn/problems/house-robber/
 func rob(nums []int) int {
 	if len(nums) == 0 {
 		return 0

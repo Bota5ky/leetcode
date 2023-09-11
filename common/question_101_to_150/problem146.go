@@ -1,7 +1,7 @@
 package common
 
 // LRUCache 缓存机制
-// https://leetcode-cn.com/problems/lru-cache/
+// https://leetcode.cn/problems/lru-cache/
 type LRUCache struct {
 	Map  map[int]*Node
 	Cap  int

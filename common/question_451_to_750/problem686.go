@@ -2,7 +2,7 @@ package question_451_to_750
 
 import "strings"
 
-// https://leetcode-cn.com/problems/repeated-string-match/
+// https://leetcode.cn/problems/repeated-string-match/
 func repeatedStringMatch(A string, B string) int {
 	maxlen := len(A)*2 + len(B)
 	cnt := 1

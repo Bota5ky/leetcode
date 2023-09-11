@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/insertion-sort-list/
+// https://leetcode.cn/problems/insertion-sort-list/
 func insertionSortList(head *ListNode) *ListNode {
 	rem := &ListNode{}
 	for head != nil {

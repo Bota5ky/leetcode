@@ -1,7 +1,7 @@
 package common
 
 // CustomStack CustomStack
-// https://leetcode-cn.com/problems/design-a-stack-with-increment-operation/
+// https://leetcode.cn/problems/design-a-stack-with-increment-operation/
 type CustomStack struct {
 	stack   []int
 	support []int

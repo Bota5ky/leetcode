@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/binary-tree-preorder-traversal/
+// https://leetcode.cn/problems/binary-tree-preorder-traversal/
 func preorderTraversal(root *TreeNode) []int {
 	cur := root
 	var res []int

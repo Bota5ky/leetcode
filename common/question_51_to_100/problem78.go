@@ -1,6 +1,6 @@
 package question_51_to_100
 
-// https://leetcode-cn.com/problems/subsets/
+// https://leetcode.cn/problems/subsets/
 func subsets(nums []int) [][]int {
 	res := [][]int{[]int{nums[0]}, []int{}}
 	for i := 1; i < len(nums); i++ {

@@ -2,7 +2,7 @@ package common
 
 import "sort"
 
-// https://leetcode-cn.com/problems/sort-integers-by-the-number-of-1-bits/
+// https://leetcode.cn/problems/sort-integers-by-the-number-of-1-bits/
 func sortByBits(arr []int) []int {
 	sort.Slice(arr, func(i, j int) bool {
 		a, b := numOf1(arr[i]), numOf1(arr[j])

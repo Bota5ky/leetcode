@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/
+// https://leetcode.cn/problems/lucky-numbers-in-a-matrix/
 func luckyNumbers(matrix [][]int) []int {
 	m := make(map[int]bool)
 	var ret []int

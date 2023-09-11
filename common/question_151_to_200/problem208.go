@@ -1,6 +1,6 @@
 package question_151_to_200
 
-// https://leetcode-cn.com/problems/implement-trie-prefix-tree/
+// https://leetcode.cn/problems/implement-trie-prefix-tree/
 type trie struct {
 	isEnd bool
 	node  [26]*trie

@@ -1,7 +1,7 @@
 package offer
 
 // MedianFinder MedianFinder
-// https://leetcode-cn.com/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/
+// https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/
 type MedianFinder struct {
 	maxheap []int
 	minheap []int

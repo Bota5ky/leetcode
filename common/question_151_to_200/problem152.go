@@ -2,7 +2,7 @@ package question_151_to_200
 
 import "leetcode/common/question_101_to_150"
 
-// https://leetcode-cn.com/problems/maximum-product-subarray/
+// https://leetcode.cn/problems/maximum-product-subarray/
 func maxProduct(nums []int) int {
 	premax, premin, res := nums[0], nums[0], nums[0]
 	for i := 1; i < len(nums); i++ {

@@ -1,6 +1,6 @@
 package question_201_to_300
 
-// https://leetcode-cn.com/problems/count-complete-tree-nodes/
+// https://leetcode.cn/problems/count-complete-tree-nodes/
 func countNodes(root *TreeNode) int {
 	stack := []*TreeNode{}
 	sum := 0

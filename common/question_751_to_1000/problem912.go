@@ -1,6 +1,6 @@
 package question_751_to_1000
 
-// https://leetcode-cn.com/problems/sort-an-array/
+// https://leetcode.cn/problems/sort-an-array/
 func sortArray(nums []int) []int {
 	if len(nums) < 2 {
 		return nums

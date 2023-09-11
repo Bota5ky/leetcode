@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/
+// https://leetcode.cn/problems/que-shi-de-shu-zi-lcof/
 func missingNumber(nums []int) int {
 	i := 0
 	j := len(nums) - 1

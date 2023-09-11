@@ -1,6 +1,6 @@
 package question_751_to_1000
 
-// https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/
+// https://leetcode.cn/problems/x-of-a-kind-in-a-deck-of-cards/
 func hasGroupsSizeX(deck []int) bool {
 	m, maxcnt := make(map[int]int), 2
 	for _, v := range deck {

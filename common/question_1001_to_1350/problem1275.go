@@ -1,6 +1,6 @@
 package question_1001_to_1350
 
-// https://leetcode-cn.com/problems/find-winner-on-a-tic-tac-toe-game/
+// https://leetcode.cn/problems/find-winner-on-a-tic-tac-toe-game/
 func tictactoe(moves [][]int) string {
 	var square [3][3]byte
 	for i := 0; i < 4 && i < len(moves); i++ {

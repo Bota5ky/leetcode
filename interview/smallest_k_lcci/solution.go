@@ -1,6 +1,6 @@
 package smallest_k_lcci
 
-// https://leetcode-cn.com/problems/smallest-k-lcci/
+// https://leetcode.cn/problems/smallest-k-lcci/
 // 和offer40相同，采用部分快排
 func smallestK(arr []int, k int) []int {
 	if len(arr) == 0 {

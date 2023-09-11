@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/
+// https://leetcode.cn/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/
 func pathSum(root *TreeNode, sum int) [][]int {
 	var ret [][]int
 	if root == nil {

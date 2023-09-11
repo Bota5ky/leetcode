@@ -1,6 +1,6 @@
 package question_451_to_750
 
-// https://leetcode-cn.com/problems/subarray-sum-equals-k/
+// https://leetcode.cn/problems/subarray-sum-equals-k/
 func subarraySum(nums []int, k int) int {
 	m := make(map[int]int)
 	m[0] = 1

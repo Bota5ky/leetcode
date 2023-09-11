@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/
+// https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/
 func minArray(numbers []int) int {
 	i := 0
 	j := len(numbers) - 1

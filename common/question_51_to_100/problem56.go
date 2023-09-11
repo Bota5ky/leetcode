@@ -2,7 +2,7 @@ package question_51_to_100
 
 import "sort"
 
-// https://leetcode-cn.com/problems/merge-intervals/
+// https://leetcode.cn/problems/merge-intervals/
 func merge(intervals [][]int) [][]int {
 	if len(intervals) <= 0 {
 		return nil

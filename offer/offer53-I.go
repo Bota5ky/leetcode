@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/
+// https://leetcode.cn/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/
 func search1(nums []int, target int) int {
 	i := 0
 	j := len(nums) - 1

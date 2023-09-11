@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/
+// https://leetcode.cn/problems/find-the-longest-substring-containing-vowels-in-even-counts/
 func findTheLongestSubstring(s string) int {
 	//aeiou 11111
 	cnt, max := 0, 0

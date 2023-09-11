@@ -1,6 +1,6 @@
 package question_1001_to_1350
 
-// https://leetcode-cn.com/problems/decrypt-string-from-alphabet-to-integer-mapping/
+// https://leetcode.cn/problems/decrypt-string-from-alphabet-to-integer-mapping/
 // jklmnopqrs,tuvwxyz
 func freqAlphabets(s string) string {
 	var ret []byte

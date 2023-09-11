@@ -1,6 +1,6 @@
 package question_451_to_750
 
-// https://leetcode-cn.com/problems/max-area-of-island/
+// https://leetcode.cn/problems/max-area-of-island/
 func maxAreaOfIsland(grid [][]int) int {
 	//访问过的设置为0
 	max := 0

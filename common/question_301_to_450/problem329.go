@@ -1,6 +1,6 @@
 package question_301_to_450
 
-// https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/
+// https://leetcode.cn/problems/longest-increasing-path-in-a-matrix/
 func longestIncreasingPath(matrix [][]int) int {
 	max := 0
 	rec := make(map[[2]int]int)

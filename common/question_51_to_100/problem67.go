@@ -1,6 +1,6 @@
 package question_51_to_100
 
-// https://leetcode-cn.com/problems/add-binary/
+// https://leetcode.cn/problems/add-binary/
 func addBinary(a string, b string) string {
 	plus := 0
 	var res string

@@ -1,6 +1,6 @@
 package question_1001_to_1350
 
-// https://leetcode-cn.com/problems/find-n-unique-integers-sum-up-to-zero/
+// https://leetcode.cn/problems/find-n-unique-integers-sum-up-to-zero/
 func sumZero(n int) []int {
 	var ret []int
 	for i := -n / 2; i <= n/2; i++ {

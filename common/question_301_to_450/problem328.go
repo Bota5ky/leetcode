@@ -1,6 +1,6 @@
 package question_301_to_450
 
-// https://leetcode-cn.com/problems/odd-even-linked-list/
+// https://leetcode.cn/problems/odd-even-linked-list/
 func oddEvenList(head *ListNode) *ListNode {
 	odd := &ListNode{}
 	ret := odd

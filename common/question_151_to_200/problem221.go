@@ -1,6 +1,6 @@
 package question_151_to_200
 
-// https://leetcode-cn.com/problems/maximal-square/
+// https://leetcode.cn/problems/maximal-square/
 func maximalSquare(matrix [][]byte) int {
 	if len(matrix) == 0 || len(matrix[0]) == 0 {
 		return 0

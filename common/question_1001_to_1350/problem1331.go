@@ -2,7 +2,7 @@ package question_1001_to_1350
 
 import "sort"
 
-// https://leetcode-cn.com/problems/rank-transform-of-an-array/
+// https://leetcode.cn/problems/rank-transform-of-an-array/
 func arrayRankTransform(arr []int) []int {
 	ret := make([]int, len(arr))
 	for i := 0; i < len(arr); i++ {

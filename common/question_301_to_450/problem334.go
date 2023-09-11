@@ -1,6 +1,6 @@
 package question_301_to_450
 
-// https://leetcode-cn.com/problems/increasing-triplet-subsequence/
+// https://leetcode.cn/problems/increasing-triplet-subsequence/
 func increasingTriplet(nums []int) bool {
 	mid, small := 1<<31-1, 1<<31-1
 	for i := 0; i < len(nums); i++ {

@@ -2,7 +2,7 @@ package question_451_to_750
 
 import "strings"
 
-// https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/
+// https://leetcode.cn/problems/reverse-words-in-a-string-iii/
 func reverseWords(s string) string {
 	ts := []byte(s)
 	for i, j := 0, len(ts)-1; i < j; {

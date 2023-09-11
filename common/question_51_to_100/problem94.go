@@ -2,7 +2,7 @@ package question_51_to_100
 
 import "leetcode/common/question_1_to_50"
 
-// https://leetcode-cn.com/problems/binary-tree-inorder-traversal/
+// https://leetcode.cn/problems/binary-tree-inorder-traversal/
 func inorderTraversal(root *common.TreeNode) []int {
 	cur := root
 	var res []int

@@ -2,7 +2,7 @@ package offer
 
 import "strconv"
 
-// https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/
+// https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/
 func minNumber(nums []int) string {
 	var strNums []string
 	for i := 0; i < len(nums); i++ {

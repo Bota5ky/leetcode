@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/queries-on-a-permutation-with-key/
+// https://leetcode.cn/problems/queries-on-a-permutation-with-key/
 func processQueries(queries []int, m int) []int {
 	var res []int
 	p := make(map[int]int, m)

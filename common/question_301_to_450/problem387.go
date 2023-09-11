@@ -1,6 +1,6 @@
 package question_301_to_450
 
-// https://leetcode-cn.com/problems/first-unique-character-in-a-string/
+// https://leetcode.cn/problems/first-unique-character-in-a-string/
 func firstUniqChar(s string) int {
 	cnt := make([]int, 26)
 	for i := 0; i < len(s); i++ {

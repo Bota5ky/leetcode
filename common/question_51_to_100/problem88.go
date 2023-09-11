@@ -1,6 +1,6 @@
 package question_51_to_100
 
-// https://leetcode-cn.com/problems/merge-sorted-array/
+// https://leetcode.cn/problems/merge-sorted-array/
 func merge2(nums1 []int, m int, nums2 []int, n int) {
 	i, j := m-1, n-1
 	for k := len(nums1) - 1; k >= 0; k-- {

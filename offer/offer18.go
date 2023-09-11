@@ -2,7 +2,7 @@ package offer
 
 import . "gosolutions/model"
 
-// https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/
+// https://leetcode.cn/problems/shan-chu-lian-biao-de-jie-dian-lcof/
 func deleteNodeByValue(head *ListNode, val int) *ListNode {
 	mark := &ListNode{0, head}
 	res := mark

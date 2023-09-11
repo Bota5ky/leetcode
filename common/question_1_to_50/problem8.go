@@ -1,7 +1,7 @@
 package common
 
 // 和offer67.go
-// https://leetcode-cn.com/problems/string-to-integer-atoi/
+// https://leetcode.cn/problems/string-to-integer-atoi/
 func myAtoi(str string) int {
 	res, i, flag := 0, 0, 1
 	//去空格

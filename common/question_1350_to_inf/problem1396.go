@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/design-underground-system/
+// https://leetcode.cn/problems/design-underground-system/
 type undergroundSystem struct {
 	checkInInfo map[int]*info
 	record      map[[2]string]*time // 总时间  人次

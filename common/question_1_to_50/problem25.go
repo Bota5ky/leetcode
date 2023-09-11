@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/reverse-nodes-in-k-group/
+// https://leetcode.cn/problems/reverse-nodes-in-k-group/
 func reverseKGroup(head *ListNode, k int) *ListNode {
 	temp := head
 	for i := k; i > 0; i-- {

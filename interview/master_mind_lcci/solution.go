@@ -1,6 +1,6 @@
 package master_mind_lcci
 
-// https://leetcode-cn.com/problems/master-mind-lcci/
+// https://leetcode.cn/problems/master-mind-lcci/
 func masterMind(solution string, guess string) []int {
 	//RYGB
 	x := make([]int, 4) //guess

@@ -2,7 +2,7 @@ package question_51_to_100
 
 import "strings"
 
-// https://leetcode-cn.com/problems/simplify-path/
+// https://leetcode.cn/problems/simplify-path/
 func simplifyPath(path string) string {
 	words := strings.Split(path, "/")
 	var ret []string

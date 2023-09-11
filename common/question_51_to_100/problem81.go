@@ -1,6 +1,6 @@
 package question_51_to_100
 
-// https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/
+// https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/
 func search3(nums []int, target int) bool {
 	l, r := 0, len(nums)-1
 	for l <= r {

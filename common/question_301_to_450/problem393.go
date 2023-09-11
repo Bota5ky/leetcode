@@ -1,6 +1,6 @@
 package question_301_to_450
 
-// https://leetcode-cn.com/problems/utf-8-validation/
+// https://leetcode.cn/problems/utf-8-validation/
 func validUtf8(data []int) bool {
 	for i := 0; i < len(data); {
 		k := figure(data[i] % 256)

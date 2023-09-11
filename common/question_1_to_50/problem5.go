@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/longest-palindromic-substring/
+// https://leetcode.cn/problems/longest-palindromic-substring/
 func longestPalindrome2(s string) string {
 	max := 0
 	var ret string

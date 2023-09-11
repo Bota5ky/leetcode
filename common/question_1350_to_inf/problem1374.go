@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/generate-a-string-with-characters-that-have-odd-counts/
+// https://leetcode.cn/problems/generate-a-string-with-characters-that-have-odd-counts/
 func generateTheString(n int) string {
 	var tail, ret string
 	if n%2 == 0 {

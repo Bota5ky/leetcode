@@ -2,7 +2,7 @@ package common
 
 import "math"
 
-// https://leetcode-cn.com/problems/divide-two-integers/
+// https://leetcode.cn/problems/divide-two-integers/
 func divide(dividend int, divisor int) int {
 	if dividend == math.MinInt32 && divisor == -1 {
 		return math.MaxInt32

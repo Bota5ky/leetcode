@@ -1,6 +1,6 @@
 package question_451_to_750
 
-// https://leetcode-cn.com/problems/subtree-of-another-tree/
+// https://leetcode.cn/problems/subtree-of-another-tree/
 func isSubtree(s *TreeNode, t *TreeNode) bool {
 	if t == nil {
 		return true

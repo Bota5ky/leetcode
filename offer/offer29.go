@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/
+// https://leetcode.cn/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/
 func spiralOrder(matrix [][]int) []int {
 	var ret []int
 	if len(matrix) == 0 || len(matrix[0]) == 0 {

@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/valid-parentheses/
+// https://leetcode.cn/problems/valid-parentheses/
 func isValid(s string) bool {
 	if len(s) == 0 {
 		return true

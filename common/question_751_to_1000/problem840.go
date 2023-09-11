@@ -1,6 +1,6 @@
 package question_751_to_1000
 
-// https://leetcode-cn.com/problems/magic-squares-in-grid/
+// https://leetcode.cn/problems/magic-squares-in-grid/
 func numMagicSquaresInside(grid [][]int) int {
 	cnt := 0
 	for i := 0; i < len(grid)-2; i++ { //行号

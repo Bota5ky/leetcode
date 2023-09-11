@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/
+// https://leetcode.cn/problems/zheng-ze-biao-da-shi-pi-pei-lcof/
 func isMatch(s string, p string) bool {
 	if len(p) == 0 {
 		return len(s) == 0

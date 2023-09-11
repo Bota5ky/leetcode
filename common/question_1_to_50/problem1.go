@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/two-sum/
+// https://leetcode.cn/problems/two-sum/
 func twoSum(nums []int, target int) []int {
 	m := make(map[int]int)
 	for c, v := range nums {

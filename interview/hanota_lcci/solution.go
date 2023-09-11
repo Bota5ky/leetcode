@@ -1,6 +1,6 @@
 package hanota_lcci
 
-// https://leetcode-cn.com/problems/hanota-lcci/
+// https://leetcode.cn/problems/hanota-lcci/
 func hanota(A []int, B []int, C []int) []int {
 	h(len(A), &A, &B, &C)
 	return C

@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/triangle/
+// https://leetcode.cn/problems/triangle/
 func minimumTotal(triangle [][]int) int {
 	if len(triangle) == 1 {
 		return triangle[0][0]

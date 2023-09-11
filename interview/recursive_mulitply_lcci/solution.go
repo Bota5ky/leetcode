@@ -1,6 +1,6 @@
 package recursive_mulitply_lcci
 
-// https://leetcode-cn.com/problems/recursive-mulitply-lcci/
+// https://leetcode.cn/problems/recursive-mulitply-lcci/
 func multiply(A int, B int) int {
 	//2  5  101
 	//2  4 + 2  1

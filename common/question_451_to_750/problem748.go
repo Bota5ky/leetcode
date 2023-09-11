@@ -2,7 +2,7 @@ package question_451_to_750
 
 import "strings"
 
-// https://leetcode-cn.com/problems/shortest-completing-word/
+// https://leetcode.cn/problems/shortest-completing-word/
 func shortestCompletingWord(licensePlate string, words []string) string {
 	licensePlate = strings.ToLower(licensePlate)
 	m := make(map[byte]int)

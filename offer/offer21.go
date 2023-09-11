@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/
+// https://leetcode.cn/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/
 func exchange(nums []int) []int {
 	i := 0
 	j := len(nums) - 1

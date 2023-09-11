@@ -3,7 +3,7 @@ package question_301_to_450
 import "math"
 
 // DP问题
-// https://leetcode-cn.com/problems/coin-change/
+// https://leetcode.cn/problems/coin-change/
 func coinChange(coins []int, amount int) int {
 	if amount == 0 {
 		return 0

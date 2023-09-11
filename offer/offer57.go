@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/
+// https://leetcode.cn/problems/he-wei-sde-liang-ge-shu-zi-lcof/
 func twoSum(nums []int, target int) []int {
 	cnt := make(map[int]bool)
 	for _, v := range nums {

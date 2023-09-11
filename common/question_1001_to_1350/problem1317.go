@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-// https://leetcode-cn.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/
+// https://leetcode.cn/problems/convert-integer-to-the-sum-of-two-no-zero-integers/
 func getNoZeroIntegers(n int) []int {
 	var i int
 	for i = 1; ; i++ {

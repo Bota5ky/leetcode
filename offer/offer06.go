@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/
+// https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/
 func reversePrint(head *ListNode) []int {
 	var ret []int
 	for head != nil {

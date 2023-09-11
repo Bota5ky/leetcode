@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies/
+// https://leetcode.cn/problems/kids-with-the-greatest-number-of-candies/
 func kidsWithCandies(candies []int, extraCandies int) []bool {
 	max := 0
 	for _, v := range candies {

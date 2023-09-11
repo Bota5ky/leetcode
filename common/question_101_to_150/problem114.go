@@ -1,7 +1,7 @@
 package common
 
 // 654321后序遍历
-// https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/
+// https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/
 func flatten(root *TreeNode) {
 	var pre *TreeNode
 	connect(root, &pre)

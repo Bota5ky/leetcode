@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/
+// https://leetcode.cn/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/
 func lengthOfLongestSubstring(s string) int {
 	if len(s) == 0 {
 		return 0

@@ -1,6 +1,6 @@
 package question_1001_to_1350
 
-// https://leetcode-cn.com/problems/valid-boomerang/
+// https://leetcode.cn/problems/valid-boomerang/
 func isBoomerang(points [][]int) bool {
 	if points[0][0] == points[1][0] && points[0][1] == points[1][1] {
 		return false

@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/jump-game-ii/
+// https://leetcode.cn/problems/jump-game-ii/
 func jump(nums []int) int {
 	target := len(nums) - 1
 	stack := []int{0, 0} //min,max

@@ -1,6 +1,6 @@
 package diving_board_lcci
 
-// https://leetcode-cn.com/problems/diving-board-lcci/
+// https://leetcode.cn/problems/diving-board-lcci/
 func divingBoard(shorter int, longer int, k int) []int {
 	var res []int
 	if k == 0 {

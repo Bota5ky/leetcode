@@ -3,7 +3,7 @@ package check_balance_lcci
 import . "leetcode/model"
 
 // 后序遍历只需遍历一次,和offer55-II相同
-// https://leetcode-cn.com/problems/check-balance-lcci/
+// https://leetcode.cn/problems/check-balance-lcci/
 func isBalanced(root *TreeNode) bool {
 	var depth int
 	return isBalancedTree(root, &depth)

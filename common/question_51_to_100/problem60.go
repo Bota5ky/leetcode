@@ -1,6 +1,6 @@
 package question_51_to_100
 
-// https://leetcode-cn.com/problems/permutation-sequence/
+// https://leetcode.cn/problems/permutation-sequence/
 func getPermutation(n int, k int) string {
 	//1.剩下n-1位数共有(n-1)!次排列方式  首位为nums[k/(n-1)!]
 	var res string

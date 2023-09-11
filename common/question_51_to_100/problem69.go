@@ -2,7 +2,7 @@ package question_51_to_100
 
 import "math"
 
-// https://leetcode-cn.com/problems/sqrtx/
+// https://leetcode.cn/problems/sqrtx/
 func mySqrt(x int) int {
 	if x < 2 {
 		return x

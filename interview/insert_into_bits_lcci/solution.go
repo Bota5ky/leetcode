@@ -1,6 +1,6 @@
 package insert_into_bits_lcci
 
-// https://leetcode-cn.com/problems/insert-into-bits-lcci/
+// https://leetcode.cn/problems/insert-into-bits-lcci/
 func insertBits(N int, M int, i int, j int) int {
 	for i > 0 {
 		M <<= 1

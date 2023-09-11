@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/
+// https://leetcode.cn/problems/dui-cheng-de-er-cha-shu-lcof/
 func isSymmetric(root *TreeNode) bool {
 	return isSym(root, root)
 }

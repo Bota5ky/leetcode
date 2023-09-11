@@ -1,6 +1,6 @@
 package question_751_to_1000
 
-// https://leetcode-cn.com/problems/surface-area-of-3d-shapes/
+// https://leetcode.cn/problems/surface-area-of-3d-shapes/
 func surfaceArea(grid [][]int) int {
 	sum := 0
 	for i := 0; i < len(grid); i++ {

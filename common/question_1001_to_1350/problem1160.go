@@ -1,6 +1,6 @@
 package question_1001_to_1350
 
-// https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters/submissions/
+// https://leetcode.cn/problems/find-words-that-can-be-formed-by-characters/submissions/
 func countCharacters(words []string, chars string) int {
 	charsCnt := make([]int, 26)
 	for i := 0; i < len(chars); i++ {

@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/merge-k-sorted-lists/
+// https://leetcode.cn/problems/merge-k-sorted-lists/
 func mergeKLists(lists []*ListNode) *ListNode {
 	if len(lists) == 0 {
 		return nil

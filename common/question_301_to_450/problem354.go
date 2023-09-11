@@ -2,7 +2,7 @@ package question_301_to_450
 
 import "sort"
 
-// https://leetcode-cn.com/problems/russian-doll-envelopes/
+// https://leetcode.cn/problems/russian-doll-envelopes/
 func maxEnvelopes(envelopes [][]int) int {
 	if len(envelopes) == 0 {
 		return 0

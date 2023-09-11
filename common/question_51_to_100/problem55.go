@@ -1,6 +1,6 @@
 package question_51_to_100
 
-// https://leetcode-cn.com/problems/jump-game/
+// https://leetcode.cn/problems/jump-game/
 func canJump(nums []int) bool {
 	if len(nums) == 0 {
 		return false

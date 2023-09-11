@@ -1,6 +1,6 @@
 package question_151_to_200
 
-// https://leetcode-cn.com/problems/word-search-ii/submissions/
+// https://leetcode.cn/problems/word-search-ii/submissions/
 func findWords(board [][]byte, words []string) []string {
 	//1.构建前缀树
 	root := &Trie{}

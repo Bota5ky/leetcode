@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/binary-tree-postorder-traversal/
+// https://leetcode.cn/problems/binary-tree-postorder-traversal/
 func postorderTraversal(root *TreeNode) []int {
 	cur := root
 	var res []int

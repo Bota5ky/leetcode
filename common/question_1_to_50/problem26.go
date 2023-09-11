@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
+// https://leetcode.cn/problems/remove-duplicates-from-sorted-array/
 func removeDuplicates2(nums []int) int {
 	var i, j int
 	for i, j = 0, 1; j < len(nums); {

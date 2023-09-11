@@ -1,6 +1,6 @@
 package question_1001_to_1350
 
-// https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum/
+// https://leetcode.cn/problems/partition-array-into-three-parts-with-equal-sum/
 func canThreePartsEqualSum(A []int) bool {
 	sum := 0
 	for i := 0; i < len(A); i++ {

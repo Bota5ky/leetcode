@@ -1,7 +1,7 @@
 package question_301_to_450
 
 // AllOne AllOne
-// https://leetcode-cn.com/problems/all-oone-data-structure/
+// https://leetcode.cn/problems/all-oone-data-structure/
 type AllOne struct {
 	Map  map[string]*Node1
 	Data []*Node1

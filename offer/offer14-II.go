@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/
+// https://leetcode.cn/problems/jian-sheng-zi-ii-lcof/
 func cuttingRope2(n int) int {
 	switch n {
 	case 2:

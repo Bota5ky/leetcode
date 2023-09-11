@@ -2,7 +2,7 @@ package common
 
 import "sort"
 
-// https://leetcode-cn.com/problems/4sum/
+// https://leetcode.cn/problems/4sum/
 func fourSum(nums []int, target int) [][]int {
 	sort.Ints(nums)
 	var ret [][]int

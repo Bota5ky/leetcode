@@ -2,7 +2,7 @@ package question_201_to_300
 
 import "strconv"
 
-// https://leetcode-cn.com/problems/integer-to-english-words/
+// https://leetcode.cn/problems/integer-to-english-words/
 func numberToWords(num int) string {
 	if num == 0 {
 		return "Zero"

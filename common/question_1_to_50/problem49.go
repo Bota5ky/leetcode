@@ -1,7 +1,7 @@
 package common
 
 // group-anagrams
-// https://leetcode-cn.com/problems/group-anagrams/
+// https://leetcode.cn/problems/group-anagrams/
 func groupAnagrams(strs []string) [][]string {
 	var ret [][]string
 	cnt := 0

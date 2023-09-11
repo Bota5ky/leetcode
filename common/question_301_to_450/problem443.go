@@ -2,7 +2,7 @@ package question_301_to_450
 
 import "strconv"
 
-// https://leetcode-cn.com/problems/string-compression/
+// https://leetcode.cn/problems/string-compression/
 func compress(chars []byte) int {
 	slow := 0
 	for i := 0; i < len(chars); i++ {

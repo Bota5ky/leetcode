@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/qiu-12n-lcof/
+// https://leetcode.cn/problems/qiu-12n-lcof/
 func sumNums(n int) int {
 	sum := 0
 	num(n, &sum)

@@ -1,6 +1,6 @@
 package question_1001_to_1350
 
-// https://leetcode-cn.com/problems/decompress-run-length-encoded-list/
+// https://leetcode.cn/problems/decompress-run-length-encoded-list/
 func decompressRLElist(nums []int) []int {
 	var ret []int
 	if len(nums)%2 == 1 {

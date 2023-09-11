@@ -3,7 +3,7 @@ package offer
 // 返回值    返回[1:]开始后面的所有组合结果
 // 每次做什么
 // 终止条件
-// https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/
+// https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof/
 func permutation(s string) []string {
 	if len(s) < 2 {
 		return []string{s}

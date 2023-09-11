@@ -1,6 +1,6 @@
 package question_201_to_300
 
-// https://leetcode-cn.com/problems/search-a-2d-matrix-ii/
+// https://leetcode.cn/problems/search-a-2d-matrix-ii/
 func searchMatrix2(matrix [][]int, target int) bool {
 	if len(matrix) == 0 || len(matrix[0]) == 0 {
 		return false

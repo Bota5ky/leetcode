@@ -1,6 +1,6 @@
 package question_51_to_100
 
-// https://leetcode-cn.com/problems/rotate-list/
+// https://leetcode.cn/problems/rotate-list/
 func rotateRight(head *ListNode, k int) *ListNode {
 	if head == nil {
 		return nil

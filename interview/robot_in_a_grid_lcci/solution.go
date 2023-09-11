@@ -1,6 +1,6 @@
 package robot_in_a_grid_lcci
 
-// https://leetcode-cn.com/problems/robot-in-a-grid-lcci/
+// https://leetcode.cn/problems/robot-in-a-grid-lcci/
 func pathWithObstacles(obstacleGrid [][]int) [][]int {
 	var res, routine [][]int
 	visited := make([][]bool, len(obstacleGrid))

@@ -1,6 +1,6 @@
 package sorted_merge_lcci
 
-// https://leetcode-cn.com/problems/sorted-merge-lcci/
+// https://leetcode.cn/problems/sorted-merge-lcci/
 func merge(A []int, m int, B []int, n int) {
 	i := m - 1
 	j := n - 1

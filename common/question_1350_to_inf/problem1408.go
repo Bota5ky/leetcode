@@ -2,7 +2,7 @@ package common
 
 import "strings"
 
-// https://leetcode-cn.com/problems/string-matching-in-an-array/
+// https://leetcode.cn/problems/string-matching-in-an-array/
 func stringMatching(words []string) []string {
 	var res []string
 	for i := 0; i < len(words); i++ {

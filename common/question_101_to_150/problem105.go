@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+// https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 func buildTree(preorder []int, inorder []int) *TreeNode {
 	if len(preorder) == 0 {
 		return nil

@@ -2,7 +2,7 @@ package question_751_to_1000
 
 import "math"
 
-// https://leetcode-cn.com/problems/powerful-integers/
+// https://leetcode.cn/problems/powerful-integers/
 func powerfulIntegers(x int, y int, bound int) []int {
 	var ret []int
 	m := make(map[int]bool)

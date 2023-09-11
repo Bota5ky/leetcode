@@ -2,7 +2,7 @@ package question_451_to_750
 
 import "sort"
 
-// https://leetcode-cn.com/problems/4sum-ii/
+// https://leetcode.cn/problems/4sum-ii/
 func fourSumCount(A []int, B []int, C []int, D []int) int {
 	sort.Ints(C)
 	sort.Ints(D)

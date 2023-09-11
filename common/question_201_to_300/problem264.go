@@ -1,6 +1,6 @@
 package question_201_to_300
 
-// https://leetcode-cn.com/problems/ugly-number-ii/
+// https://leetcode.cn/problems/ugly-number-ii/
 func nthUglyNumber(n int) int {
 	u := make([]int, n)
 	u[0] = 1

@@ -1,6 +1,6 @@
 package question_301_to_450
 
-// https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/
+// https://leetcode.cn/problems/intersection-of-two-arrays-ii/
 func intersect(nums1 []int, nums2 []int) []int {
 	m := make(map[int]int)
 	if len(nums2) < len(nums1) {

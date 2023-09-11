@@ -1,6 +1,6 @@
 package question_51_to_100
 
-// https://leetcode-cn.com/problems/unique-paths-ii/
+// https://leetcode.cn/problems/unique-paths-ii/
 func uniquePathsWithObstacles(obstacleGrid [][]int) int {
 	cho := make([][]int, len(obstacleGrid))
 	for i := 0; i < len(cho); i++ {

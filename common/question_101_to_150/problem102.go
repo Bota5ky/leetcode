@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/binary-tree-level-order-traversal/
+// https://leetcode.cn/problems/binary-tree-level-order-traversal/
 func levelOrder(root *TreeNode) [][]int {
 	stack := []*TreeNode{root}
 	var res [][]int

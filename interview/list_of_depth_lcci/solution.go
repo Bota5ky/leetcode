@@ -2,7 +2,7 @@ package list_of_depth_lcci
 
 import . "leetcode/model"
 
-// https://leetcode-cn.com/problems/list-of-depth-lcci/
+// https://leetcode.cn/problems/list-of-depth-lcci/
 func listOfDepth(tree *TreeNode) []*ListNode {
 	if tree == nil {
 		return []*ListNode{}

@@ -1,6 +1,6 @@
 package question_201_to_300
 
-// https://leetcode-cn.com/problems/valid-anagram/
+// https://leetcode.cn/problems/valid-anagram/
 func isAnagram(s string, t string) bool {
 	if len(s) != len(t) {
 		return false

@@ -1,6 +1,6 @@
 package question_301_to_450
 
-// https://leetcode-cn.com/problems/top-k-frequent-elements/
+// https://leetcode.cn/problems/top-k-frequent-elements/
 func topKFrequent(nums []int, k int) []int {
 	m := make(map[int]int)
 	cnt := make([]int, k)

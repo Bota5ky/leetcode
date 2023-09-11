@@ -1,6 +1,6 @@
 package question_751_to_1000
 
-// https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/
+// https://leetcode.cn/problems/prime-number-of-set-bits-in-binary-representation/
 // [2, 3, 5, 7, 11, 13, 17, 19]
 func countPrimeSetBits(L int, R int) int {
 	ret := 0

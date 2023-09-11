@@ -1,6 +1,6 @@
 package question_151_to_200
 
-// https://leetcode-cn.com/problems/happy-number/
+// https://leetcode.cn/problems/happy-number/
 func isHappy(n int) bool {
 	m := make(map[int]bool)
 	for n != 1 {

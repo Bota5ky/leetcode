@@ -2,7 +2,7 @@ package question_301_to_450
 
 import "math/rand"
 
-// https://leetcode-cn.com/problems/shuffle-an-array/
+// https://leetcode.cn/problems/shuffle-an-array/
 type solution struct {
 	Recover []int
 	Nums    []int

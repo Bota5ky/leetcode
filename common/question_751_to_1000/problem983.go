@@ -1,6 +1,6 @@
 package question_751_to_1000
 
-// https://leetcode-cn.com/problems/minimum-cost-for-tickets/
+// https://leetcode.cn/problems/minimum-cost-for-tickets/
 func mincostTickets(days []int, costs []int) int {
 	//1 7 30
 	//dp[i]=min(dp[i-1]+costs[0],dp[i-7]+costs[1],dp[i-30]+costs[2])

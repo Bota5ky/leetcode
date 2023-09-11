@@ -2,7 +2,7 @@ package common
 
 import "strings"
 
-// https://leetcode-cn.com/problems/html-entity-parser/
+// https://leetcode.cn/problems/html-entity-parser/
 func entityParser(text string) string {
 	new0 := strings.Replace(text, "&quot;", "\"", -1)
 	new1 := strings.Replace(new0, "&apos;", "'", -1)

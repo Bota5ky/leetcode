@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/create-target-array-in-the-given-order/
+// https://leetcode.cn/problems/create-target-array-in-the-given-order/
 func createTargetArray(nums []int, index []int) []int {
 	var res []int
 	for i := 0; i < len(nums); i++ {

@@ -1,6 +1,6 @@
 package question_751_to_1000
 
-// https://leetcode-cn.com/problems/rotting-oranges/
+// https://leetcode.cn/problems/rotting-oranges/
 func orangesRotting(grid [][]int) int {
 	time := 0
 	for {

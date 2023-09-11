@@ -1,6 +1,6 @@
 package question_201_to_300
 
-// https://leetcode-cn.com/problems/game-of-life/
+// https://leetcode.cn/problems/game-of-life/
 func gameOfLife(board [][]int) {
 	//活-->死  1-->2
 	//死-->活  0-->-1

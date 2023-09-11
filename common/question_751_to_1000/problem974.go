@@ -1,6 +1,6 @@
 package question_751_to_1000
 
-// https://leetcode-cn.com/problems/subarray-sums-divisible-by-k/
+// https://leetcode.cn/problems/subarray-sums-divisible-by-k/
 func subarraysDivByK(A []int, K int) int {
 	cnt := make([]int, K)
 	cnt[0] = 1

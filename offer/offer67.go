@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/
+// https://leetcode.cn/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/
 func strToInt(str string) int {
 	//10位数
 	res := 0

@@ -1,6 +1,6 @@
 package question_1001_to_1350
 
-// https://leetcode-cn.com/problems/find-in-mountain-array/
+// https://leetcode.cn/problems/find-in-mountain-array/
 func findInMountainArray(target int, mountainArr *MountainArray) int {
 	l := mountainArr.length()
 	top := findTop(mountainArr, l)

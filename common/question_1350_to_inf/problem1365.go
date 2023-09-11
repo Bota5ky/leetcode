@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/
+// https://leetcode.cn/problems/how-many-numbers-are-smaller-than-the-current-number/
 func smallerNumbersThanCurrent(nums []int) []int {
 	ret := make([]int, len(nums))
 	for i := 0; i < len(nums); i++ {

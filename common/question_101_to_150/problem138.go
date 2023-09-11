@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/copy-list-with-random-pointer/
+// https://leetcode.cn/problems/copy-list-with-random-pointer/
 func copyRandomList(head *Node2) *Node2 {
 	if head == nil {
 		return nil

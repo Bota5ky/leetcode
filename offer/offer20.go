@@ -1,7 +1,7 @@
 package offer
 
 // A[.B][eC]    A\C都有可能带正负号 都是整数  AB不能同时为空  有指数符号C不能为空
-// https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/
+// https://leetcode.cn/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/
 func isNumber(s string) bool {
 	var m, n int
 	for m = 0; m < len(s) && s[m] == ' '; m++ {

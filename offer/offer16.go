@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/
+// https://leetcode.cn/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/
 func myPow(x float64, n int) float64 {
 	if x == 0 {
 		return 0

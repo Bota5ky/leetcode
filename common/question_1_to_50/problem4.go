@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/median-of-two-sorted-arrays/submissions/
+// https://leetcode.cn/problems/median-of-two-sorted-arrays/submissions/
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	L := len(nums1) + len(nums2)
 	return float64(findK(nums1, nums2, 0, 0, (L+1)/2)+findK(nums1, nums2, 0, 0, (L+2)/2)) / 2

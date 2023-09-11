@@ -1,6 +1,6 @@
 package question_301_to_450
 
-// https://leetcode-cn.com/problems/reverse-string/
+// https://leetcode.cn/problems/reverse-string/
 func reverseString(s []byte) {
 	for i, j := 0, len(s)-1; i < j; {
 		s[i], s[j] = s[j], s[i]

@@ -1,6 +1,6 @@
 package question_201_to_300
 
-// https://leetcode-cn.com/problems/longest-increasing-subsequence/submissions/
+// https://leetcode.cn/problems/longest-increasing-subsequence/submissions/
 func lengthOfLIS(nums []int) int {
 	if len(nums) == 0 {
 		return 0

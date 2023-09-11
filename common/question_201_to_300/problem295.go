@@ -1,7 +1,7 @@
 package question_201_to_300
 
 //和offer41相同
-//https://leetcode-cn.com/problems/find-median-from-data-stream/
+//https://leetcode.cn/problems/find-median-from-data-stream/
 import (
 	"container/heap"
 )

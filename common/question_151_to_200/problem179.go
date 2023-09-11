@@ -7,7 +7,7 @@ import (
 )
 
 // 和offer45类似
-// https://leetcode-cn.com/problems/largest-number/
+// https://leetcode.cn/problems/largest-number/
 func largestNumber(nums []int) string {
 	numbers := make([]string, len(nums))
 	for i := range numbers {

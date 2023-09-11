@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/
+// https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/
 func singleNumber2(nums []int) int {
 	res := make([]int, 32)
 	for _, v := range nums {

@@ -1,6 +1,6 @@
 package question_451_to_750
 
-// https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/
+// https://leetcode.cn/problems/average-of-levels-in-binary-tree/
 func averageOfLevels(root *TreeNode) []float64 {
 	stack := []*TreeNode{root}
 	var ret []float64

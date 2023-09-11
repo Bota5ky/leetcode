@@ -1,7 +1,7 @@
 package offer
 
 // MaxQueue MaxQueue
-// https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/
+// https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof/
 type MaxQueue struct {
 	q       []int
 	support []int //双向队列 值为q中对应最大值的坐标

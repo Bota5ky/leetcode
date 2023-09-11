@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/
+// https://leetcode.cn/problems/er-cha-shu-de-shen-du-lcof/
 func maxDepth(root *TreeNode) int {
 	if root == nil {
 		return 0

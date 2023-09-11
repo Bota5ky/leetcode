@@ -2,7 +2,7 @@ package question_301_to_450
 
 import "strconv"
 
-// https://leetcode-cn.com/problems/fizz-buzz/
+// https://leetcode.cn/problems/fizz-buzz/
 func fizzBuzz(n int) []string {
 	res := make([]string, n)
 	for i := 1; i <= n; i++ {

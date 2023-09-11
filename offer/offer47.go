@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/
+// https://leetcode.cn/problems/li-wu-de-zui-da-jie-zhi-lcof/
 func maxValue(grid [][]int) int {
 	for i := 0; i < len(grid); i++ { //行数
 		for j := 0; j < len(grid[i]); j++ { //列数

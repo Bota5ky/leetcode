@@ -1,6 +1,6 @@
 package question_301_to_450
 
-// https://leetcode-cn.com/problems/super-ugly-number/
+// https://leetcode.cn/problems/super-ugly-number/
 func nthSuperUglyNumber(n int, primes []int) int {
 	k := len(primes)
 	res := make([]int, n)

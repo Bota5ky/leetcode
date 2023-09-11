@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/word-break/submissions/
+// https://leetcode.cn/problems/word-break/submissions/
 func wordBreak(s string, wordDict []string) bool {
 	m := make(map[string]bool)
 	dp := make([]bool, len(s)+1)

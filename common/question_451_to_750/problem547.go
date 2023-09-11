@@ -1,6 +1,6 @@
 package question_451_to_750
 
-// https://leetcode-cn.com/problems/friend-circles/
+// https://leetcode.cn/problems/friend-circles/
 func findCircleNum(M [][]int) int {
 	cnt := 0
 	for i := 0; i < len(M); i++ {

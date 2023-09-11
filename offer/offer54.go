@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/
+// https://leetcode.cn/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/
 func kthLargest(root *TreeNode, k int) int {
 	var nums []int
 	list(root, &nums)

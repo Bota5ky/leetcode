@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/palindrome-number/
+// https://leetcode.cn/problems/palindrome-number/
 func isPalindromeNumber(x int) bool {
 	if x < 0 {
 		return false

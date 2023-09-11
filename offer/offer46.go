@@ -1,7 +1,7 @@
 package offer
 
 // f[i]=f[i-1]+g(i,i-1)*f[i-2]
-// https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/
+// https://leetcode.cn/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/
 func translateNum(num int) int {
 	f := []int{1, 1}
 	last := num % 10

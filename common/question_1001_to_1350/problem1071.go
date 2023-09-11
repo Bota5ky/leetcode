@@ -1,6 +1,6 @@
 package question_1001_to_1350
 
-// https://leetcode-cn.com/problems/greatest-common-divisor-of-strings/
+// https://leetcode.cn/problems/greatest-common-divisor-of-strings/
 func gcdOfStrings(str1 string, str2 string) string {
 	if str1+str2 != str2+str1 {
 		return ""

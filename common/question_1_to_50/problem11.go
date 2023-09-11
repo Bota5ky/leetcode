@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/container-with-most-water/
+// https://leetcode.cn/problems/container-with-most-water/
 func maxArea(height []int) int {
 	max := 0
 	for i, j := 0, len(height)-1; i < j; {

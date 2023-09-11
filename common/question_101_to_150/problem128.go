@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/longest-consecutive-sequence/
+// https://leetcode.cn/problems/longest-consecutive-sequence/
 func longestConsecutive(nums []int) int {
 	m := make(map[int]bool)
 	for _, v := range nums {

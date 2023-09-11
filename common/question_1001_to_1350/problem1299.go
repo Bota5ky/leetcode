@@ -1,6 +1,6 @@
 package question_1001_to_1350
 
-// https://leetcode-cn.com/problems/replace-elements-with-greatest-element-on-right-side/
+// https://leetcode.cn/problems/replace-elements-with-greatest-element-on-right-side/
 func replaceElements(arr []int) []int {
 	ret := make([]int, len(arr))
 	ret[len(ret)-1] = -1

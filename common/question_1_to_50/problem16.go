@@ -2,7 +2,7 @@ package common
 
 import "sort"
 
-// https://leetcode-cn.com/problems/3sum-closest/
+// https://leetcode.cn/problems/3sum-closest/
 func threeSumClosest(nums []int, target int) int {
 	sort.Ints(nums)
 	res := nums[0] + nums[1] + nums[2] - target

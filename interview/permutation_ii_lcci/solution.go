@@ -1,6 +1,6 @@
 package permutation_ii_lcci
 
-// https://leetcode-cn.com/problems/permutation-ii-lcci/
+// https://leetcode.cn/problems/permutation-ii-lcci/
 func permutation2(S string) []string {
 	if len(S) == 1 {
 		return []string{S}

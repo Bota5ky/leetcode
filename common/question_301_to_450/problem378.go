@@ -1,7 +1,7 @@
 package question_301_to_450
 
 // heapSort做法
-// https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/
+// https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/
 func kthSmallest2(matrix [][]int, k int) int {
 	nums := make([][]int, len(matrix))
 	for i := 0; i < len(nums); i++ {

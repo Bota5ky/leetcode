@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/reverse-integer/
+// https://leetcode.cn/problems/reverse-integer/
 func reverse(x int) int {
 	res := 0
 	for x != 0 {

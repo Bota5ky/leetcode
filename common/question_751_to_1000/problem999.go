@@ -1,6 +1,6 @@
 package question_751_to_1000
 
-// https://leetcode-cn.com/problems/available-captures-for-rook/
+// https://leetcode.cn/problems/available-captures-for-rook/
 func numRookCaptures(board [][]byte) int {
 	dir := [][]int{{1, 0}, {-1, 0}, {0, 1}, {0, -1}}
 	//find the ROOK

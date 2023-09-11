@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/
+// https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/
 func zigzagLevelOrder(root *TreeNode) [][]int {
 	var nums [][]int
 	if root == nil {

@@ -1,6 +1,6 @@
 package question_1001_to_1350
 
-// https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/
+// https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/
 func removeDuplicates(S string) string {
 	for i := 0; i < len(S)-1; i++ {
 		if S[i+1] == S[i] {

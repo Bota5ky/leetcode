@@ -1,6 +1,6 @@
 package question_151_to_200
 
-// https://leetcode-cn.com/problems/binary-tree-right-side-view/
+// https://leetcode.cn/problems/binary-tree-right-side-view/
 func rightSideView(root *TreeNode) []int {
 	var res []int
 	if root == nil {

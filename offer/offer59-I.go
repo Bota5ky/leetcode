@@ -1,7 +1,7 @@
 package offer
 
 // 和239相同
-// https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/
+// https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/
 func maxSlidingWindow(nums []int, k int) []int {
 	//双端队列
 	var q, res []int

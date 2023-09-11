@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/
+// https://leetcode.cn/problems/ping-heng-er-cha-shu-lcof/
 func isBalanced(root *TreeNode) bool {
 	if root == nil {
 		return true

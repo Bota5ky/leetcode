@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/
+// https://leetcode.cn/problems/binary-tree-maximum-path-sum/
 func maxPathSum(root *TreeNode) int {
 	m := root.Val
 	maxWeight(root, &m)

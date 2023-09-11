@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/
+// https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/
 func levelOrder(root *TreeNode) []int {
 	var ret []int
 	j := 0

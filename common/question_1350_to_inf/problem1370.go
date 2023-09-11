@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/increasing-decreasing-string/
+// https://leetcode.cn/problems/increasing-decreasing-string/
 func sortString(s string) string {
 	cnt := make([]int, 26)
 	sum := 0

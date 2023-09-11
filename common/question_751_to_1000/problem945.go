@@ -2,7 +2,7 @@ package question_751_to_1000
 
 import "sort"
 
-// https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique/
+// https://leetcode.cn/problems/minimum-increment-to-make-array-unique/
 func minIncrementForUnique(A []int) int {
 	sort.Ints(A)
 	cnt := 0

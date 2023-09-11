@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/sort-list/
+// https://leetcode.cn/problems/sort-list/
 // 递归归并 时间复杂度 nlogn 空间复杂度 nlogn
 func sortList(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {

@@ -1,6 +1,6 @@
 package question_751_to_1000
 
-// https://leetcode-cn.com/problems/middle-of-the-linked-list/
+// https://leetcode.cn/problems/middle-of-the-linked-list/
 func middleNode(head *ListNode) *ListNode {
 	fast, slow := head, head
 	for fast != nil && fast.Next != nil {

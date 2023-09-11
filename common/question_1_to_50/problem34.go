@@ -1,7 +1,7 @@
 package common
 
 // 和offer53-I类似
-// https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+// https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/
 func searchRange(nums []int, target int) []int {
 	i := 0
 	j := len(nums) - 1

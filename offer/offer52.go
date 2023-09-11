@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/
+// https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/
 func getIntersectionNode(headA, headB *ListNode) *ListNode {
 	a := headA
 	b := headB

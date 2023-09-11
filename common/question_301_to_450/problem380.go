@@ -2,7 +2,7 @@ package question_301_to_450
 
 import "math/rand"
 
-// https://leetcode-cn.com/problems/insert-delete-getrandom-o1/
+// https://leetcode.cn/problems/insert-delete-getrandom-o1/
 type randomizedSet struct {
 	idx  map[int]int
 	nums []int

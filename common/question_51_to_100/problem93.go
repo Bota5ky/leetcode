@@ -2,7 +2,7 @@ package question_51_to_100
 
 import "strconv"
 
-// https://leetcode-cn.com/problems/restore-ip-addresses/
+// https://leetcode.cn/problems/restore-ip-addresses/
 func restoreIPAddresses(s string) []string {
 	var pre string
 	var ret []string

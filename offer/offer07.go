@@ -1,7 +1,7 @@
 package offer
 
 // TreeNode Definition for a binary tree node.
-// https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/
+// https://leetcode.cn/problems/zhong-jian-er-cha-shu-lcof/
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode

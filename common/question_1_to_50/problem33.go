@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/search-in-rotated-sorted-array/
+// https://leetcode.cn/problems/search-in-rotated-sorted-array/
 func search2(nums []int, target int) int {
 	l, r := 0, len(nums)-1
 	for l <= r {

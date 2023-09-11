@@ -1,6 +1,6 @@
 package question_151_to_200
 
-// https://leetcode-cn.com/problems/course-schedule-ii/
+// https://leetcode.cn/problems/course-schedule-ii/
 func findOrder(numCourses int, prerequisites [][]int) []int {
 	sons := make([][]int, numCourses)
 	indegree := make([]int, numCourses)

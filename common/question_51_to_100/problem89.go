@@ -1,6 +1,6 @@
 package question_51_to_100
 
-// https://leetcode-cn.com/problems/gray-code/
+// https://leetcode.cn/problems/gray-code/
 func grayCode(n int) []int {
 	res := []int{0}
 	for i := 1; i <= n; i++ {

@@ -1,6 +1,6 @@
 package question_151_to_200
 
-// https://leetcode-cn.com/problems/excel-sheet-column-number/submissions/
+// https://leetcode.cn/problems/excel-sheet-column-number/submissions/
 func titleToNumber(s string) int {
 	res := 0
 	for i := 0; i < len(s); i++ {

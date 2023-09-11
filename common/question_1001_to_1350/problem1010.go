@@ -1,6 +1,6 @@
 package question_1001_to_1350
 
-// https://leetcode-cn.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/
+// https://leetcode.cn/problems/pairs-of-songs-with-total-durations-divisible-by-60/
 func numPairsDivisibleBy60(time []int) int {
 	m := make(map[int]int)
 	cnt := 0

@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-// https://leetcode-cn.com/problems/serialize-and-deserialize-bst/
+// https://leetcode.cn/problems/serialize-and-deserialize-bst/
 type codec1 struct {
 	sb  strings.Builder
 	idx int

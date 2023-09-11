@@ -1,7 +1,7 @@
 package common
 
 // 和offer55-I相同
-// https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
+// https://leetcode.cn/problems/maximum-depth-of-binary-tree/
 func maxDepth(root *TreeNode) int {
 	if root == nil {
 		return 0

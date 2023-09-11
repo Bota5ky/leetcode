@@ -2,7 +2,7 @@ package question_751_to_1000
 
 import "math"
 
-// https://leetcode-cn.com/problems/largest-triangle-area/
+// https://leetcode.cn/problems/largest-triangle-area/
 func largestTriangleArea(points [][]int) float64 {
 	var area float64
 	for i := 0; i < len(points)-2; i++ {

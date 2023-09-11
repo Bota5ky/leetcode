@@ -1,6 +1,6 @@
 package question_301_to_450
 
-// https://leetcode-cn.com/problems/sum-of-two-integers/
+// https://leetcode.cn/problems/sum-of-two-integers/
 func getSum(a int, b int) int {
 	for b != 0 {
 		c := (a & b) << 1 //进位

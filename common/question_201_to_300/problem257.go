@@ -2,7 +2,7 @@ package question_201_to_300
 
 import "strconv"
 
-// https://leetcode-cn.com/problems/binary-tree-paths/
+// https://leetcode.cn/problems/binary-tree-paths/
 func binaryTreePaths(root *TreeNode) []string {
 	if root == nil {
 		return []string{}

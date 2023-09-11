@@ -1,6 +1,6 @@
 package question_51_to_100
 
-// https://leetcode-cn.com/problems/climbing-stairs/
+// https://leetcode.cn/problems/climbing-stairs/
 func climbStairs(n int) int {
 	//f[1]=1 f[2]=2
 	if n == 0 {

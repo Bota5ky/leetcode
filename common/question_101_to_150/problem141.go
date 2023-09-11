@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/linked-list-cycle/
+// https://leetcode.cn/problems/linked-list-cycle/
 func hasCycle(head *ListNode) bool {
 	fast, slow := head, head
 	for {

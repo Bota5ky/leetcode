@@ -1,6 +1,6 @@
 package question_1001_to_1350
 
-//https://leetcode-cn.com/problems/maximum-69-number/
+//https://leetcode.cn/problems/maximum-69-number/
 import (
 	"strconv"
 )

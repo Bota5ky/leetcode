@@ -2,7 +2,7 @@ package question_51_to_100
 
 import "math"
 
-// https://leetcode-cn.com/problems/minimum-window-substring/
+// https://leetcode.cn/problems/minimum-window-substring/
 func minWindow(s string, t string) string {
 	ori := [256]int{}
 	cnt := [256]int{}

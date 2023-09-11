@@ -1,6 +1,6 @@
 package question_451_to_750
 
-// https://leetcode-cn.com/problems/count-binary-substrings/solution/
+// https://leetcode.cn/problems/count-binary-substrings/solution/
 func countBinarySubstrings(s string) int {
 	res := 0
 	pre := s[0]

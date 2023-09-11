@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/
+// https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof/
 func fib(n int) int {
 	if n == 0 {
 		return 0

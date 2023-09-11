@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/
+// https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/
 func maxProfit2(prices []int) int {
 	stack1 := make([]int, len(prices))
 	stack2 := make([]int, len(prices))

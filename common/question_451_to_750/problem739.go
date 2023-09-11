@@ -1,6 +1,6 @@
 package question_451_to_750
 
-// https://leetcode-cn.com/problems/daily-temperatures/
+// https://leetcode.cn/problems/daily-temperatures/
 func dailyTemperatures(T []int) []int {
 	res := make([]int, len(T))
 	stack := []int{0}

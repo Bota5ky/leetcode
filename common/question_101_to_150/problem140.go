@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/word-break-ii/
+// https://leetcode.cn/problems/word-break-ii/
 func wordBreak2(s string, wordDict []string) []string {
 	m := make(map[string]bool)
 	for _, v := range wordDict {

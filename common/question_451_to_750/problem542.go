@@ -1,6 +1,6 @@
 package question_451_to_750
 
-// https://leetcode-cn.com/problems/01-matrix/
+// https://leetcode.cn/problems/01-matrix/
 func updateMatrix(matrix [][]int) [][]int {
 	if len(matrix) == 0 || len(matrix[0]) == 0 {
 		return [][]int{}

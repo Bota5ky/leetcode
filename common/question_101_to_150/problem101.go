@@ -1,7 +1,7 @@
 package common
 
 // 和offer28相同
-// https://leetcode-cn.com/problems/symmetric-tree/
+// https://leetcode.cn/problems/symmetric-tree/
 func isSymmetric(root *TreeNode) bool {
 	return sym(root, root)
 }

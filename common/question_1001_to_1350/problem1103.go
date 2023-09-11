@@ -1,6 +1,6 @@
 package question_1001_to_1350
 
-// https://leetcode-cn.com/problems/distribute-candies-to-people/
+// https://leetcode.cn/problems/distribute-candies-to-people/
 func distributeCandies(candies int, numPeople int) []int {
 	ret := make([]int, numPeople)
 	j := 1

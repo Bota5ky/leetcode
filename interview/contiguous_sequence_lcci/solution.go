@@ -1,7 +1,7 @@
 package contiguous_sequence_lcci
 
 // 比offer42严谨
-// https://leetcode-cn.com/problems/contiguous-sequence-lcci/
+// https://leetcode.cn/problems/contiguous-sequence-lcci/
 func maxSubArray2(nums []int) int {
 	maxSum := nums[0]
 	for i := 1; i < len(nums); i++ {

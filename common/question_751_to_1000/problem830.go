@@ -1,6 +1,6 @@
 package question_751_to_1000
 
-// https://leetcode-cn.com/problems/positions-of-large-groups/
+// https://leetcode.cn/problems/positions-of-large-groups/
 func largeGroupPositions(S string) [][]int {
 	var ret [][]int
 	fast, slow := 0, 0

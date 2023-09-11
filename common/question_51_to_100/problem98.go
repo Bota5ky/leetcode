@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-// https://leetcode-cn.com/problems/validate-binary-search-tree/
+// https://leetcode.cn/problems/validate-binary-search-tree/
 func isValidBST(root *common.TreeNode) bool {
 	return helper(root, math.MinInt64, math.MaxInt64)
 }

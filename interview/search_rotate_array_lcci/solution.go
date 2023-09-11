@@ -1,7 +1,7 @@
 package search_rotate_array_lcci
 
 // 和33、81类似
-// https://leetcode-cn.com/problems/search-rotate-array-lcci/
+// https://leetcode.cn/problems/search-rotate-array-lcci/
 func search(arr []int, target int) int {
 	//if arr[i]==target {return i}
 	i, j := 0, len(arr)-1

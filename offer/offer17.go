@@ -1,6 +1,6 @@
 package offer
 
-// https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/
+// https://leetcode.cn/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/
 func printNumbers(n int) []int {
 	max := 1
 	for i := 0; i < n; i++ {

@@ -1,6 +1,6 @@
 package common
 
-// https://leetcode-cn.com/problems/single-number/
+// https://leetcode.cn/problems/single-number/
 func singleNumber(nums []int) int {
 	res := 0
 	for _, v := range nums {
