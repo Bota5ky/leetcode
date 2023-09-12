@@ -1,4 +1,4 @@
-package question_151_to_200
+package binary_tree_right_side_view
 
 // https://leetcode.cn/problems/binary-tree-right-side-view/
 func rightSideView(root *TreeNode) []int {

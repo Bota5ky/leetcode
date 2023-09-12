@@ -1,4 +1,4 @@
-package common
+package binary_tree_zigzag_level_order_traversal
 
 // https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/
 func zigzagLevelOrder(root *TreeNode) [][]int {

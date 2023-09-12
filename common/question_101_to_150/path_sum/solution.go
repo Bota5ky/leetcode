@@ -1,4 +1,4 @@
-package common
+package path_sum
 
 // https://leetcode.cn/problems/path-sum/
 func hasPathSum(root *TreeNode, sum int) bool {

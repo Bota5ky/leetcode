@@ -1,4 +1,4 @@
-package common
+package triangle
 
 // https://leetcode.cn/problems/triangle/
 func minimumTotal(triangle [][]int) int {

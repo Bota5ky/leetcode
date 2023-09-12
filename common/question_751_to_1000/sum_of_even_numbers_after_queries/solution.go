@@ -1,4 +1,4 @@
-package question_751_to_1000
+package sum_of_even_numbers_after_queries
 
 // https://leetcode.cn/problems/sum-of-even-numbers-after-queries/
 func sumEvenAfterQueries(A []int, queries [][]int) []int {

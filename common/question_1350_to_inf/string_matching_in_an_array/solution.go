@@ -1,4 +1,4 @@
-package common
+package string_matching_in_an_array
 
 import "strings"
 

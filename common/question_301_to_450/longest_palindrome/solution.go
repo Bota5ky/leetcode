@@ -1,4 +1,4 @@
-package question_301_to_450
+package longest_palindrome
 
 // https://leetcode.cn/problems/longest-palindrome/
 func longestPalindrome(s string) int {

@@ -1,4 +1,4 @@
-package common
+package design_underground_system
 
 // https://leetcode.cn/problems/design-underground-system/
 type undergroundSystem struct {

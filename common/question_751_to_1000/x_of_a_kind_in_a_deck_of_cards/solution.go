@@ -1,4 +1,4 @@
-package question_751_to_1000
+package x_of_a_kind_in_a_deck_of_cards
 
 // https://leetcode.cn/problems/x-of-a-kind-in-a-deck-of-cards/
 func hasGroupsSizeX(deck []int) bool {

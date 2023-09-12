@@ -1,4 +1,4 @@
-package question_51_to_100
+package validate_binary_search_tree
 
 import (
 	"leetcode/common/question_1_to_50"

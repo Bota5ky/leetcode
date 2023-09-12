@@ -1,4 +1,4 @@
-package question_751_to_1000
+package short_encoding_of_words
 
 // https://leetcode.cn/problems/short-encoding-of-words/
 func minimumLengthEncoding(words []string) int {

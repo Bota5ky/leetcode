@@ -1,4 +1,4 @@
-package question_451_to_750
+package 01_matrix
 
 // https://leetcode.cn/problems/01-matrix/
 func updateMatrix(matrix [][]int) [][]int {

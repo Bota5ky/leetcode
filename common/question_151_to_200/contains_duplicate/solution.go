@@ -1,4 +1,4 @@
-package question_151_to_200
+package contains_duplicate
 
 // https://leetcode.cn/problems/contains-duplicate/
 func containsDuplicate(nums []int) bool {

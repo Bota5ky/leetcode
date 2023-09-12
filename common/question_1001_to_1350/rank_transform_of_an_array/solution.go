@@ -1,4 +1,4 @@
-package question_1001_to_1350
+package rank_transform_of_an_array
 
 import "sort"
 

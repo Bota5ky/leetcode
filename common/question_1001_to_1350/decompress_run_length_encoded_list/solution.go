@@ -1,4 +1,4 @@
-package question_1001_to_1350
+package decompress_run_length_encoded_list
 
 // https://leetcode.cn/problems/decompress-run-length-encoded-list/
 func decompressRLElist(nums []int) []int {

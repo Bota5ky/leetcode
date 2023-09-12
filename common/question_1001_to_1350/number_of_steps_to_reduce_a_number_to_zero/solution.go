@@ -1,4 +1,4 @@
-package question_1001_to_1350
+package number_of_steps_to_reduce_a_number_to_zero
 
 // https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-to-zero/
 func numberOfSteps(num int) int {

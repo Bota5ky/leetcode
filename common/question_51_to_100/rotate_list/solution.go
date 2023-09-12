@@ -1,4 +1,4 @@
-package question_51_to_100
+package rotate_list
 
 // https://leetcode.cn/problems/rotate-list/
 func rotateRight(head *ListNode, k int) *ListNode {

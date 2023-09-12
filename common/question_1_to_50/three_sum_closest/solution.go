@@ -1,8 +1,8 @@
-package common
+package three_sum_closest
 
 import "sort"
 
-// https://leetcode.cn/problems/3sum-closest/
+// 16. 最接近的三数之和 https://leetcode.cn/problems/3sum-closest/
 func threeSumClosest(nums []int, target int) int {
 	sort.Ints(nums)
 	res := nums[0] + nums[1] + nums[2] - target

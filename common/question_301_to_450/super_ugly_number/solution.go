@@ -1,4 +1,4 @@
-package question_301_to_450
+package super_ugly_number
 
 // https://leetcode.cn/problems/super-ugly-number/
 func nthSuperUglyNumber(n int, primes []int) int {

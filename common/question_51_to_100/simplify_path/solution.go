@@ -1,4 +1,4 @@
-package question_51_to_100
+package simplify_path
 
 import "strings"
 

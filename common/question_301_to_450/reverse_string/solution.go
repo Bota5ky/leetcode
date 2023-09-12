@@ -1,4 +1,4 @@
-package question_301_to_450
+package reverse_string
 
 // https://leetcode.cn/problems/reverse-string/
 func reverseString(s []byte) {

@@ -1,4 +1,4 @@
-package common
+package evaluate_reverse_polish_notation
 
 import "strconv"
 

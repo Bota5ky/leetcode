@@ -1,4 +1,4 @@
-package question_201_to_300
+package game_of_life
 
 // https://leetcode.cn/problems/game-of-life/
 func gameOfLife(board [][]int) {

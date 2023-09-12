@@ -1,4 +1,4 @@
-package question_1001_to_1350
+package find_n_unique_integers_sum_up_to_zero
 
 // https://leetcode.cn/problems/find-n-unique-integers-sum-up-to-zero/
 func sumZero(n int) []int {

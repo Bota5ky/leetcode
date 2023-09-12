@@ -1,4 +1,4 @@
-package common
+package valid_palindrome
 
 import "strings"
 

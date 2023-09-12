@@ -1,4 +1,4 @@
-package question_201_to_300
+package find_median_from_data_stream
 
 //和offer41相同
 //https://leetcode.cn/problems/find-median-from-data-stream/

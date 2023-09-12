@@ -1,4 +1,4 @@
-package common
+package queries_on_a_permutation_with_key
 
 // https://leetcode.cn/problems/queries-on-a-permutation-with-key/
 func processQueries(queries []int, m int) []int {

@@ -1,4 +1,4 @@
-package question_51_to_100
+package binary_tree_inorder_traversal
 
 import "leetcode/common/question_1_to_50"
 

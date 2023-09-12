@@ -1,4 +1,4 @@
-package question_301_to_450
+package insert_delete_getrandom_o1
 
 import "math/rand"
 

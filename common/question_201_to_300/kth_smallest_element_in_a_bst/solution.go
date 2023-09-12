@@ -1,4 +1,4 @@
-package question_201_to_300
+package kth_smallest_element_in_a_bst
 
 // https://leetcode.cn/problems/kth-smallest-element-in-a-bst/
 func kthSmallest(root *TreeNode, k int) int {

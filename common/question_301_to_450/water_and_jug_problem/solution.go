@@ -1,4 +1,4 @@
-package question_301_to_450
+package water_and_jug_problem
 
 // https://leetcode.cn/problems/water-and-jug-problem/
 func canMeasureWater(x int, y int, z int) bool {

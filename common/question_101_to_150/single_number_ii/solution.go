@@ -1,4 +1,4 @@
-package common
+package single_number_ii
 
 // https://leetcode.cn/problems/single-number-ii/
 func singleNumber3(nums []int) int {

@@ -1,4 +1,4 @@
-package common
+package create_target_array_in_the_given_order
 
 // https://leetcode.cn/problems/create-target-array-in-the-given-order/
 func createTargetArray(nums []int, index []int) []int {

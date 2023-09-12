@@ -1,4 +1,4 @@
-package question_201_to_300
+package implement_stack_using_queues
 
 // MyStack MyStack
 // https://leetcode.cn/problems/implement-stack-using-queues/

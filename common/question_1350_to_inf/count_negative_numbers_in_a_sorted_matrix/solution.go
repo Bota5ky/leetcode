@@ -1,4 +1,4 @@
-package common
+package count_negative_numbers_in_a_sorted_matrix
 
 // https://leetcode.cn/problems/count-negative-numbers-in-a-sorted-matrix/
 func countNegatives(grid [][]int) int {

@@ -1,4 +1,4 @@
-package question_751_to_1000
+package prime_number_of_set_bits_in_binary_representation
 
 // https://leetcode.cn/problems/prime-number-of-set-bits-in-binary-representation/
 // [2, 3, 5, 7, 11, 13, 17, 19]

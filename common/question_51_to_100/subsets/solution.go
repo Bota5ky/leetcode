@@ -1,4 +1,4 @@
-package question_51_to_100
+package subsets
 
 // https://leetcode.cn/problems/subsets/
 func subsets(nums []int) [][]int {

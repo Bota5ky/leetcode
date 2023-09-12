@@ -1,8 +1,8 @@
-package common
+package divide_two_integers
 
 import "math"
 
-// https://leetcode.cn/problems/divide-two-integers/
+// 29. 两数相除 https://leetcode.cn/problems/divide-two-integers/
 func divide(dividend int, divisor int) int {
 	if dividend == math.MinInt32 && divisor == -1 {
 		return math.MaxInt32

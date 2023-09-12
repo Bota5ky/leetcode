@@ -1,4 +1,4 @@
-package common.question_101_to_150;
+package pascals_triangle
 
 import java.util.ArrayList;
 import java.util.List;

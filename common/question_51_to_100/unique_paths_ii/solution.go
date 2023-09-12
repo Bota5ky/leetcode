@@ -1,4 +1,4 @@
-package question_51_to_100
+package unique_paths_ii
 
 // https://leetcode.cn/problems/unique-paths-ii/
 func uniquePathsWithObstacles(obstacleGrid [][]int) int {

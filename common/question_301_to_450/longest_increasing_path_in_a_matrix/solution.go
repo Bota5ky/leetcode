@@ -1,4 +1,4 @@
-package question_301_to_450
+package longest_increasing_path_in_a_matrix
 
 // https://leetcode.cn/problems/longest-increasing-path-in-a-matrix/
 func longestIncreasingPath(matrix [][]int) int {

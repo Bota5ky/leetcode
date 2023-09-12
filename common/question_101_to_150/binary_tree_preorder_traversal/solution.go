@@ -1,4 +1,4 @@
-package common
+package binary_tree_preorder_traversal
 
 // https://leetcode.cn/problems/binary-tree-preorder-traversal/
 func preorderTraversal(root *TreeNode) []int {

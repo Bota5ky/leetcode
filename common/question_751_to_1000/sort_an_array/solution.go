@@ -1,4 +1,4 @@
-package question_751_to_1000
+package sort_an_array
 
 // https://leetcode.cn/problems/sort-an-array/
 func sortArray(nums []int) []int {

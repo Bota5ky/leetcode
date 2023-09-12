@@ -1,4 +1,4 @@
-package question_51_to_100
+package merge_sorted_array
 
 // https://leetcode.cn/problems/merge-sorted-array/
 func merge2(nums1 []int, m int, nums2 []int, n int) {

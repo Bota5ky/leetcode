@@ -1,4 +1,4 @@
-package question_151_to_200
+package rotate_array
 
 // https://leetcode.cn/problems/rotate-array/
 func rotate(nums []int, k int) {

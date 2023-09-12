@@ -1,4 +1,4 @@
-package question_201_to_300
+package number_of_digit_one
 
 // https://leetcode.cn/problems/number-of-digit-one/
 func countDigitOne(n int) int {

@@ -1,4 +1,4 @@
-package common.question_1001_to_1350;
+package matrix_cells_in_distance_order
 
 import java.util.Arrays;
 import java.util.Comparator;

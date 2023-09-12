@@ -1,6 +1,6 @@
-package common
+package valid_parentheses
 
-// https://leetcode.cn/problems/valid-parentheses/
+// 20. 有效的括号 https://leetcode.cn/problems/valid-parentheses/
 func isValid(s string) bool {
 	if len(s) == 0 {
 		return true

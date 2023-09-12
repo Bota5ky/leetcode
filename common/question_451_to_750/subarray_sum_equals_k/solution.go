@@ -1,4 +1,4 @@
-package question_451_to_750
+package subarray_sum_equals_k
 
 // https://leetcode.cn/problems/subarray-sum-equals-k/
 func subarraySum(nums []int, k int) int {

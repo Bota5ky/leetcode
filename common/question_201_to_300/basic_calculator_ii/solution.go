@@ -1,4 +1,4 @@
-package question_201_to_300
+package basic_calculator_ii
 
 // https://leetcode.cn/problems/basic-calculator-ii/
 func calculate(s string) int {

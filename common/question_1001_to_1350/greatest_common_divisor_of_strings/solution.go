@@ -1,4 +1,4 @@
-package question_1001_to_1350
+package greatest_common_divisor_of_strings
 
 // https://leetcode.cn/problems/greatest-common-divisor-of-strings/
 func gcdOfStrings(str1 string, str2 string) string {

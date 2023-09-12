@@ -1,4 +1,4 @@
-package question_201_to_300
+package lowest_common_ancestor_of_a_binary_search_tree
 
 // https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {

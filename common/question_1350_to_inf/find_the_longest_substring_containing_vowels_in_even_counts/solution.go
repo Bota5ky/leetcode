@@ -1,4 +1,4 @@
-package common
+package find_the_longest_substring_containing_vowels_in_even_counts
 
 // https://leetcode.cn/problems/find-the-longest-substring-containing-vowels-in-even-counts/
 func findTheLongestSubstring(s string) int {

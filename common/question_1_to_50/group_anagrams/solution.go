@@ -1,7 +1,6 @@
-package common
+package group_anagrams
 
-// group-anagrams
-// https://leetcode.cn/problems/group-anagrams/
+// 49. 字母异位词分组 https://leetcode.cn/problems/group-anagrams/
 func groupAnagrams(strs []string) [][]string {
 	var ret [][]string
 	cnt := 0
@@ -19,6 +18,7 @@ func groupAnagrams(strs []string) [][]string {
 	}
 	return ret
 }
+
 func count(str string) [26]int {
 	var ret [26]int
 	for _, v := range str {

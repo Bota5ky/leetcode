@@ -1,4 +1,4 @@
-package question_1001_to_1350
+package find_winner_on_a_tic_tac_toe_game
 
 // https://leetcode.cn/problems/find-winner-on-a-tic-tac-toe-game/
 func tictactoe(moves [][]int) string {

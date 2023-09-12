@@ -1,4 +1,4 @@
-package question_151_to_200
+package implement_trie_prefix_tree
 
 // https://leetcode.cn/problems/implement-trie-prefix-tree/
 type trie struct {

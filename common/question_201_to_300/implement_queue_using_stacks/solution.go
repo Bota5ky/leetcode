@@ -1,4 +1,4 @@
-package question_201_to_300
+package implement_queue_using_stacks
 
 //和offer09相同
 //https://leetcode.cn/problems/implement-queue-using-stacks/

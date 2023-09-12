@@ -1,4 +1,4 @@
-package question_301_to_450
+package odd_even_linked_list
 
 // https://leetcode.cn/problems/odd-even-linked-list/
 func oddEvenList(head *ListNode) *ListNode {

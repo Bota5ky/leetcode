@@ -1,4 +1,4 @@
-package common
+package flatten_binary_tree_to_linked_list
 
 // 654321后序遍历
 // https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/

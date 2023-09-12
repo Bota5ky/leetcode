@@ -1,4 +1,4 @@
-package question_201_to_300
+package nim_game
 
 // https://leetcode.cn/problems/nim-game/
 func canWinNim(n int) bool {

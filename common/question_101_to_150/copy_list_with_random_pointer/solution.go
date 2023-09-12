@@ -1,4 +1,4 @@
-package common
+package copy_list_with_random_pointer
 
 // https://leetcode.cn/problems/copy-list-with-random-pointer/
 func copyRandomList(head *Node2) *Node2 {

@@ -1,4 +1,4 @@
-package question_51_to_100
+package sqrtx
 
 import "math"
 

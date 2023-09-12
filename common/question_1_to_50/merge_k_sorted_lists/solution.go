@@ -1,6 +1,8 @@
-package common
+package merge_k_sorted_lists
 
-// https://leetcode.cn/problems/merge-k-sorted-lists/
+import . "leetcode/model"
+
+// 23. 合并 K 个升序链表 https://leetcode.cn/problems/merge-k-sorted-lists/
 func mergeKLists(lists []*ListNode) *ListNode {
 	if len(lists) == 0 {
 		return nil
@@ -40,43 +42,3 @@ func mergeTwoLists(a, b *ListNode) *ListNode {
 	}
 	return ret.Next
 }
-
-/* 优先队列，堆排序
-func mergeKLists(lists []*ListNode) *ListNode {
-    pre:=&ListNode{}
-    ret:=pre
-    var node []*ListNode
-    for i:=0;i<len(lists);i++ {
-        if lists[i]!=nil {
-            node=append(node,lists[i])
-        }
-    }
-    for len(node)>0 {
-        heapify(node)
-        temp:=node[0]
-        if temp.Next!=nil {node[0]=temp.Next}else{
-            node=node[1:]
-        }
-        pre.Next=temp
-        pre=pre.Next
-    }
-    return ret.Next
-}
-
-func heapify(node []*ListNode){
-    if len(node)<2 {return }
-    last:=len(node)/2-1
-    for i:=last;i>=0;i-- {
-        left:=2*i+1
-        right:=2*i+2
-        min:=i
-        if left<len(node) && node[left].Val<node[min].Val {
-            min=left
-        }
-        if right<len(node) && node[right].Val<node[min].Val {
-            min=right
-        }
-        node[i],node[min]=node[min],node[i]
-    }
-}
-*/

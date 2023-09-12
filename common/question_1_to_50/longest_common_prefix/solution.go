@@ -1,8 +1,8 @@
-package common
+package longest_common_prefix
 
 import "strings"
 
-// https://leetcode.cn/problems/longest-common-prefix/
+// 14. 最长公共前缀 https://leetcode.cn/problems/longest-common-prefix/
 func longestCommonPrefix(strs []string) string {
 	if len(strs) == 0 {
 		return ""

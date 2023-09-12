@@ -1,4 +1,4 @@
-package question_451_to_750
+package repeated_substring_pattern
 
 import "strings"
 

@@ -1,4 +1,4 @@
-package question_451_to_750
+package license_key_formatting
 
 import "strings"
 

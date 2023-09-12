@@ -1,4 +1,4 @@
-package common
+package lru_cache
 
 // LRUCache 缓存机制
 // https://leetcode.cn/problems/lru-cache/

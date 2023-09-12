@@ -1,4 +1,4 @@
-package question_51_to_100
+package spiral_matrix_ii
 
 // https://leetcode.cn/problems/spiral-matrix-ii/
 func generateMatrix(n int) [][]int {

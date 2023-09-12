@@ -1,4 +1,4 @@
-package question_301_to_450
+package fizz_buzz
 
 import "strconv"
 

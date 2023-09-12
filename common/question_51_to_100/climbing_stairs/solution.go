@@ -1,4 +1,4 @@
-package question_51_to_100
+package climbing_stairs
 
 // https://leetcode.cn/problems/climbing-stairs/
 func climbStairs(n int) int {

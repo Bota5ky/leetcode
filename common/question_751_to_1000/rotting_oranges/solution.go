@@ -1,4 +1,4 @@
-package question_751_to_1000
+package rotting_oranges
 
 // https://leetcode.cn/problems/rotting-oranges/
 func orangesRotting(grid [][]int) int {

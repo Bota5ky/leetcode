@@ -1,4 +1,4 @@
-package question_51_to_100
+package search_in_rotated_sorted_array_ii
 
 // https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/
 func search3(nums []int, target int) bool {

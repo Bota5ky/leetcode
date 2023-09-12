@@ -1,4 +1,4 @@
-package common
+package sort_list
 
 // https://leetcode.cn/problems/sort-list/
 // 递归归并 时间复杂度 nlogn 空间复杂度 nlogn

@@ -1,4 +1,4 @@
-package question_1001_to_1350
+package remove_all_adjacent_duplicates_in_string
 
 // https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/
 func removeDuplicates(S string) string {

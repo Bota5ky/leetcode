@@ -1,4 +1,4 @@
-package question_201_to_300
+package search_a_2d_matrix_ii
 
 // https://leetcode.cn/problems/search-a-2d-matrix-ii/
 func searchMatrix2(matrix [][]int, target int) bool {

@@ -1,4 +1,4 @@
-package question_51_to_100
+package gray_code
 
 // https://leetcode.cn/problems/gray-code/
 func grayCode(n int) []int {

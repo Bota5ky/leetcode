@@ -1,4 +1,4 @@
-package common.question_751_to_1000;
+package projection_area_of_3d_shapes
 
 /**
  * @author Bota5ky

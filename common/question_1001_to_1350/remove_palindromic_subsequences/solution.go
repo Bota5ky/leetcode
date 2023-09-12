@@ -1,4 +1,4 @@
-package question_1001_to_1350
+package remove_palindromic_subsequences
 
 // https://leetcode.cn/problems/remove-palindromic-subsequences/
 func removePalindromeSub(s string) int {

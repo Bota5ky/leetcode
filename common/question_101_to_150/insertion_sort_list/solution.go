@@ -1,4 +1,4 @@
-package common
+package insertion_sort_list
 
 // https://leetcode.cn/problems/insertion-sort-list/
 func insertionSortList(head *ListNode) *ListNode {

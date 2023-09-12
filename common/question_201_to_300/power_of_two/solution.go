@@ -1,4 +1,4 @@
-package question_201_to_300
+package power_of_two
 
 // https://leetcode.cn/problems/power-of-two/
 func isPowerOfTwo(n int) bool {

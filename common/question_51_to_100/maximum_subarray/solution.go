@@ -1,4 +1,4 @@
-package question_51_to_100
+package maximum_subarray
 
 // 和offer42相同
 // https://leetcode.cn/problems/maximum-subarray/

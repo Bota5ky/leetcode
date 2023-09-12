@@ -1,4 +1,4 @@
-package question_451_to_750
+package friend_circles
 
 // https://leetcode.cn/problems/friend-circles/
 func findCircleNum(M [][]int) int {

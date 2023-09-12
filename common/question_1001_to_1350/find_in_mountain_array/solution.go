@@ -1,4 +1,4 @@
-package question_1001_to_1350
+package find_in_mountain_array
 
 // https://leetcode.cn/problems/find-in-mountain-array/
 func findInMountainArray(target int, mountainArr *MountainArray) int {

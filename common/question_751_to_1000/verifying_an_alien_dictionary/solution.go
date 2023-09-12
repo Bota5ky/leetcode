@@ -1,4 +1,4 @@
-package question_751_to_1000
+package verifying_an_alien_dictionary
 
 // https://leetcode.cn/problems/verifying-an-alien-dictionary/
 func isAlienSorted(words []string, order string) bool {

@@ -1,4 +1,4 @@
-package question_151_to_200
+package intersection_of_two_linked_lists
 
 // 和offer52相同
 // https://leetcode.cn/problems/intersection-of-two-linked-lists/

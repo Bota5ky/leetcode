@@ -1,4 +1,4 @@
-package question_51_to_100
+package add_binary
 
 // https://leetcode.cn/problems/add-binary/
 func addBinary(a string, b string) string {

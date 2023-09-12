@@ -1,4 +1,4 @@
-package question_1001_to_1350
+package find_words_that_can_be_formed_by_characters
 
 // https://leetcode.cn/problems/find-words-that-can-be-formed-by-characters/submissions/
 func countCharacters(words []string, chars string) int {

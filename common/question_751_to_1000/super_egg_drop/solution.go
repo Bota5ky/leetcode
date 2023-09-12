@@ -1,4 +1,4 @@
-package question_751_to_1000
+package super_egg_drop
 
 // 887. 鸡蛋掉落 https://leetcode.cn/problems/super-egg-drop/
 func superEggDrop(K int, N int) int {

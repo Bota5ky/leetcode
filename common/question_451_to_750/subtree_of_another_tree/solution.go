@@ -1,4 +1,4 @@
-package question_451_to_750
+package subtree_of_another_tree
 
 // https://leetcode.cn/problems/subtree-of-another-tree/
 func isSubtree(s *TreeNode, t *TreeNode) bool {

@@ -1,4 +1,4 @@
-package question_451_to_750
+package average_of_levels_in_binary_tree
 
 // https://leetcode.cn/problems/average-of-levels-in-binary-tree/
 func averageOfLevels(root *TreeNode) []float64 {

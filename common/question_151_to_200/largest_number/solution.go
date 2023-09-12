@@ -1,4 +1,4 @@
-package question_151_to_200
+package largest_number
 
 import (
 	"sort"

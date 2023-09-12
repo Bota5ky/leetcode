@@ -1,4 +1,4 @@
-package common
+package count_number_of_teams
 
 // https://leetcode.cn/problems/count-number-of-teams/
 func numTeams(rating []int) int {

@@ -1,4 +1,4 @@
-package question_751_to_1000
+package surface_area_of_3d_shapes
 
 // https://leetcode.cn/problems/surface-area-of-3d-shapes/
 func surfaceArea(grid [][]int) int {

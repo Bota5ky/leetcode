@@ -1,4 +1,4 @@
-package common.question_151_to_200;
+package count_primes
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package common
+package how_many_numbers_are_smaller_than_the_current_number
 
 // https://leetcode.cn/problems/how-many-numbers-are-smaller-than-the-current-number/
 func smallerNumbersThanCurrent(nums []int) []int {

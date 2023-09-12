@@ -1,4 +1,4 @@
-package question_51_to_100
+package spiral_matrix
 
 // 和offer29相同
 // https://leetcode.cn/problems/spiral-matrix/

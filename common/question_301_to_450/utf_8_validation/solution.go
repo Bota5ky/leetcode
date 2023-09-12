@@ -1,4 +1,4 @@
-package question_301_to_450
+package utf_8_validation
 
 // https://leetcode.cn/problems/utf-8-validation/
 func validUtf8(data []int) bool {

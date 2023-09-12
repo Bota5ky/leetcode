@@ -1,4 +1,4 @@
-package question_151_to_200
+package kth_largest_element_in_an_array
 
 // https://leetcode.cn/problems/kth-largest-element-in-an-array/
 func findKthLargest(nums []int, k int) int {

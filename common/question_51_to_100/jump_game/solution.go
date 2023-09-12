@@ -1,4 +1,4 @@
-package question_51_to_100
+package jump_game
 
 // https://leetcode.cn/problems/jump-game/
 func canJump(nums []int) bool {

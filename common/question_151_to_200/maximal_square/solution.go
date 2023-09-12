@@ -1,4 +1,4 @@
-package question_151_to_200
+package maximal_square
 
 // https://leetcode.cn/problems/maximal-square/
 func maximalSquare(matrix [][]byte) int {

@@ -1,4 +1,4 @@
-package question_751_to_1000
+package positions_of_large_groups
 
 // https://leetcode.cn/problems/positions-of-large-groups/
 func largeGroupPositions(S string) [][]int {

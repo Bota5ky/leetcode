@@ -1,4 +1,4 @@
-package common
+package increasing_decreasing_string
 
 // https://leetcode.cn/problems/increasing-decreasing-string/
 func sortString(s string) string {

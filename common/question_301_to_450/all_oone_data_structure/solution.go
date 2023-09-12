@@ -1,4 +1,4 @@
-package question_301_to_450
+package all_oone_data_structure
 
 // AllOne AllOne
 // https://leetcode.cn/problems/all-oone-data-structure/

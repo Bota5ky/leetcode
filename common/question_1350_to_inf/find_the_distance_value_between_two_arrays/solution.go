@@ -1,4 +1,4 @@
-package common
+package find_the_distance_value_between_two_arrays
 
 import "leetcode/common/question_1_to_50"
 

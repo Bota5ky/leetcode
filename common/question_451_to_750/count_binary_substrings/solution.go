@@ -1,4 +1,4 @@
-package question_451_to_750
+package count_binary_substrings
 
 // https://leetcode.cn/problems/count-binary-substrings/solution/
 func countBinarySubstrings(s string) int {

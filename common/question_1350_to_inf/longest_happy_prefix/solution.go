@@ -1,4 +1,4 @@
-package common
+package longest_happy_prefix
 
 import "strings"
 

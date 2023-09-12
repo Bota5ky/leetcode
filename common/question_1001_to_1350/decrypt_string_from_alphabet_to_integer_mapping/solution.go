@@ -1,4 +1,4 @@
-package question_1001_to_1350
+package decrypt_string_from_alphabet_to_integer_mapping
 
 // https://leetcode.cn/problems/decrypt-string-from-alphabet-to-integer-mapping/
 // jklmnopqrs,tuvwxyz

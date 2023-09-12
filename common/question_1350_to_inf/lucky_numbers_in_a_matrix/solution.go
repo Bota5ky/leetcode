@@ -1,4 +1,4 @@
-package common
+package lucky_numbers_in_a_matrix
 
 // https://leetcode.cn/problems/lucky-numbers-in-a-matrix/
 func luckyNumbers(matrix [][]int) []int {

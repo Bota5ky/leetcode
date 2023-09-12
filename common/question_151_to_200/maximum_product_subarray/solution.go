@@ -1,4 +1,4 @@
-package question_151_to_200
+package maximum_product_subarray
 
 import "leetcode/common/question_101_to_150"
 

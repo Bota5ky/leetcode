@@ -1,4 +1,4 @@
-package question_201_to_300
+package move_zeroes
 
 // https://leetcode.cn/problems/move-zeroes/
 func moveZeroes(nums []int) {

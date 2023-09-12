@@ -1,4 +1,4 @@
-package common
+package longest_consecutive_sequence
 
 // https://leetcode.cn/problems/longest-consecutive-sequence/
 func longestConsecutive(nums []int) int {

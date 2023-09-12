@@ -1,4 +1,4 @@
-package common
+package binary_tree_level_order_traversal
 
 // https://leetcode.cn/problems/binary-tree-level-order-traversal/
 func levelOrder(root *TreeNode) [][]int {

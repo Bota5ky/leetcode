@@ -1,4 +1,4 @@
-package common.question_301_to_450;
+package super_pow
 
 /**
  * @author Bota5ky

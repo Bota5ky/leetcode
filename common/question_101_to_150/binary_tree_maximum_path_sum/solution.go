@@ -1,4 +1,4 @@
-package common
+package binary_tree_maximum_path_sum
 
 // https://leetcode.cn/problems/binary-tree-maximum-path-sum/
 func maxPathSum(root *TreeNode) int {

@@ -1,4 +1,4 @@
-package question_751_to_1000
+package backspace_string_compare
 
 // https://leetcode.cn/problems/backspace-string-compare/
 func backspaceCompare(S string, T string) bool {

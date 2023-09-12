@@ -1,4 +1,4 @@
-package common
+package balance_a_binary_search_tree
 
 // https://leetcode.cn/problems/balance-a-binary-search-tree/
 func balanceBST(root *TreeNode) *TreeNode {

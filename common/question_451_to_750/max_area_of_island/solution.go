@@ -1,4 +1,4 @@
-package question_451_to_750
+package max_area_of_island
 
 // https://leetcode.cn/problems/max-area-of-island/
 func maxAreaOfIsland(grid [][]int) int {

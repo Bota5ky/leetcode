@@ -1,4 +1,4 @@
-package common
+package sort_integers_by_the_power_value
 
 import "sort"
 

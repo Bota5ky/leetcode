@@ -1,4 +1,4 @@
-package question_1001_to_1350
+package check_if_n_and_its_double_exist
 
 // https://leetcode.cn/problems/check-if-n-and-its-double-exist/
 func checkIfExist(arr []int) bool {

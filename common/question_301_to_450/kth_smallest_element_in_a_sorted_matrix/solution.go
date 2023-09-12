@@ -1,4 +1,4 @@
-package question_301_to_450
+package kth_smallest_element_in_a_sorted_matrix
 
 // heapSort做法
 // https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/

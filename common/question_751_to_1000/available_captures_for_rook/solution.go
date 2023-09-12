@@ -1,4 +1,4 @@
-package question_751_to_1000
+package available_captures_for_rook
 
 // https://leetcode.cn/problems/available-captures-for-rook/
 func numRookCaptures(board [][]byte) int {

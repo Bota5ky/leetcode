@@ -1,4 +1,4 @@
-package question_1001_to_1350
+package distribute_candies_to_people
 
 // https://leetcode.cn/problems/distribute-candies-to-people/
 func distributeCandies(candies int, numPeople int) []int {

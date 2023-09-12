@@ -1,4 +1,4 @@
-package question_751_to_1000
+package middle_of_the_linked_list
 
 // https://leetcode.cn/problems/middle-of-the-linked-list/
 func middleNode(head *ListNode) *ListNode {

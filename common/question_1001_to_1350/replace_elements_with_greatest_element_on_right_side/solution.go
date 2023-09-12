@@ -1,4 +1,4 @@
-package question_1001_to_1350
+package replace_elements_with_greatest_element_on_right_side
 
 // https://leetcode.cn/problems/replace-elements-with-greatest-element-on-right-side/
 func replaceElements(arr []int) []int {

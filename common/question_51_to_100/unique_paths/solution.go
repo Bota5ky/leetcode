@@ -1,4 +1,4 @@
-package common.question_51_to_100;
+package unique_paths
 
 /**
  * @author Bota5ky

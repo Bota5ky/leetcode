@@ -1,4 +1,4 @@
-package common
+package word_break_ii
 
 // https://leetcode.cn/problems/word-break-ii/
 func wordBreak2(s string, wordDict []string) []string {

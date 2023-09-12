@@ -1,6 +1,6 @@
-package common
+package generate_parentheses
 
-// https://leetcode.cn/problems/generate-parentheses/
+// 22. 括号生成 https://leetcode.cn/problems/generate-parentheses/
 func generateParenthesis(n int) []string {
 	var res []string
 	var str string

@@ -1,4 +1,4 @@
-package question_1001_to_1350
+package maximum_69_number
 
 //https://leetcode.cn/problems/maximum-69-number/
 import (

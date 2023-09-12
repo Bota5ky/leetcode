@@ -1,6 +1,6 @@
-package common
+package container_with_most_water
 
-// https://leetcode.cn/problems/container-with-most-water/
+// 11. 盛最多水的容器 https://leetcode.cn/problems/container-with-most-water/
 func maxArea(height []int) int {
 	max := 0
 	for i, j := 0, len(height)-1; i < j; {

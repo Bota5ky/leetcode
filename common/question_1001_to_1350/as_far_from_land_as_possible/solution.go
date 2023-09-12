@@ -1,4 +1,4 @@
-package question_1001_to_1350
+package as_far_from_land_as_possible
 
 // https://leetcode.cn/problems/as-far-from-land-as-possible/
 func maxDistance(grid [][]int) int {

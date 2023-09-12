@@ -1,4 +1,4 @@
-package common
+package check_if_there_is_a_valid_path_in_a_grid
 
 // https://leetcode.cn/problems/check-if-there-is-a-valid-path-in-a-grid/
 func hasValidPath(grid [][]int) bool {

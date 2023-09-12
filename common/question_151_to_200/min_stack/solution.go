@@ -1,4 +1,4 @@
-package question_151_to_200
+package min_stack
 
 //和offer30相同
 //https://leetcode.cn/problems/min-stack/

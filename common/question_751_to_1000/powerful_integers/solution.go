@@ -1,4 +1,4 @@
-package question_751_to_1000
+package powerful_integers
 
 import "math"
 

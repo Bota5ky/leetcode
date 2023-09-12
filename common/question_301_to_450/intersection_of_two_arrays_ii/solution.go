@@ -1,4 +1,4 @@
-package question_301_to_450
+package intersection_of_two_arrays_ii
 
 // https://leetcode.cn/problems/intersection-of-two-arrays-ii/
 func intersect(nums1 []int, nums2 []int) []int {

@@ -1,4 +1,4 @@
-package common.question_301_to_450;
+package guess_number_higher_or_lower
 
 /**
  * @author Bota5ky

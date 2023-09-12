@@ -1,6 +1,6 @@
-package common
+package median_of_two_sorted_arrays
 
-// https://leetcode.cn/problems/median-of-two-sorted-arrays/submissions/
+// 4. 寻找两个正序数组的中位数 https://leetcode.cn/problems/median-of-two-sorted-arrays/
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	L := len(nums1) + len(nums2)
 	return float64(findK(nums1, nums2, 0, 0, (L+1)/2)+findK(nums1, nums2, 0, 0, (L+2)/2)) / 2
@@ -26,4 +26,11 @@ func findK(nums1, nums2 []int, i, j, k int) int {
 		return findK(nums1, nums2, i, j+k/2, k-(p2-j+1))
 	}
 	return findK(nums1, nums2, i+k/2, j, k-(p1-i+1))
+}
+
+func min(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
 }

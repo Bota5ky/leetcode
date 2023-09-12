@@ -1,7 +1,7 @@
-package common
+package longest_palindromic_substring
 
-// https://leetcode.cn/problems/longest-palindromic-substring/
-func longestPalindrome2(s string) string {
+// 5. 最长回文子串 https://leetcode.cn/problems/longest-palindromic-substring/
+func longestPalindrome(s string) string {
 	max := 0
 	var ret string
 	for i := 0; i < len(s); i++ {

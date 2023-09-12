@@ -1,4 +1,4 @@
-package question_451_to_750
+package daily_temperatures
 
 // https://leetcode.cn/problems/daily-temperatures/
 func dailyTemperatures(T []int) []int {

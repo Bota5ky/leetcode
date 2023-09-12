@@ -1,4 +1,4 @@
-package common
+package html_entity_parser
 
 import "strings"
 

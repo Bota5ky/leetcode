@@ -1,4 +1,4 @@
-package question_301_to_450
+package top_k_frequent_elements
 
 // https://leetcode.cn/problems/top-k-frequent-elements/
 func topKFrequent(nums []int, k int) []int {

@@ -1,4 +1,4 @@
-package question_451_to_750
+package shortest_completing_word
 
 import "strings"
 

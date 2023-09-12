@@ -1,9 +1,9 @@
-package common
+package jump_game_ii
 
-// https://leetcode.cn/problems/jump-game-ii/
+// 45. 跳跃游戏 II https://leetcode.cn/problems/jump-game-ii/
 func jump(nums []int) int {
 	target := len(nums) - 1
-	stack := []int{0, 0} //min,max
+	stack := []int{0, 0}
 	cnt := 0
 	for stack[1] < target {
 		max := -1

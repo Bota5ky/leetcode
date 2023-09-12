@@ -1,4 +1,4 @@
-package question_151_to_200
+package house_robber
 
 // https://leetcode.cn/problems/house-robber/
 func rob(nums []int) int {

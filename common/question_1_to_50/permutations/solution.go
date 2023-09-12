@@ -1,6 +1,6 @@
-package common
+package permutations
 
-// https://leetcode.cn/problems/permutations/
+// 46. 全排列 https://leetcode.cn/problems/permutations/
 func permute(nums []int) [][]int {
 	var res [][]int
 	if len(nums) == 1 {

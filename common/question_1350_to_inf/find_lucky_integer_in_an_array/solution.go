@@ -1,4 +1,4 @@
-package common
+package find_lucky_integer_in_an_array
 
 // https://leetcode.cn/problems/find-lucky-integer-in-an-array/
 func findLucky(arr []int) int {

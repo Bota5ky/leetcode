@@ -1,4 +1,4 @@
-package common
+package bulb_switcher_iii
 
 // https://leetcode.cn/problems/bulb-switcher-iii/
 func numTimesAllBlue(light []int) int {

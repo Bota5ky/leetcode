@@ -1,4 +1,4 @@
-package question_1001_to_1350
+package maximum_nesting_depth_of_two_valid_parentheses_strings
 
 // https://leetcode.cn/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/
 func maxDepthAfterSplit(seq string) []int {

@@ -1,7 +1,6 @@
-package common
+package find_first_and_last_position_of_element_in_sorted_array
 
-// 和offer53-I类似
-// https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/
+// 34. 在排序数组中查找元素的第一个和最后一个位置 https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/
 func searchRange(nums []int, target int) []int {
 	i := 0
 	j := len(nums) - 1

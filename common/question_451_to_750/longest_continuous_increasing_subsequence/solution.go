@@ -1,4 +1,4 @@
-package question_451_to_750
+package longest_continuous_increasing_subsequence
 
 // https://leetcode.cn/problems/longest-continuous-increasing-subsequence/
 func findLengthOfLCIS(nums []int) int {

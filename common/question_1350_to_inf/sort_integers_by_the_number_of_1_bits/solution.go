@@ -1,4 +1,4 @@
-package common
+package sort_integers_by_the_number_of_1_bits
 
 import "sort"
 

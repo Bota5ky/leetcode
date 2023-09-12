@@ -1,4 +1,4 @@
-package question_201_to_300
+package count_complete_tree_nodes
 
 // https://leetcode.cn/problems/count-complete-tree-nodes/
 func countNodes(root *TreeNode) int {

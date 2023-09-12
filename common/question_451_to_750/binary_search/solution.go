@@ -1,4 +1,4 @@
-package question_451_to_750
+package binary_search
 
 // https://leetcode.cn/problems/binary-search/
 func search(nums []int, target int) int {

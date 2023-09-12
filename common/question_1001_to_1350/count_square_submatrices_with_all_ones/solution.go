@@ -1,4 +1,4 @@
-package question_1001_to_1350
+package count_square_submatrices_with_all_ones
 
 // https://leetcode.cn/problems/count-square-submatrices-with-all-ones/
 func countSquares(matrix [][]int) int {

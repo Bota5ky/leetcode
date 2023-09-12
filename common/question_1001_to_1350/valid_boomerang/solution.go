@@ -1,4 +1,4 @@
-package question_1001_to_1350
+package valid_boomerang
 
 // https://leetcode.cn/problems/valid-boomerang/
 func isBoomerang(points [][]int) bool {

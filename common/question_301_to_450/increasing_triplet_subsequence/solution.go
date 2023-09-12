@@ -1,4 +1,4 @@
-package question_301_to_450
+package increasing_triplet_subsequence
 
 // https://leetcode.cn/problems/increasing-triplet-subsequence/
 func increasingTriplet(nums []int) bool {

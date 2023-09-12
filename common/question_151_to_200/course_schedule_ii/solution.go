@@ -1,4 +1,4 @@
-package question_151_to_200
+package course_schedule_ii
 
 // https://leetcode.cn/problems/course-schedule-ii/
 func findOrder(numCourses int, prerequisites [][]int) []int {

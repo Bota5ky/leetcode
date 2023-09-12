@@ -1,4 +1,4 @@
-package question_751_to_1000
+package minimum_increment_to_make_array_unique
 
 import "sort"
 

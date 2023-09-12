@@ -1,4 +1,4 @@
-package question_151_to_200
+package contains_duplicate_iii
 
 // https://leetcode.cn/problems/contains-duplicate-iii/
 func containsNearbyAlmostDuplicate(nums []int, k int, t int) bool {

@@ -1,4 +1,4 @@
-package question_51_to_100
+package permutation_sequence
 
 // https://leetcode.cn/problems/permutation-sequence/
 func getPermutation(n int, k int) string {

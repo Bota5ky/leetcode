@@ -1,4 +1,4 @@
-package question_201_to_300
+package ugly_number_ii
 
 // https://leetcode.cn/problems/ugly-number-ii/
 func nthUglyNumber(n int) int {

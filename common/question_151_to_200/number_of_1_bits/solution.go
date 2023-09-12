@@ -1,4 +1,4 @@
-package question_151_to_200
+package number_of_1_bits
 
 // https://leetcode.cn/problems/number-of-1-bits/
 func hammingWeight(num uint32) int {

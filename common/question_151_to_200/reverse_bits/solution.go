@@ -1,4 +1,4 @@
-package question_151_to_200
+package reverse_bits
 
 // https://leetcode.cn/problems/reverse-bits/
 func reverseBits(num uint32) uint32 {

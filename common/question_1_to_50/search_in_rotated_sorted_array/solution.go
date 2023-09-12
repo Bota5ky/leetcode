@@ -1,6 +1,6 @@
-package common
+package search_in_rotated_sorted_array
 
-// https://leetcode.cn/problems/search-in-rotated-sorted-array/
+// 33. 搜索旋转排序数组 https://leetcode.cn/problems/search-in-rotated-sorted-array/
 func search2(nums []int, target int) int {
 	l, r := 0, len(nums)-1
 	for l <= r {

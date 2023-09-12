@@ -1,4 +1,4 @@
-package common
+package symmetric_tree
 
 // 和offer28相同
 // https://leetcode.cn/problems/symmetric-tree/

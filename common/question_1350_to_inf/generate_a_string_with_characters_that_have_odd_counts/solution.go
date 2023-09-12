@@ -1,4 +1,4 @@
-package common
+package generate_a_string_with_characters_that_have_odd_counts
 
 // https://leetcode.cn/problems/generate-a-string-with-characters-that-have-odd-counts/
 func generateTheString(n int) string {

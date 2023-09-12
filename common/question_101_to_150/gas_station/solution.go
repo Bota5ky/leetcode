@@ -1,4 +1,4 @@
-package common
+package gas_station
 
 // https://leetcode.cn/problems/gas-station/
 func canCompleteCircuit(gas []int, cost []int) int {

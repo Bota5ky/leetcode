@@ -1,6 +1,6 @@
-package common
+package two_sum
 
-// https://leetcode.cn/problems/two-sum/
+// 1. 两数之和 https://leetcode.cn/problems/two-sum/
 func twoSum(nums []int, target int) []int {
 	m := make(map[int]int)
 	for c, v := range nums {

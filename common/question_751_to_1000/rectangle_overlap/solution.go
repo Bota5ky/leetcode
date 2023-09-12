@@ -1,4 +1,4 @@
-package question_751_to_1000
+package rectangle_overlap
 
 // https://leetcode.cn/problems/rectangle-overlap/
 func isRectangleOverlap(rec1 []int, rec2 []int) bool {

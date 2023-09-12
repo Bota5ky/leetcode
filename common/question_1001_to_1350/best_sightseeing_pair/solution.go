@@ -1,4 +1,4 @@
-package question_1001_to_1350
+package best_sightseeing_pair
 
 // https://leetcode.cn/problems/best-sightseeing-pair/
 func maxScoreSightseeingPair(A []int) int {

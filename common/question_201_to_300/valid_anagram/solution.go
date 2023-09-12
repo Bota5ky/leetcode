@@ -1,4 +1,4 @@
-package question_201_to_300
+package valid_anagram
 
 // https://leetcode.cn/problems/valid-anagram/
 func isAnagram(s string, t string) bool {

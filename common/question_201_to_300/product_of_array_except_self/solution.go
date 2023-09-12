@@ -1,4 +1,4 @@
-package question_201_to_300
+package product_of_array_except_self
 
 // https://leetcode.cn/problems/product-of-array-except-self/
 func productExceptSelf(nums []int) []int {

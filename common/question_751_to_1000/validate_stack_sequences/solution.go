@@ -1,4 +1,4 @@
-package question_751_to_1000
+package validate_stack_sequences
 
 //和offer31相同
 //https://leetcode.cn/problems/validate-stack-sequences/

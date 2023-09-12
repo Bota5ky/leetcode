@@ -1,4 +1,4 @@
-package common
+package best_time_to_buy_and_sell_stock_ii
 
 // https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/
 func maxProfit(prices []int) int {

@@ -1,4 +1,4 @@
-package common
+package design_a_stack_with_increment_operation
 
 // CustomStack CustomStack
 // https://leetcode.cn/problems/design-a-stack-with-increment-operation/

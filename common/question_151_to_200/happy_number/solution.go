@@ -1,4 +1,4 @@
-package question_151_to_200
+package happy_number
 
 // https://leetcode.cn/problems/happy-number/
 func isHappy(n int) bool {

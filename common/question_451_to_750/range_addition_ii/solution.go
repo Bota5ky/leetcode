@@ -1,4 +1,4 @@
-package question_451_to_750
+package range_addition_ii
 
 // https://leetcode.cn/problems/range-addition-ii/
 func maxCount(m int, n int, ops [][]int) int {

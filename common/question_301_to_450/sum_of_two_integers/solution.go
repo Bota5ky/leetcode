@@ -1,4 +1,4 @@
-package question_301_to_450
+package sum_of_two_integers
 
 // https://leetcode.cn/problems/sum-of-two-integers/
 func getSum(a int, b int) int {

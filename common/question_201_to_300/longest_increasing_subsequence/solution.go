@@ -1,4 +1,4 @@
-package question_201_to_300
+package longest_increasing_subsequence
 
 // https://leetcode.cn/problems/longest-increasing-subsequence/submissions/
 func lengthOfLIS(nums []int) int {

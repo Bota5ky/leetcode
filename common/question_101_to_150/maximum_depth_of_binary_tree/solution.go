@@ -1,4 +1,4 @@
-package common
+package maximum_depth_of_binary_tree
 
 // 和offer55-I相同
 // https://leetcode.cn/problems/maximum-depth-of-binary-tree/

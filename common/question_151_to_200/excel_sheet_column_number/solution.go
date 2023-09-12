@@ -1,4 +1,4 @@
-package question_151_to_200
+package excel_sheet_column_number
 
 // https://leetcode.cn/problems/excel-sheet-column-number/submissions/
 func titleToNumber(s string) int {

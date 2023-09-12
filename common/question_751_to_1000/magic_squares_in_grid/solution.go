@@ -1,4 +1,4 @@
-package question_751_to_1000
+package magic_squares_in_grid
 
 // https://leetcode.cn/problems/magic-squares-in-grid/
 func numMagicSquaresInside(grid [][]int) int {

@@ -1,4 +1,4 @@
-package question_301_to_450
+package first_unique_character_in_a_string
 
 // https://leetcode.cn/problems/first-unique-character-in-a-string/
 func firstUniqChar(s string) int {

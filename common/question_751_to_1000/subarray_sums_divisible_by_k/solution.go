@@ -1,4 +1,4 @@
-package question_751_to_1000
+package subarray_sums_divisible_by_k
 
 // https://leetcode.cn/problems/subarray-sums-divisible-by-k/
 func subarraysDivByK(A []int, K int) int {

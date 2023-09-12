@@ -1,4 +1,4 @@
-package question_201_to_300
+package binary_tree_paths
 
 import "strconv"
 

@@ -1,4 +1,4 @@
-package question_151_to_200
+package word_search_ii
 
 // https://leetcode.cn/problems/word-search-ii/submissions/
 func findWords(board [][]byte, words []string) []string {

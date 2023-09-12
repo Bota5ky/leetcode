@@ -1,4 +1,4 @@
-package question_151_to_200
+package majority_element
 
 // 和offer39相同，这里采用 Boyer-Moore 投票算法
 // https://leetcode.cn/problems/majority-element/
