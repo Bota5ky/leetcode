@@ -1,8 +1,7 @@
 package kth_smallest_element_in_a_sorted_matrix
 
-// heapSort做法
-// https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/
-func kthSmallest2(matrix [][]int, k int) int {
+// 378. 有序矩阵中第 K 小的元素 https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/
+func kthSmallest(matrix [][]int, k int) int {
 	nums := make([][]int, len(matrix))
 	for i := 0; i < len(nums); i++ {
 		nums[i] = make([]int, 2)
@@ -19,7 +18,8 @@ func kthSmallest2(matrix [][]int, k int) int {
 	}
 	return matrix[nums[0][0]][nums[0][1]]
 }
-func heapify(nums [][]int, matrix [][]int) { //最小化 nums[0]为最小
+
+func heapify(nums [][]int, matrix [][]int) {
 	last := len(nums)/2 - 1
 	for i := last; i >= 0; i-- {
 		left := 2*i + 1

@@ -1,11 +1,11 @@
-package super_pow
+package common.question_301_to_450.super_pow;
 
 /**
  * @author Bota5ky
  * @link <a href="https://leetcode.cn/problems/super-pow/">372. 超级次方</a>
  * @since 2023-09-07 13:48
  */
-class Problem372 {
+class Solution {
     public int superPow(int a, int[] b) {
         int result = 1;
         for (int i = b.length - 1; i >= 0; i--) {

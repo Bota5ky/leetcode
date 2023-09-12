@@ -2,7 +2,7 @@ package russian_doll_envelopes
 
 import "sort"
 
-// https://leetcode.cn/problems/russian-doll-envelopes/
+// 354. 俄罗斯套娃信封问题 https://leetcode.cn/problems/russian-doll-envelopes/
 func maxEnvelopes(envelopes [][]int) int {
 	if len(envelopes) == 0 {
 		return 0
@@ -17,13 +17,13 @@ func maxEnvelopes(envelopes [][]int) int {
 	dp[0] = 1
 	max := 1
 	for i := 1; i < len(envelopes); i++ {
-		maxdp := 0
+		maxDp := 0
 		for j := 0; j < i; j++ {
-			if envelopes[i][1] > envelopes[j][1] && dp[j] > maxdp {
-				maxdp = dp[j]
+			if envelopes[i][1] > envelopes[j][1] && dp[j] > maxDp {
+				maxDp = dp[j]
 			}
 		}
-		dp[i] = maxdp + 1
+		dp[i] = maxDp + 1
 		if dp[i] > max {
 			max = dp[i]
 		}

@@ -1,6 +1,6 @@
 package intersection_of_two_arrays_ii
 
-// https://leetcode.cn/problems/intersection-of-two-arrays-ii/
+// 350. 两个数组的交集 II https://leetcode.cn/problems/intersection-of-two-arrays-ii/
 func intersect(nums1 []int, nums2 []int) []int {
 	m := make(map[int]int)
 	if len(nums2) < len(nums1) {

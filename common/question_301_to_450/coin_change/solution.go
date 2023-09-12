@@ -2,8 +2,7 @@ package coin_change
 
 import "math"
 
-// DP问题
-// https://leetcode.cn/problems/coin-change/
+// 322. 零钱兑换 https://leetcode.cn/problems/coin-change/
 func coinChange(coins []int, amount int) int {
 	if amount == 0 {
 		return 0

@@ -1,6 +1,6 @@
 package increasing_triplet_subsequence
 
-// https://leetcode.cn/problems/increasing-triplet-subsequence/
+// 334. 递增的三元子序列 https://leetcode.cn/problems/increasing-triplet-subsequence/
 func increasingTriplet(nums []int) bool {
 	mid, small := 1<<31-1, 1<<31-1
 	for i := 0; i < len(nums); i++ {

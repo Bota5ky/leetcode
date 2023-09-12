@@ -1,6 +1,6 @@
 package utf_8_validation
 
-// https://leetcode.cn/problems/utf-8-validation/
+// 393. UTF-8 编码验证 https://leetcode.cn/problems/utf-8-validation/
 func validUtf8(data []int) bool {
 	for i := 0; i < len(data); {
 		k := figure(data[i] % 256)
@@ -21,6 +21,7 @@ func validUtf8(data []int) bool {
 	}
 	return true
 }
+
 func figure(num int) int {
 	num >>= 3
 	if num == 30 {

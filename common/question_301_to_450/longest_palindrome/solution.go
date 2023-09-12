@@ -1,6 +1,6 @@
 package longest_palindrome
 
-// https://leetcode.cn/problems/longest-palindrome/
+// 409. 最长回文串 https://leetcode.cn/problems/longest-palindrome/
 func longestPalindrome(s string) int {
 	var sum int
 	m := make(map[byte]int)

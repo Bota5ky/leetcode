@@ -2,7 +2,7 @@ package string_compression
 
 import "strconv"
 
-// https://leetcode.cn/problems/string-compression/
+// 443. 压缩字符串 https://leetcode.cn/problems/string-compression/
 func compress(chars []byte) int {
 	slow := 0
 	for i := 0; i < len(chars); i++ {

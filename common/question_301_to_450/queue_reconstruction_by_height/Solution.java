@@ -1,4 +1,4 @@
-package queue_reconstruction_by_height
+package common.question_301_to_450.queue_reconstruction_by_height;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -8,7 +8,7 @@ import java.util.Comparator;
  * @link <a href="https://leetcode.cn/problems/queue-reconstruction-by-height/">406. 根据身高重建队列</a>
  * @since 2023-09-07 13:56
  */
-class Problem406 {
+class Solution {
     public int[][] reconstructQueue(int[][] people) {
         //先按照个子从高到低排序，如果个子一样，则按照k从小到大排列，这样就得到了一个方便后面插入的队列
         Arrays.sort(people, (o1, o2) -> {

@@ -2,11 +2,10 @@ package design_twitter
 
 import "sort"
 
-// Twitter Twitter
-// https://leetcode.cn/problems/design-twitter/
+// Twitter 355. 设计推特 https://leetcode.cn/problems/design-twitter/
 type Twitter struct {
 	post    map[int][]tweets
-	follows map[int][]int //订阅对象
+	follows map[int][]int
 	time    int
 }
 type tweets struct {
@@ -14,21 +13,18 @@ type tweets struct {
 	time    int
 }
 
-// Constructor6 Constructor
-func Constructor6() Twitter {
+func Constructor() Twitter {
 	var t Twitter
 	t.follows = make(map[int][]int)
 	t.post = make(map[int][]tweets)
 	return t
 }
 
-// PostTweet PostTweet
 func (t *Twitter) PostTweet(userID int, tweetID int) {
 	t.time++
 	t.post[userID] = append(t.post[userID], tweets{tweetID, t.time})
 }
 
-// GetNewsFeed GetNewsFeed
 func (t *Twitter) GetNewsFeed(userID int) []int {
 	var res []tweets
 	followList := t.follows[userID]
@@ -54,7 +50,6 @@ func (t *Twitter) GetNewsFeed(userID int) []int {
 	return ret
 }
 
-// Follow Follow
 func (t *Twitter) Follow(followerID int, followeeID int) {
 	if followerID == followeeID {
 		return
@@ -67,7 +62,6 @@ func (t *Twitter) Follow(followerID int, followeeID int) {
 	t.follows[followerID] = append(t.follows[followerID], followeeID)
 }
 
-// Unfollow Unfollow
 func (t *Twitter) Unfollow(followerID int, followeeID int) {
 	for i := 0; i < len(t.follows[followerID]); i++ {
 		if t.follows[followerID][i] == followeeID {

@@ -1,12 +1,12 @@
 package longest_increasing_path_in_a_matrix
 
-// https://leetcode.cn/problems/longest-increasing-path-in-a-matrix/
+// 329. 矩阵中的最长递增路径 https://leetcode.cn/problems/longest-increasing-path-in-a-matrix/
 func longestIncreasingPath(matrix [][]int) int {
 	max := 0
 	rec := make(map[[2]int]int)
 	for i := 0; i < len(matrix); i++ {
 		for j := 0; j < len(matrix[i]); j++ {
-			cnt := dfs2(matrix, i, j, -1<<31, &rec)
+			cnt := dfs(matrix, i, j, -1<<31, &rec)
 			if max < cnt {
 				max = cnt
 			}
@@ -14,7 +14,7 @@ func longestIncreasingPath(matrix [][]int) int {
 	}
 	return max
 }
-func dfs2(matrix [][]int, i, j, preVal int, rec *map[[2]int]int) int {
+func dfs(matrix [][]int, i, j, preVal int, rec *map[[2]int]int) int {
 	if i < 0 || i >= len(matrix) || j < 0 || j >= len(matrix[i]) {
 		return 0
 	}
@@ -22,16 +22,16 @@ func dfs2(matrix [][]int, i, j, preVal int, rec *map[[2]int]int) int {
 		return 0
 	}
 	if (*rec)[[2]int{i - 1, j}] <= 0 {
-		(*rec)[[2]int{i - 1, j}] = dfs2(matrix, i-1, j, matrix[i][j], rec)
+		(*rec)[[2]int{i - 1, j}] = dfs(matrix, i-1, j, matrix[i][j], rec)
 	}
 	if (*rec)[[2]int{i + 1, j}] <= 0 {
-		(*rec)[[2]int{i + 1, j}] = dfs2(matrix, i+1, j, matrix[i][j], rec)
+		(*rec)[[2]int{i + 1, j}] = dfs(matrix, i+1, j, matrix[i][j], rec)
 	}
 	if (*rec)[[2]int{i, j - 1}] <= 0 {
-		(*rec)[[2]int{i, j - 1}] = dfs2(matrix, i, j-1, matrix[i][j], rec)
+		(*rec)[[2]int{i, j - 1}] = dfs(matrix, i, j-1, matrix[i][j], rec)
 	}
 	if (*rec)[[2]int{i, j + 1}] <= 0 {
-		(*rec)[[2]int{i, j + 1}] = dfs2(matrix, i, j+1, matrix[i][j], rec)
+		(*rec)[[2]int{i, j + 1}] = dfs(matrix, i, j+1, matrix[i][j], rec)
 	}
 	a := (*rec)[[2]int{i - 1, j}]
 	if i > 0 && matrix[i-1][j] == matrix[i][j] {
@@ -49,9 +49,9 @@ func dfs2(matrix [][]int, i, j, preVal int, rec *map[[2]int]int) int {
 	if j < len(matrix[i])-1 && matrix[i][j+1] == matrix[i][j] {
 		d = 0
 	}
-	return 1 + m(a, b, c, d)
+	return 1 + max4(a, b, c, d)
 }
-func m(a, b, c, d int) int {
+func max4(a, b, c, d int) int {
 	temp := a
 	if temp < b {
 		temp = b

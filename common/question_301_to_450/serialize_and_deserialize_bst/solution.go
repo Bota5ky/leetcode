@@ -1,20 +1,22 @@
 package serialize_and_deserialize_bst
 
 import (
+	. "leetcode/model"
 	"strconv"
 	"strings"
 )
 
-// https://leetcode.cn/problems/serialize-and-deserialize-bst/
-type codec1 struct {
+// Codec 449. 序列化和反序列化二叉搜索树 https://leetcode.cn/problems/serialize-and-deserialize-bst/
+type Codec struct {
 	sb  strings.Builder
 	idx int
 }
 
-func constructor5() codec1 {
-	return codec1{}
+func Constructor() Codec {
+	return Codec{}
 }
-func (c *codec1) serialize(root *TreeNode) string {
+
+func (c *Codec) serialize(root *TreeNode) string {
 	if root == nil {
 		return ""
 	}
@@ -23,14 +25,16 @@ func (c *codec1) serialize(root *TreeNode) string {
 	str := c.sb.String()
 	return str[:len(str)-1]
 }
-func (c *codec1) deserialize(data string) *TreeNode {
+
+func (c *Codec) deserialize(data string) *TreeNode {
 	if len(data) == 0 {
 		return nil
 	}
 	nums := strings.Split(data, ",")
 	return c.dfsDeserialize(nums)
 }
-func (c *codec1) dfsDeserialize(nums []string) *TreeNode {
+
+func (c *Codec) dfsDeserialize(nums []string) *TreeNode {
 	index := c.idx
 	if index > len(nums) || nums[index] == "null" {
 		c.idx++
@@ -43,7 +47,8 @@ func (c *codec1) dfsDeserialize(nums []string) *TreeNode {
 	root.Right = c.dfsDeserialize(nums)
 	return root
 }
-func (c *codec1) dfsSerialize(root *TreeNode) {
+
+func (c *Codec) dfsSerialize(root *TreeNode) {
 	if root == nil {
 		c.sb.WriteString("null,")
 		return

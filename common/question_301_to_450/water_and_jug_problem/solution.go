@@ -1,6 +1,6 @@
 package water_and_jug_problem
 
-// https://leetcode.cn/problems/water-and-jug-problem/
+// 365. 水壶问题 https://leetcode.cn/problems/water-and-jug-problem/
 func canMeasureWater(x int, y int, z int) bool {
 	if x+y < z {
 		return false

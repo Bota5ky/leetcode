@@ -1,6 +1,6 @@
 package top_k_frequent_elements
 
-// https://leetcode.cn/problems/top-k-frequent-elements/
+// 347. 前 K 个高频元素 https://leetcode.cn/problems/top-k-frequent-elements/
 func topKFrequent(nums []int, k int) []int {
 	m := make(map[int]int)
 	cnt := make([]int, k)
@@ -12,7 +12,7 @@ func topKFrequent(nums []int, k int) []int {
 		if v > cnt[0] {
 			cnt[0] = v
 			//insert sort
-			insertsort(cnt)
+			insertSort(cnt)
 		}
 	}
 	i := 0
@@ -27,7 +27,8 @@ func topKFrequent(nums []int, k int) []int {
 	}
 	return ret
 }
-func insertsort(cnt []int) {
+
+func insertSort(cnt []int) {
 	temp := cnt[0]
 	var i int
 	for i = 1; i < len(cnt) && temp > cnt[i]; i++ {

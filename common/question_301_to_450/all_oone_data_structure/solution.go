@@ -1,36 +1,31 @@
 package all_oone_data_structure
 
-// AllOne AllOne
-// https://leetcode.cn/problems/all-oone-data-structure/
+// AllOne 432. 全 O(1) 的数据结构 https://leetcode.cn/problems/all-oone-data-structure/
 type AllOne struct {
-	Map  map[string]*Node1
-	Data []*Node1
+	Map  map[string]*Node
+	Data []*Node
 }
 
-// Node1 Node1
-type Node1 struct {
+type Node struct {
 	Key string
 	Val int
 	Pos int
 }
 
-// Constructor2 Constructor2
-func Constructor2() AllOne {
+func Constructor() AllOne {
 	return AllOne{
-		Map: make(map[string]*Node1, 100),
+		Map: make(map[string]*Node, 100),
 	}
 }
 
-// Inc Inc
 func (t *AllOne) Inc(key string) {
 	node, ok := t.Map[key]
-	if !ok { //不存在
-		node := &Node1{Key: key, Val: 1, Pos: len(t.Data)}
+	if !ok {
+		node := &Node{Key: key, Val: 1, Pos: len(t.Data)}
 		t.Data = append(t.Data, node)
 		t.Map[key] = node
 		return
 	}
-	//存在的话
 	node.Val++
 	for i := node.Pos - 1; i >= 0; i-- {
 		if t.Data[i+1].Val > t.Data[i].Val {
@@ -43,7 +38,6 @@ func (t *AllOne) Inc(key string) {
 	}
 }
 
-// Dec Dec
 func (t *AllOne) Dec(key string) {
 	node, ok := t.Map[key]
 	if !ok {
@@ -59,14 +53,13 @@ func (t *AllOne) Dec(key string) {
 			break
 		}
 	}
-	lastnode := t.Data[len(t.Data)-1]
-	if lastnode.Val == 0 {
-		delete(t.Map, lastnode.Key)
+	lastNode := t.Data[len(t.Data)-1]
+	if lastNode.Val == 0 {
+		delete(t.Map, lastNode.Key)
 		t.Data = t.Data[:len(t.Data)-1]
 	}
 }
 
-// GetMaxKey GetMaxKey
 func (t *AllOne) GetMaxKey() string {
 	if len(t.Data) == 0 {
 		return ""
@@ -74,7 +67,6 @@ func (t *AllOne) GetMaxKey() string {
 	return t.Data[0].Key
 }
 
-// GetMinKey GetMinKey
 func (t *AllOne) GetMinKey() string {
 	if len(t.Data) == 0 {
 		return ""

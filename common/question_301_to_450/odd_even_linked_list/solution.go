@@ -1,6 +1,8 @@
 package odd_even_linked_list
 
-// https://leetcode.cn/problems/odd-even-linked-list/
+import . "leetcode/model"
+
+// 328. 奇偶链表 https://leetcode.cn/problems/odd-even-linked-list/
 func oddEvenList(head *ListNode) *ListNode {
 	odd := &ListNode{}
 	ret := odd
