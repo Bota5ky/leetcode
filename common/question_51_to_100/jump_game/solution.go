@@ -1,6 +1,6 @@
 package jump_game
 
-// https://leetcode.cn/problems/jump-game/
+// 55. 跳跃游戏 https://leetcode.cn/problems/jump-game/
 func canJump(nums []int) bool {
 	if len(nums) == 0 {
 		return false

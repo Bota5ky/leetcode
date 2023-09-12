@@ -2,7 +2,7 @@ package minimum_window_substring
 
 import "math"
 
-// https://leetcode.cn/problems/minimum-window-substring/
+// 76. 最小覆盖子串 https://leetcode.cn/problems/minimum-window-substring/
 func minWindow(s string, t string) string {
 	ori := [256]int{}
 	cnt := [256]int{}

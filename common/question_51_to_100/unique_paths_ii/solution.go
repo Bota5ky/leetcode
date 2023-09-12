@@ -1,6 +1,6 @@
 package unique_paths_ii
 
-// https://leetcode.cn/problems/unique-paths-ii/
+// 63. 不同路径 II https://leetcode.cn/problems/unique-paths-ii/
 func uniquePathsWithObstacles(obstacleGrid [][]int) int {
 	cho := make([][]int, len(obstacleGrid))
 	for i := 0; i < len(cho); i++ {
@@ -11,12 +11,13 @@ func uniquePathsWithObstacles(obstacleGrid [][]int) int {
 	}
 	for i := 0; i < len(cho); i++ {
 		for j := 0; j < len(cho[i]); j++ {
-			helper1(cho, obstacleGrid, i, j)
+			helper(cho, obstacleGrid, i, j)
 		}
 	}
 	return cho[len(cho)-1][len(cho[0])-1]
 }
-func helper1(cho, obstacleGrid [][]int, i, j int) {
+
+func helper(cho, obstacleGrid [][]int, i, j int) {
 	if obstacleGrid[i][j] == 1 {
 		return
 	}

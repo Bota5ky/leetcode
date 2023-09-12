@@ -2,7 +2,7 @@ package merge_intervals
 
 import "sort"
 
-// https://leetcode.cn/problems/merge-intervals/
+// 56. 合并区间 https://leetcode.cn/problems/merge-intervals/
 func merge(intervals [][]int) [][]int {
 	if len(intervals) <= 0 {
 		return nil
@@ -10,7 +10,7 @@ func merge(intervals [][]int) [][]int {
 	sort.Slice(intervals, func(i, j int) bool {
 		return intervals[i][0] < intervals[j][0]
 	})
-	merged := [][]int{}
+	var merged [][]int
 	merged = append(merged, intervals[0])
 
 	for i := 1; i < len(intervals); i++ {

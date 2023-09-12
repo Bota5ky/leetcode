@@ -1,12 +1,12 @@
 package binary_tree_inorder_traversal
 
-import "leetcode/common/question_1_to_50"
+import . "leetcode/model"
 
-// https://leetcode.cn/problems/binary-tree-inorder-traversal/
-func inorderTraversal(root *common.TreeNode) []int {
+// 94. 二叉树的中序遍历 https://leetcode.cn/problems/binary-tree-inorder-traversal/
+func inorderTraversal(root *TreeNode) []int {
 	cur := root
 	var res []int
-	var stack []*common.TreeNode
+	var stack []*TreeNode
 	for cur != nil || len(stack) > 0 {
 		if cur != nil {
 			stack = append(stack, cur)

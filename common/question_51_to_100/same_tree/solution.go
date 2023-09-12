@@ -1,9 +1,9 @@
 package same_tree
 
-import "leetcode/common/question_1_to_50"
+import . "leetcode/model"
 
-// https://leetcode.cn/problems/same-tree/
-func isSameTree(p *common.TreeNode, q *common.TreeNode) bool {
+// 100. 相同的树 https://leetcode.cn/problems/same-tree/
+func isSameTree(p *TreeNode, q *TreeNode) bool {
 	if p == nil && q == nil {
 		return true
 	}

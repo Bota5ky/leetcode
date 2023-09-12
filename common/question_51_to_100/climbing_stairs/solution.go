@@ -1,8 +1,7 @@
 package climbing_stairs
 
-// https://leetcode.cn/problems/climbing-stairs/
+// 70. 爬楼梯 https://leetcode.cn/problems/climbing-stairs/
 func climbStairs(n int) int {
-	//f[1]=1 f[2]=2
 	if n == 0 {
 		return 1
 	}

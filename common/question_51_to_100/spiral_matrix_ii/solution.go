@@ -1,6 +1,6 @@
 package spiral_matrix_ii
 
-// https://leetcode.cn/problems/spiral-matrix-ii/
+// 59. 螺旋矩阵 II https://leetcode.cn/problems/spiral-matrix-ii/
 func generateMatrix(n int) [][]int {
 	res := make([][]int, n)
 	for i := 0; i < n; i++ {

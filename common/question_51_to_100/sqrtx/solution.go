@@ -2,7 +2,7 @@ package sqrtx
 
 import "math"
 
-// https://leetcode.cn/problems/sqrtx/
+// 69. x 的平方根 https://leetcode.cn/problems/sqrtx/
 func mySqrt(x int) int {
 	if x < 2 {
 		return x

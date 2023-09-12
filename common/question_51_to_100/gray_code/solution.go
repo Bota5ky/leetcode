@@ -1,6 +1,6 @@
 package gray_code
 
-// https://leetcode.cn/problems/gray-code/
+// 89. 格雷编码 https://leetcode.cn/problems/gray-code/
 func grayCode(n int) []int {
 	res := []int{0}
 	for i := 1; i <= n; i++ {

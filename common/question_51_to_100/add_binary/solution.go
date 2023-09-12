@@ -1,6 +1,6 @@
 package add_binary
 
-// https://leetcode.cn/problems/add-binary/
+// 67. 二进制求和 https://leetcode.cn/problems/add-binary/
 func addBinary(a string, b string) string {
 	plus := 0
 	var res string
