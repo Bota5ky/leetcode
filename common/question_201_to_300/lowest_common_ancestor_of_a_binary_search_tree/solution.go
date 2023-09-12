@@ -1,6 +1,8 @@
 package lowest_common_ancestor_of_a_binary_search_tree
 
-// https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/
+import . "leetcode/model"
+
+// 235. 二叉搜索树的最近公共祖先 https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 	//保证p在左 q在右
 	if p.Val > q.Val {

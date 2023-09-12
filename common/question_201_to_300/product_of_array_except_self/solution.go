@@ -1,6 +1,6 @@
 package product_of_array_except_self
 
-// https://leetcode.cn/problems/product-of-array-except-self/
+// 238. 除自身以外数组的乘积 https://leetcode.cn/problems/product-of-array-except-self/
 func productExceptSelf(nums []int) []int {
 	res := make([]int, len(nums))
 	res[0] = 1

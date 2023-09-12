@@ -1,6 +1,6 @@
 package valid_anagram
 
-// https://leetcode.cn/problems/valid-anagram/
+// 242. 有效的字母异位词 https://leetcode.cn/problems/valid-anagram/
 func isAnagram(s string, t string) bool {
 	if len(s) != len(t) {
 		return false

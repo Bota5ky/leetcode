@@ -1,9 +1,7 @@
 package game_of_life
 
-// https://leetcode.cn/problems/game-of-life/
+// 289. 生命游戏 https://leetcode.cn/problems/game-of-life/
 func gameOfLife(board [][]int) {
-	//活-->死  1-->2
-	//死-->活  0-->-1
 	for i := 0; i < len(board); i++ {
 		for j := 0; j < len(board[i]); j++ {
 			cnt := numOfLiveCell(board, i, j)

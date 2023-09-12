@@ -1,8 +1,10 @@
 package count_complete_tree_nodes
 
-// https://leetcode.cn/problems/count-complete-tree-nodes/
+import . "leetcode/model"
+
+// 222. 完全二叉树的节点个数 https://leetcode.cn/problems/count-complete-tree-nodes/
 func countNodes(root *TreeNode) int {
-	stack := []*TreeNode{}
+	var stack []*TreeNode
 	sum := 0
 	for root != nil || len(stack) > 0 {
 		if root != nil {

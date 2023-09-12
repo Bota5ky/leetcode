@@ -1,23 +1,19 @@
 package implement_stack_using_queues
 
-// MyStack MyStack
-// https://leetcode.cn/problems/implement-stack-using-queues/
+// MyStack 225. 用队列实现栈 https://leetcode.cn/problems/implement-stack-using-queues/
 type MyStack struct {
 	q1 []int
 	q2 []int
 }
 
-// Constructor3 Constructor2
-func Constructor3() MyStack {
+func Constructor() MyStack {
 	return MyStack{}
 }
 
-// Push Push
 func (t *MyStack) Push(x int) {
 	t.q1 = append(t.q1, x)
 }
 
-// Pop Pop
 func (t *MyStack) Pop() int {
 	for len(t.q1) > 1 {
 		t.q2 = append(t.q2, t.q1[0])
@@ -29,7 +25,6 @@ func (t *MyStack) Pop() int {
 	return ret
 }
 
-// Top Top
 func (t *MyStack) Top() int {
 	for len(t.q1) > 1 {
 		t.q2 = append(t.q2, t.q1[0])
@@ -42,7 +37,6 @@ func (t *MyStack) Top() int {
 	return ret
 }
 
-// Empty Empty
 func (t *MyStack) Empty() bool {
 	return len(t.q1) == 0
 }

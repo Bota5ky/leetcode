@@ -1,8 +1,11 @@
 package binary_tree_paths
 
-import "strconv"
+import (
+	. "leetcode/model"
+	"strconv"
+)
 
-// https://leetcode.cn/problems/binary-tree-paths/
+// 257. 二叉树的所有路径 https://leetcode.cn/problems/binary-tree-paths/
 func binaryTreePaths(root *TreeNode) []string {
 	if root == nil {
 		return []string{}

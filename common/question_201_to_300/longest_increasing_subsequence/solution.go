@@ -1,6 +1,6 @@
 package longest_increasing_subsequence
 
-// https://leetcode.cn/problems/longest-increasing-subsequence/submissions/
+// 300. 最长递增子序列 https://leetcode.cn/problems/longest-increasing-subsequence/submissions/
 func lengthOfLIS(nums []int) int {
 	if len(nums) == 0 {
 		return 0
@@ -18,4 +18,11 @@ func lengthOfLIS(nums []int) int {
 		res = max(res, dp[i])
 	}
 	return res
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }

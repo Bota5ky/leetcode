@@ -2,7 +2,7 @@ package integer_to_english_words
 
 import "strconv"
 
-// https://leetcode.cn/problems/integer-to-english-words/
+// 273. 整数转换英文表示 https://leetcode.cn/problems/integer-to-english-words/
 func numberToWords(num int) string {
 	if num == 0 {
 		return "Zero"
@@ -11,7 +11,7 @@ func numberToWords(num int) string {
 	n := strconv.Itoa(num)
 	var ret string
 	if len(n) > 9 {
-		ret += convnum(n[0]) + "Billion "
+		ret += convertNum(n[0]) + "Billion "
 		n = n[1:]
 	}
 	if len(n) > 6 {
@@ -19,7 +19,7 @@ func numberToWords(num int) string {
 		n = n[len(m):]
 		if len(m) == 3 && m[0] == '0' && m[1] == '0' && m[2] == '0' {
 		} else {
-			ret += convthreenums(m) + "Million "
+			ret += convertThreeNums(m) + "Million "
 		}
 	}
 	if len(n) > 3 {
@@ -27,26 +27,26 @@ func numberToWords(num int) string {
 		n = n[len(m):]
 		if len(m) == 3 && m[0] == '0' && m[1] == '0' && m[2] == '0' {
 		} else {
-			ret += convthreenums(m) + "Thousand "
+			ret += convertThreeNums(m) + "Thousand "
 		}
 	}
-	ret += convthreenums(n)
+	ret += convertThreeNums(n)
 	return ret[:len(ret)-1]
 }
-func convthreenums(s string) string {
+func convertThreeNums(s string) string {
 	var ret string
-	numlen := len(s)
-	if numlen == 3 && s[0] == '0' && s[1] == '0' && s[2] == '0' {
+	numLen := len(s)
+	if numLen == 3 && s[0] == '0' && s[1] == '0' && s[2] == '0' {
 		return ""
 	}
 	i := 0
-	for ; numlen > 2; numlen-- {
+	for ; numLen > 2; numLen-- {
 		if s[i] != '0' {
-			ret += convnum(s[i]) + "Hundred "
+			ret += convertNum(s[i]) + "Hundred "
 		}
 		i++
 	}
-	for ; numlen > 1; numlen-- {
+	for ; numLen > 1; numLen-- {
 		if s[i] == '1' && s[i+1] != '0' {
 			switch s[i+1] {
 			case '1':
@@ -68,14 +68,14 @@ func convthreenums(s string) string {
 			case '9':
 				ret += "Nineteen "
 			}
-			numlen = 0
+			numLen = 0
 			break
 		}
 		ret += tens(s[i])
 		i++
 	}
-	for ; numlen > 0; numlen-- {
-		ret += convnum(s[i])
+	for ; numLen > 0; numLen-- {
+		ret += convertNum(s[i])
 		i++
 	}
 	return ret
@@ -103,7 +103,7 @@ func tens(s byte) string {
 	}
 	return ""
 }
-func convnum(s byte) string {
+func convertNum(s byte) string {
 	switch s {
 	case '1':
 		return "One "

@@ -1,6 +1,6 @@
 package ugly_number_ii
 
-// https://leetcode.cn/problems/ugly-number-ii/
+// 264. 丑数 II https://leetcode.cn/problems/ugly-number-ii/
 func nthUglyNumber(n int) int {
 	u := make([]int, n)
 	u[0] = 1
