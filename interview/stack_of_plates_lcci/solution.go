@@ -1,16 +1,15 @@
 package stack_of_plates_lcci
 
-// StackOfPlates https://leetcode.cn/problems/stack-of-plates-lcci/
+// StackOfPlates 面试题 03.03. 堆盘子 https://leetcode.cn/problems/stack-of-plates-lcci/
 type StackOfPlates struct {
 	size   int
 	stacks [][]int
 }
 
-func ConstructorStackOfPlates(cap int) StackOfPlates {
+func Constructor(cap int) StackOfPlates {
 	return StackOfPlates{size: cap}
 }
 
-// Push Push
 func (t *StackOfPlates) Push(val int) {
 	if t.size <= 0 {
 		return
@@ -22,7 +21,6 @@ func (t *StackOfPlates) Push(val int) {
 	t.stacks[len(t.stacks)-1] = append(t.stacks[len(t.stacks)-1], val)
 }
 
-// Pop Pop
 func (t *StackOfPlates) Pop() int {
 	if len(t.stacks) == 0 || len(t.stacks[len(t.stacks)-1]) == 0 {
 		return -1
@@ -35,7 +33,6 @@ func (t *StackOfPlates) Pop() int {
 	return res
 }
 
-// PopAt PopAt
 func (t *StackOfPlates) PopAt(index int) int {
 	if index < 0 || index >= len(t.stacks) || len(t.stacks[index]) == 0 {
 		return -1

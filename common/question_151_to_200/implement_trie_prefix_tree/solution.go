@@ -6,8 +6,7 @@ type trie struct {
 	node  [26]*trie
 }
 
-/** Initialize your data structure here. */
-func constructor() trie {
+func Constructor() trie {
 	return trie{}
 }
 

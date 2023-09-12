@@ -6,7 +6,7 @@ type TripleInOne struct {
 	//0+3i 1+3i 2+3i  0 1 2记录数目 3 4 5 开始存数
 }
 
-func ConstructorTripleInOne(stackSize int) TripleInOne {
+func Constructor(stackSize int) TripleInOne {
 	var res TripleInOne
 	res.stack = make([]int, 3*stackSize+3)
 	return res

@@ -1,6 +1,6 @@
 package c_yi_huo_by_eric_345
 
-// https://leetcode.cn/problems/swap-numbers-lcci/solution/c-yi-huo-by-eric-345/
+// 面试题 16.01. 交换数字 C++ 异或 https://leetcode.cn/problems/swap-numbers-lcci/solution/c-yi-huo-by-eric-345/
 func swapNumbers(numbers []int) []int {
 	return func(a, b int) []int {
 		return []int{b, a}

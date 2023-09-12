@@ -1,6 +1,6 @@
 package sorted_merge_lcci
 
-// https://leetcode.cn/problems/sorted-merge-lcci/
+// 面试题 10.01. 合并排序的数组 https://leetcode.cn/problems/sorted-merge-lcci/
 func merge(A []int, m int, B []int, n int) {
 	i := m - 1
 	j := n - 1

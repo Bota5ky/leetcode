@@ -1,6 +1,6 @@
 package reverse_bits_lcci
 
-// https://leetcode.cn/problems/reverse-bits-lcci/
+// 面试题 05.03. 翻转数位 https://leetcode.cn/problems/reverse-bits-lcci/
 func reverseBits(num int) int {
 	max, n1, n2 := 0, 0, 0
 	for {

@@ -1,7 +1,7 @@
 package english_int_lcci
 
-// 和273相同
-// https://leetcode.cn/problems/english-int-lcci/
+// 面试题 16.08. 整数的英语表示 https://leetcode.cn/problems/english-int-lcci/
+// 273. 整数转换英文表示 https://leetcode.cn/problems/integer-to-english-words/
 func numberToWords2(num int) string {
 	//123,456,789   billion million thousand hundred 1~9 or 10~19 or **ty + 个位数
 	if num == 0 {

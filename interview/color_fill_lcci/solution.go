@@ -1,6 +1,6 @@
 package color_fill_lcci
 
-// https://leetcode.cn/problems/color-fill-lcci/
+// 面试题 08.10. 颜色填充 https://leetcode.cn/problems/color-fill-lcci/
 func floodFill(image [][]int, sr int, sc int, newColor int) [][]int {
 	fillColor(image, sr, sc, image[sr][sc], newColor)
 	return image

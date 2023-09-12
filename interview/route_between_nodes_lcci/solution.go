@@ -8,10 +8,10 @@ func findWhetherExistsPath(n int, graph [][]int, start int, target int) bool {
 	for _, v := range graph {
 		g[v[0]] = append(g[v[0]], v[1])
 	}
-	return dfsExistsPath(g, start, target, visited)
+	return dfs(g, start, target, visited)
 }
 
-func dfsExistsPath(g [][]int, start int, target int, visited map[int]bool) bool {
+func dfs(g [][]int, start int, target int, visited map[int]bool) bool {
 	visited[start] = true
 	for i := 0; i < len(g[start]); i++ {
 		if g[start][i] == target {
@@ -20,7 +20,7 @@ func dfsExistsPath(g [][]int, start int, target int, visited map[int]bool) bool 
 		if visited[g[start][i]] {
 			continue
 		}
-		if dfsExistsPath(g, g[start][i], target, visited) {
+		if dfs(g, g[start][i], target, visited) {
 			return true
 		}
 	}

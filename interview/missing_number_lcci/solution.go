@@ -1,6 +1,6 @@
 package missing_number_lcci
 
-// https://leetcode.cn/problems/missing-number-lcci/
+// 面试题 17.04. 消失的数字 https://leetcode.cn/problems/missing-number-lcci/
 func missingNumber2(nums []int) int {
 	n := len(nums)
 	sum := n * (n + 1) / 2

@@ -1,12 +1,12 @@
 package words_frequency_lcci
 
-// https://leetcode.cn/problems/words-frequency-lcci/
-type wordsFrequency struct {
+// WordsFrequency 面试题 16.02. 单词频率 https://leetcode.cn/problems/words-frequency-lcci/
+type WordsFrequency struct {
 	count map[string]int
 }
 
-func constructor(book []string) wordsFrequency {
-	t := wordsFrequency{
+func Constructor(book []string) WordsFrequency {
+	t := WordsFrequency{
 		count: make(map[string]int, len(book)),
 	}
 	for _, v := range book {
@@ -15,7 +15,7 @@ func constructor(book []string) wordsFrequency {
 	return t
 }
 
-func (t *wordsFrequency) get(word string) int {
+func (t *WordsFrequency) get(word string) int {
 	return t.count[word]
 }
 

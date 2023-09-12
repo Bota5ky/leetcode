@@ -1,8 +1,7 @@
 package three_steps_problem_lcci
 
-// https://leetcode.cn/problems/three-steps-problem-lcci/
+// 面试题 08.01. 三步问题 https://leetcode.cn/problems/three-steps-problem-lcci/
 func waysToStep(n int) int {
-	//f[1]=1;f[2]=2;f[3]=4;f[4]=7;f[5]=13
 	a, b, c := 1, 2, 4
 	if n <= 1 {
 		return 1

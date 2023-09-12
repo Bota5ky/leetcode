@@ -1,7 +1,7 @@
 package smallest_k_lcci
 
-// https://leetcode.cn/problems/smallest-k-lcci/
-// 和offer40相同，采用部分快排
+// 面试题 17.14. 最小K个数 https://leetcode.cn/problems/smallest-k-lcci/
+// 40. 组合总和 II https://leetcode.cn/problems/combination-sum-ii/
 func smallestK(arr []int, k int) []int {
 	if len(arr) == 0 {
 		return []int{}

@@ -1,6 +1,6 @@
 package maximum_lcci
 
-// https://leetcode.cn/problems/maximum-lcci/
+// 面试题 16.07. 最大数值 https://leetcode.cn/problems/maximum-lcci/
 func maximum(a int, b int) int {
 	// abs(x) = ( x ^ (x >> 7)) - ( x >> 7 )
 	// max = ( a+b + |a-b| ) / 2

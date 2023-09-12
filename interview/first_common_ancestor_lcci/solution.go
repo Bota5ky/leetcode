@@ -2,8 +2,8 @@ package first_common_ancestor_lcci
 
 import . "leetcode/model"
 
-// 和236相同
-// https://leetcode.cn/problems/first-common-ancestor-lcci/
+// 面试题 04.08. 首个共同祖先 https://leetcode.cn/problems/first-common-ancestor-lcci/
+// 236. 二叉树的最近公共祖先 https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/
 func lowestCommonAncestor3(root *TreeNode, p *TreeNode, q *TreeNode) *TreeNode {
 	if root == nil {
 		return nil

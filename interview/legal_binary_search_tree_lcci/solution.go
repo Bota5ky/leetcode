@@ -2,12 +2,12 @@ package legal_binary_search_tree_lcci
 
 import . "leetcode/model"
 
-// https://leetcode.cn/problems/legal-binary-search-tree-lcci/
+// 面试题 04.05. 合法二叉搜索树 https://leetcode.cn/problems/legal-binary-search-tree-lcci/
 func isValidBST(root *TreeNode) bool {
-	var vals []int
-	midScan(root, &vals)
-	for i := 1; i < len(vals); i++ {
-		if vals[i] <= vals[i-1] {
+	var values []int
+	midScan(root, &values)
+	for i := 1; i < len(values); i++ {
+		if values[i] <= values[i-1] {
 			return false
 		}
 	}

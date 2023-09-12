@@ -1,10 +1,9 @@
 package master_mind_lcci
 
-// https://leetcode.cn/problems/master-mind-lcci/
+// 面试题 16.15. 珠玑妙算 https://leetcode.cn/problems/master-mind-lcci/
 func masterMind(solution string, guess string) []int {
-	//RYGB
-	x := make([]int, 4) //guess
-	y := make([]int, 4) //solution
+	x := make([]int, 4)
+	y := make([]int, 4)
 	same := 0
 	for i := 0; i < 4; i++ {
 		figureColor(x, guess[i])

@@ -1,6 +1,6 @@
 package permutation_i_lcci
 
-// https://leetcode.cn/problems/permutation-i-lcci/
+// 面试题 08.07. 无重复字符串的排列组合 https://leetcode.cn/problems/permutation-i-lcci/
 func permutation(S string) []string {
 	var ret []string
 	if len(S) < 2 {

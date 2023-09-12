@@ -1,7 +1,7 @@
 package find_majority_element_lcci
 
-// 摩尔投票法 offer39使用先排序取中间值，未考虑不存在的情况
-// https://leetcode.cn/problems/find-majority-element-lcci/
+// 面试题 17.10. 主要元素 https://leetcode.cn/problems/find-majority-element-lcci/
+// 剑指 Offer 39. 数组中出现次数超过一半的数字 https://leetcode.cn/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/
 func majorityElement2(nums []int) int {
 	cnt := 0
 	cmp := 0
@@ -20,14 +20,3 @@ func majorityElement2(nums []int) int {
 	}
 	return -1
 }
-
-// func majorityElement(nums []int) int {
-//     m:=make(map[int]int)
-//     for i:=0;i<len(nums);i++ {
-//         m[nums[i]]++
-//         if m[nums[i]]>len(nums)/2 {
-//             return nums[i]
-//         }
-//     }
-//     return -1
-// }

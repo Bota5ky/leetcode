@@ -2,7 +2,7 @@ package paths_with_sum_lcci
 
 import "leetcode/interview/minimum_height_tree_lcci"
 
-// https://leetcode.cn/problems/paths-with-sum-lcci/
+// 面试题 04.12. 求和路径 https://leetcode.cn/problems/paths-with-sum-lcci/
 func pathSum(root *minimum_height_tree_lcci.TreeNode, sum int) int {
 	if root == nil {
 		return 0

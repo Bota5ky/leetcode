@@ -1,6 +1,6 @@
 package sparse_array_search_lcci
 
-// https://leetcode.cn/problems/sparse-array-search-lcci/
+// 面试题 10.05. 稀疏数组搜索 https://leetcode.cn/problems/sparse-array-search-lcci/
 func findString(words []string, s string) int {
 	i, j := 0, len(words)-1
 	for i < j {

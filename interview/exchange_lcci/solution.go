@@ -1,6 +1,6 @@
 package exchange_lcci
 
-// https://leetcode.cn/problems/exchange-lcci/
+// 面试题 05.07. 配对交换 https://leetcode.cn/problems/exchange-lcci/
 func exchangeBits(num int) int {
 	for i := 0; ; i += 2 {
 		if num>>i == 0 {

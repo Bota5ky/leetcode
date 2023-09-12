@@ -1,6 +1,6 @@
 package the_masseuse_lcci
 
-// https://leetcode.cn/problems/the-masseuse-lcci/
+// 面试题 17.16. 按摩师 https://leetcode.cn/problems/the-masseuse-lcci/
 func massage(nums []int) int {
 	//dp[i+2]=max(dp[i]+nums[i+2],dp[i-1])
 	if len(nums) == 0 {

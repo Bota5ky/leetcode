@@ -1,6 +1,6 @@
 package minimum_height_tree_lcci
 
-// https://leetcode.cn/problems/minimum-height-tree-lcci/
+// 面试题 04.02. 最小高度树 https://leetcode.cn/problems/minimum-height-tree-lcci/
 func sortedArrayToBST(nums []int) *TreeNode {
 	if len(nums) == 0 {
 		return nil

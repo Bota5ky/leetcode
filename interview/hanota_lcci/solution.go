@@ -1,10 +1,11 @@
 package hanota_lcci
 
-// https://leetcode.cn/problems/hanota-lcci/
+// 面试题 08.06. 汉诺塔问题 https://leetcode.cn/problems/hanota-lcci/
 func hanota(A []int, B []int, C []int) []int {
 	h(len(A), &A, &B, &C)
 	return C
 }
+
 func h(n int, A *[]int, B *[]int, C *[]int) {
 	if n == 1 {
 		*C = append(*C, (*A)[len(*A)-1])
