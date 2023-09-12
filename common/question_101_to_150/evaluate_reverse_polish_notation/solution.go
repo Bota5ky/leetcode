@@ -2,7 +2,7 @@ package evaluate_reverse_polish_notation
 
 import "strconv"
 
-// https://leetcode.cn/problems/evaluate-reverse-polish-notation/
+// 150. 逆波兰表达式求值 https://leetcode.cn/problems/evaluate-reverse-polish-notation/
 func evalRPN(tokens []string) int {
 	var nums []int
 	for i := 0; i < len(tokens); i++ {

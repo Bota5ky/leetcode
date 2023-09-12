@@ -1,6 +1,8 @@
 package construct_binary_tree_from_preorder_and_inorder_traversal
 
-// https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+import . "leetcode/model"
+
+// 105. 从前序与中序遍历序列构造二叉树 https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 func buildTree(preorder []int, inorder []int) *TreeNode {
 	if len(preorder) == 0 {
 		return nil

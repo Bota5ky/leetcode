@@ -1,6 +1,6 @@
 package single_number_ii
 
-// https://leetcode.cn/problems/single-number-ii/
+// 137. 只出现一次的数字 II https://leetcode.cn/problems/single-number-ii/
 func singleNumber3(nums []int) int {
 	once, twice := 0, 0
 	for _, v := range nums {

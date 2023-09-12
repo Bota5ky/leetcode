@@ -1,6 +1,6 @@
 package best_time_to_buy_and_sell_stock
 
-// https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/
+// 121. 买卖股票的最佳时机 https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/
 func maxProfit2(prices []int) int {
 	stack1 := make([]int, len(prices))
 	stack2 := make([]int, len(prices))

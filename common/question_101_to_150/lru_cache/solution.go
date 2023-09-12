@@ -1,7 +1,6 @@
 package lru_cache
 
-// LRUCache 缓存机制
-// https://leetcode.cn/problems/lru-cache/
+// LRUCache 146. LRU 缓存 https://leetcode.cn/problems/lru-cache/
 type LRUCache struct {
 	Map  map[int]*Node
 	Cap  int
@@ -9,13 +8,11 @@ type LRUCache struct {
 	Last *Node
 }
 
-// Node 储存节点
 type Node struct {
 	Key, Val  int
 	Pre, Next *Node
 }
 
-// Constructor Constructor
 func Constructor(capacity int) LRUCache {
 	return LRUCache{
 		Map:  make(map[int]*Node, capacity),
@@ -25,7 +22,6 @@ func Constructor(capacity int) LRUCache {
 	}
 }
 
-// Get Get
 func (t *LRUCache) Get(key int) int {
 	//不存在
 	node, ok := t.Map[key]
@@ -38,7 +34,6 @@ func (t *LRUCache) Get(key int) int {
 	return node.Val
 }
 
-// Put Put
 func (t *LRUCache) Put(key int, value int) {
 	node, ok := t.Map[key]
 	if ok {
@@ -62,7 +57,6 @@ func (t *LRUCache) Put(key int, value int) {
 	}
 }
 
-// Remove Remove
 func (t *LRUCache) Remove(node *Node) {
 	if node.Pre == nil {
 		t.Head = node.Next
@@ -76,7 +70,6 @@ func (t *LRUCache) Remove(node *Node) {
 	}
 }
 
-// SetHeader SetHeader
 func (t *LRUCache) SetHeader(node *Node) {
 	//头结点为nil
 	node.Pre = nil

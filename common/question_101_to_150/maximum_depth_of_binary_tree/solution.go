@@ -1,7 +1,9 @@
 package maximum_depth_of_binary_tree
 
-// 和offer55-I相同
-// https://leetcode.cn/problems/maximum-depth-of-binary-tree/
+import . "leetcode/model"
+
+// 104. 二叉树的最大深度 https://leetcode.cn/problems/maximum-depth-of-binary-tree/
+// 剑指 Offer 55 - I. 二叉树的深度 https://leetcode.cn/problems/er-cha-shu-de-shen-du-lcof/
 func maxDepth(root *TreeNode) int {
 	if root == nil {
 		return 0

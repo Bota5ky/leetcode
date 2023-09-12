@@ -1,13 +1,13 @@
 package copy_list_with_random_pointer
 
-// https://leetcode.cn/problems/copy-list-with-random-pointer/
-func copyRandomList(head *Node2) *Node2 {
+// 138. 复制带随机指针的链表 https://leetcode.cn/problems/copy-list-with-random-pointer/
+func copyRandomList(head *Node) *Node {
 	if head == nil {
 		return nil
 	}
 	cur := head
 	for cur != nil {
-		newNode := &Node2{Val: cur.Val, Next: cur.Next}
+		newNode := &Node{Val: cur.Val, Next: cur.Next}
 		cur.Next = newNode
 		cur = cur.Next.Next
 	}
@@ -30,9 +30,8 @@ func copyRandomList(head *Node2) *Node2 {
 	return ret
 }
 
-// Node2 Node2
-type Node2 struct {
+type Node struct {
 	Val    int
-	Next   *Node2
-	Random *Node2
+	Next   *Node
+	Random *Node
 }

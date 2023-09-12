@@ -1,6 +1,8 @@
 package insertion_sort_list
 
-// https://leetcode.cn/problems/insertion-sort-list/
+import . "leetcode/model"
+
+// 147. 对链表进行插入排序 https://leetcode.cn/problems/insertion-sort-list/
 func insertionSortList(head *ListNode) *ListNode {
 	rem := &ListNode{}
 	for head != nil {

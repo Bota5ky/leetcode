@@ -1,6 +1,8 @@
 package linked_list_cycle
 
-// https://leetcode.cn/problems/linked-list-cycle/
+import . "leetcode/model"
+
+// 141. 环形链表 https://leetcode.cn/problems/linked-list-cycle/
 func hasCycle(head *ListNode) bool {
 	fast, slow := head, head
 	for {

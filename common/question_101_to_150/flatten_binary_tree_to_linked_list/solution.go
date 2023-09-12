@@ -1,7 +1,8 @@
 package flatten_binary_tree_to_linked_list
 
-// 654321后序遍历
-// https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/
+import . "leetcode/model"
+
+// 114. 二叉树展开为链表 https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/
 func flatten(root *TreeNode) {
 	var pre *TreeNode
 	connect(root, &pre)
@@ -13,13 +14,6 @@ func connect(root *TreeNode, pre **TreeNode) {
 	connect(root.Right, pre)
 	connect(root.Left, pre)
 	root.Left = nil
-	root.Right = (*pre)
+	root.Right = *pre
 	*pre = root
-}
-
-// TreeNode 二叉树
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
 }

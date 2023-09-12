@@ -1,6 +1,6 @@
 package palindrome_partitioning
 
-// https://leetcode.cn/problems/palindrome-partitioning/
+// 131. 分割回文串 https://leetcode.cn/problems/palindrome-partitioning/
 func partitionString(s string) [][]string {
 	var res [][]string
 	for i := len(s) - 1; i >= 0; i-- {
@@ -18,6 +18,7 @@ func partitionString(s string) [][]string {
 	}
 	return res
 }
+
 func isPalindrome3(s string) bool {
 	for i, j := 0, len(s)-1; i < j; {
 		if s[i] != s[j] {

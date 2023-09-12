@@ -1,7 +1,9 @@
 package construct_binary_tree_from_inorder_and_postorder_traversal
 
-// https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
-func buildTree2(inorder []int, postorder []int) *TreeNode {
+import . "leetcode/model"
+
+// 106. 从中序与后序遍历序列构造二叉树 https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+func buildTree(inorder []int, postorder []int) *TreeNode {
 	if len(inorder) == 0 {
 		return nil
 	}

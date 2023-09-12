@@ -1,6 +1,6 @@
 package triangle
 
-// https://leetcode.cn/problems/triangle/
+// 120. 三角形最小路径和 https://leetcode.cn/problems/triangle/
 func minimumTotal(triangle [][]int) int {
 	if len(triangle) == 1 {
 		return triangle[0][0]

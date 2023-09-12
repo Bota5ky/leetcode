@@ -1,6 +1,6 @@
 package gas_station
 
-// https://leetcode.cn/problems/gas-station/
+// 134. 加油站 https://leetcode.cn/problems/gas-station/
 func canCompleteCircuit(gas []int, cost []int) int {
 	for i := 0; i < len(gas); i++ {
 		if gas[i] < cost[i] {

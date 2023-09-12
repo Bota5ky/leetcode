@@ -2,7 +2,7 @@ package valid_palindrome
 
 import "strings"
 
-// https://leetcode.cn/problems/valid-palindrome/
+// 125. 验证回文串 https://leetcode.cn/problems/valid-palindrome/
 func isPalindrome2(s string) bool {
 	str := strings.ToLower(s)
 	i, j := 0, len(str)-1

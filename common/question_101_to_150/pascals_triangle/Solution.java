@@ -1,4 +1,4 @@
-package pascals_triangle
+package common.question_101_to_150.pascals_triangle;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.List;
  * @link <a href="https://leetcode.cn/problems/pascals-triangle/">118. 杨辉三角</a>
  * @since 2023-09-07 11:25
  */
-class Problem118 {
+class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
         for (int i = 0; i < numRows; i++) {

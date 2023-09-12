@@ -1,6 +1,6 @@
 package word_break
 
-// https://leetcode.cn/problems/word-break/submissions/
+// 139. 单词拆分 https://leetcode.cn/problems/word-break/
 func wordBreak(s string, wordDict []string) bool {
 	m := make(map[string]bool)
 	dp := make([]bool, len(s)+1)
