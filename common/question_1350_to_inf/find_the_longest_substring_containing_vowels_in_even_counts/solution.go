@@ -1,8 +1,7 @@
 package find_the_longest_substring_containing_vowels_in_even_counts
 
-// https://leetcode.cn/problems/find-the-longest-substring-containing-vowels-in-even-counts/
+// 1371. 每个元音包含偶数次的最长子字符串 https://leetcode.cn/problems/find-the-longest-substring-containing-vowels-in-even-counts/
 func findTheLongestSubstring(s string) int {
-	//aeiou 11111
 	cnt, max := 0, 0
 	m := make(map[int]int)
 	m[0] = -1

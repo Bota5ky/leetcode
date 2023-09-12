@@ -2,7 +2,7 @@ package html_entity_parser
 
 import "strings"
 
-// https://leetcode.cn/problems/html-entity-parser/
+// 1410. HTML 实体解析器 https://leetcode.cn/problems/html-entity-parser/
 func entityParser(text string) string {
 	new0 := strings.Replace(text, "&quot;", "\"", -1)
 	new1 := strings.Replace(new0, "&apos;", "'", -1)

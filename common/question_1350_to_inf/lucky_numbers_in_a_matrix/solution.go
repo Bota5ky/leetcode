@@ -1,6 +1,6 @@
 package lucky_numbers_in_a_matrix
 
-// https://leetcode.cn/problems/lucky-numbers-in-a-matrix/
+// 1380. 矩阵中的幸运数 https://leetcode.cn/problems/lucky-numbers-in-a-matrix/
 func luckyNumbers(matrix [][]int) []int {
 	m := make(map[int]bool)
 	var ret []int

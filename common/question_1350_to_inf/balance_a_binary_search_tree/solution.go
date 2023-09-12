@@ -1,13 +1,14 @@
 package balance_a_binary_search_tree
 
-// https://leetcode.cn/problems/balance-a-binary-search-tree/
+import . "leetcode/model"
+
+// 1382. 将二叉搜索树变平衡 https://leetcode.cn/problems/balance-a-binary-search-tree/
 func balanceBST(root *TreeNode) *TreeNode {
 	var ret []int
 	list(root, &ret)
 	return createTree(ret)
 }
 
-// 中序遍历
 func list(root *TreeNode, ret *[]int) {
 	if root == nil {
 		return

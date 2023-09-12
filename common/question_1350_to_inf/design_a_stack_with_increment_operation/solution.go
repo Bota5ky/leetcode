@@ -1,26 +1,22 @@
 package design_a_stack_with_increment_operation
 
-// CustomStack CustomStack
-// https://leetcode.cn/problems/design-a-stack-with-increment-operation/
+// CustomStack 1381. 设计一个支持增量操作的栈 https://leetcode.cn/problems/design-a-stack-with-increment-operation/
 type CustomStack struct {
 	stack   []int
 	support []int
 	max     int
 }
 
-// Constructor4 Constructor
-func Constructor4(maxSize int) CustomStack {
+func Constructor(maxSize int) CustomStack {
 	return CustomStack{max: maxSize}
 }
 
-// Push Push
 func (t *CustomStack) Push(x int) {
 	if len(t.stack) < t.max {
 		t.stack = append(t.stack, x)
 	}
 }
 
-// Pop Pop
 func (t *CustomStack) Pop() int {
 	if len(t.stack) == 0 {
 		return -1
@@ -30,7 +26,6 @@ func (t *CustomStack) Pop() int {
 	return res
 }
 
-// Increment Increment
 func (t *CustomStack) Increment(k int, val int) {
 	for len(t.stack) > 0 {
 		temp := t.stack[len(t.stack)-1]

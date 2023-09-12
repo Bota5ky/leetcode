@@ -2,7 +2,7 @@ package string_matching_in_an_array
 
 import "strings"
 
-// https://leetcode.cn/problems/string-matching-in-an-array/
+// 1408. 数组中的字符串匹配 https://leetcode.cn/problems/string-matching-in-an-array/
 func stringMatching(words []string) []string {
 	var res []string
 	for i := 0; i < len(words); i++ {

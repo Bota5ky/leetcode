@@ -1,6 +1,6 @@
 package create_target_array_in_the_given_order
 
-// https://leetcode.cn/problems/create-target-array-in-the-given-order/
+// 1389. 按既定顺序创建目标数组 https://leetcode.cn/problems/create-target-array-in-the-given-order/
 func createTargetArray(nums []int, index []int) []int {
 	var res []int
 	for i := 0; i < len(nums); i++ {

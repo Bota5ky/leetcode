@@ -1,6 +1,6 @@
 package increasing_decreasing_string
 
-// https://leetcode.cn/problems/increasing-decreasing-string/
+// 1370. 上升下降字符串 https://leetcode.cn/problems/increasing-decreasing-string/
 func sortString(s string) string {
 	cnt := make([]int, 26)
 	sum := 0

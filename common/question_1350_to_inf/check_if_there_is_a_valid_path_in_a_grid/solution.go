@@ -1,9 +1,10 @@
 package check_if_there_is_a_valid_path_in_a_grid
 
-// https://leetcode.cn/problems/check-if-there-is-a-valid-path-in-a-grid/
+// 1391. 检查网格中是否存在有效路径 https://leetcode.cn/problems/check-if-there-is-a-valid-path-in-a-grid/
 func hasValidPath(grid [][]int) bool {
 	return dfsPath(grid, 0, 0, 1)
 }
+
 func dfsPath(grid [][]int, i, j, preDir int) bool {
 	if i < 0 || i >= len(grid) || j < 0 || j >= len(grid[i]) {
 		return false

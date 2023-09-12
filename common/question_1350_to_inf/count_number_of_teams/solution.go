@@ -1,6 +1,6 @@
 package count_number_of_teams
 
-// https://leetcode.cn/problems/count-number-of-teams/
+// 1395. 统计作战单位数 https://leetcode.cn/problems/count-number-of-teams/
 func numTeams(rating []int) int {
 	cnt := 0
 	for i := 0; i < len(rating)-2; i++ {

@@ -1,6 +1,6 @@
 package queries_on_a_permutation_with_key
 
-// https://leetcode.cn/problems/queries-on-a-permutation-with-key/
+// 1409. 查询带键的排列 https://leetcode.cn/problems/queries-on-a-permutation-with-key/
 func processQueries(queries []int, m int) []int {
 	var res []int
 	p := make(map[int]int, m)

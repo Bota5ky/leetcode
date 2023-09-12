@@ -1,6 +1,6 @@
 package how_many_numbers_are_smaller_than_the_current_number
 
-// https://leetcode.cn/problems/how-many-numbers-are-smaller-than-the-current-number/
+// 1365. 有多少小于当前数字的数字 https://leetcode.cn/problems/how-many-numbers-are-smaller-than-the-current-number/
 func smallerNumbersThanCurrent(nums []int) []int {
 	ret := make([]int, len(nums))
 	for i := 0; i < len(nums); i++ {

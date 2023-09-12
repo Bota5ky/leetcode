@@ -2,7 +2,7 @@ package sort_integers_by_the_power_value
 
 import "sort"
 
-// https://leetcode.cn/problems/sort-integers-by-the-power-value/
+// 1387. 将整数按权重排序 https://leetcode.cn/problems/sort-integers-by-the-power-value/
 func getKth(lo int, hi int, k int) int {
 	nums := make([]int, hi-lo+1)
 	for i, j := lo, 0; i <= hi; i++ {

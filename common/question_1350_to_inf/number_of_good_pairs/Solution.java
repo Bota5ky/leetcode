@@ -1,4 +1,4 @@
-package number_of_good_pairs
+package common.question_1350_to_inf.number_of_good_pairs;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,7 +8,7 @@ import java.util.Map;
  * @link <a href="https://leetcode.cn/problems/number-of-good-pairs/">1512. 好数对的数目</a>
  * @since 2023-09-07 14:27
  */
-class Problem1512 {
+class Solution {
     public int numIdenticalPairs(int[] nums) {
         int sum = 0;
         Map<Integer, Integer> map = new HashMap<>();

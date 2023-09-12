@@ -1,6 +1,6 @@
 package bulb_switcher_iii
 
-// https://leetcode.cn/problems/bulb-switcher-iii/
+// 1375. 灯泡开关 III https://leetcode.cn/problems/bulb-switcher-iii/
 func numTimesAllBlue(light []int) int {
 	cnt := 0
 	sum := 0
