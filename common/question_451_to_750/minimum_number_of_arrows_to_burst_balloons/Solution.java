@@ -1,4 +1,4 @@
-package minimum_number_of_arrows_to_burst_balloons
+package common.question_451_to_750.minimum_number_of_arrows_to_burst_balloons;
 
 import java.util.Arrays;
 
@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @link <a href="https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons/">452. 用最少数量的箭引爆气球</a>
  * @since 2023-09-07 14:04
  */
-class Problem452 {
+class Solution {
     public int findMinArrowShots(int[][] points) {
         if (points.length == 0)
             return 0;

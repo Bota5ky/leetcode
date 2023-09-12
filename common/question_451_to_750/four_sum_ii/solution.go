@@ -1,8 +1,8 @@
-package 4sum_ii
+package four_sum_ii
 
 import "sort"
 
-// https://leetcode.cn/problems/4sum-ii/
+// 454. 四数相加 II https://leetcode.cn/problems/4sum-ii/
 func fourSumCount(A []int, B []int, C []int, D []int) int {
 	sort.Ints(C)
 	sort.Ints(D)

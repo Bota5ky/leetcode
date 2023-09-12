@@ -1,6 +1,6 @@
 package subarray_sum_equals_k
 
-// https://leetcode.cn/problems/subarray-sum-equals-k/
+// 560. 和为 K 的子数组 https://leetcode.cn/problems/subarray-sum-equals-k/
 func subarraySum(nums []int, k int) int {
 	m := make(map[int]int)
 	m[0] = 1

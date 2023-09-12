@@ -1,11 +1,13 @@
 package subtree_of_another_tree
 
-// https://leetcode.cn/problems/subtree-of-another-tree/
+import . "leetcode/model"
+
+// 572. 另一棵树的子树 https://leetcode.cn/problems/subtree-of-another-tree/
 func isSubtree(s *TreeNode, t *TreeNode) bool {
 	if t == nil {
 		return true
 	}
-	if isSametree(s, t) {
+	if isSameTree(s, t) {
 		return true
 	}
 	if s != nil && (isSubtree(s.Left, t) || isSubtree(s.Right, t)) {
@@ -14,7 +16,7 @@ func isSubtree(s *TreeNode, t *TreeNode) bool {
 	return false
 }
 
-func isSametree(s, t *TreeNode) bool {
+func isSameTree(s, t *TreeNode) bool {
 	if s == nil && t == nil {
 		return true
 	}
@@ -24,5 +26,5 @@ func isSametree(s, t *TreeNode) bool {
 	if s.Val != t.Val {
 		return false
 	}
-	return isSametree(s.Left, t.Left) && isSametree(s.Right, t.Right)
+	return isSameTree(s.Left, t.Left) && isSameTree(s.Right, t.Right)
 }

@@ -2,7 +2,7 @@ package license_key_formatting
 
 import "strings"
 
-// https://leetcode.cn/problems/license-key-formatting/
+// 482. 密钥格式化 https://leetcode.cn/problems/license-key-formatting/
 func licenseKeyFormatting(S string, K int) string {
 	S = strings.ToUpper(S)
 	S = strings.Replace(S, "-", "", -1)

@@ -1,6 +1,6 @@
 package binary_search
 
-// https://leetcode.cn/problems/binary-search/
+// 704. 二分查找 https://leetcode.cn/problems/binary-search/
 func search(nums []int, target int) int {
 	head := 0
 	rear := len(nums) - 1

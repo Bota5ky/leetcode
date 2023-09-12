@@ -1,6 +1,6 @@
 package friend_circles
 
-// https://leetcode.cn/problems/friend-circles/
+// 547. 朋友圈 https://leetcode.cn/problems/friend-circles/ plus会员题
 func findCircleNum(M [][]int) int {
 	cnt := 0
 	for i := 0; i < len(M); i++ {

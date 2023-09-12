@@ -1,6 +1,6 @@
 package count_binary_substrings
 
-// https://leetcode.cn/problems/count-binary-substrings/solution/
+// 696. 计数二进制子串 https://leetcode.cn/problems/count-binary-substrings/
 func countBinarySubstrings(s string) int {
 	res := 0
 	pre := s[0]

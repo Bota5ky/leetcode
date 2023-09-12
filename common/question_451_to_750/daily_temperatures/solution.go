@@ -1,6 +1,6 @@
 package daily_temperatures
 
-// https://leetcode.cn/problems/daily-temperatures/
+// 739. 每日温度 https://leetcode.cn/problems/daily-temperatures/
 func dailyTemperatures(T []int) []int {
 	res := make([]int, len(T))
 	stack := []int{0}

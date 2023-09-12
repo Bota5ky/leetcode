@@ -1,6 +1,6 @@
-package 01_matrix
+package zero_one_matrix
 
-// https://leetcode.cn/problems/01-matrix/
+// 542. 01 矩阵 https://leetcode.cn/problems/01-matrix/
 func updateMatrix(matrix [][]int) [][]int {
 	if len(matrix) == 0 || len(matrix[0]) == 0 {
 		return [][]int{}
@@ -39,4 +39,11 @@ func updateMatrix(matrix [][]int) [][]int {
 		}
 	}
 	return res
+}
+
+func min(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
 }

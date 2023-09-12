@@ -1,6 +1,6 @@
 package valid_palindrome_ii
 
-// https://leetcode.cn/problems/valid-palindrome-ii/
+// 680. 验证回文串 II https://leetcode.cn/problems/valid-palindrome-ii/
 func validPalindrome(s string) bool {
 	j := len(s) - 1
 	for i := 0; i < j; i++ {

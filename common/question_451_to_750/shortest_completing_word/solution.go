@@ -2,7 +2,7 @@ package shortest_completing_word
 
 import "strings"
 
-// https://leetcode.cn/problems/shortest-completing-word/
+// 748. 最短补全词 https://leetcode.cn/problems/shortest-completing-word/
 func shortestCompletingWord(licensePlate string, words []string) string {
 	licensePlate = strings.ToLower(licensePlate)
 	m := make(map[byte]int)
@@ -11,10 +11,10 @@ func shortestCompletingWord(licensePlate string, words []string) string {
 			m[licensePlate[i]]++
 		}
 	}
-	minlen := 16
+	minLen := 16
 	var ret string
 	for i := 0; i < len(words); i++ {
-		if len(words[i]) >= minlen {
+		if len(words[i]) >= minLen {
 			continue
 		}
 		mark := 0
@@ -26,7 +26,7 @@ func shortestCompletingWord(licensePlate string, words []string) string {
 		}
 		if mark == 0 {
 			ret = words[i]
-			minlen = len(words[i])
+			minLen = len(words[i])
 		}
 	}
 	return ret

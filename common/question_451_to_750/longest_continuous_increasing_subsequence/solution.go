@@ -1,6 +1,6 @@
 package longest_continuous_increasing_subsequence
 
-// https://leetcode.cn/problems/longest-continuous-increasing-subsequence/
+// 674. 最长连续递增序列 https://leetcode.cn/problems/longest-continuous-increasing-subsequence/
 func findLengthOfLCIS(nums []int) int {
 	if len(nums) == 0 {
 		return 0

@@ -1,4 +1,4 @@
-package minimum_moves_to_equal_array_elements
+package common.question_451_to_750.minimum_moves_to_equal_array_elements;
 
 import java.util.Arrays;
 
@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @link <a href="https://leetcode.cn/problems/minimum-moves-to-equal-array-elements/">453. 最小操作次数使数组元素相等</a>
  * @since 2023-09-07 14:05
  */
-class Problem453 {
+class Solution {
     public int minMoves(int[] nums) {
         Arrays.sort(nums);
         int sum = 0;

@@ -1,4 +1,4 @@
-package relative_ranks
+package common.question_451_to_750.relative_ranks;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -9,7 +9,7 @@ import java.util.Map;
  * @link <a href="https://leetcode.cn/problems/relative-ranks/">506. 相对名次</a>
  * @since 2023-09-07 14:07
  */
-class Problem506 {
+class Solution {
     public String[] findRelativeRanks(int[] score) {
         Map<Integer, Integer> originPosition = new HashMap<>();
         for (int i = 0; i < score.length; i++) {

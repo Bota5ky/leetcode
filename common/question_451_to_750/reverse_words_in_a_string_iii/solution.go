@@ -2,7 +2,7 @@ package reverse_words_in_a_string_iii
 
 import "strings"
 
-// https://leetcode.cn/problems/reverse-words-in-a-string-iii/
+// 557. 反转字符串中的单词 III https://leetcode.cn/problems/reverse-words-in-a-string-iii/
 func reverseWords(s string) string {
 	ts := []byte(s)
 	for i, j := 0, len(ts)-1; i < j; {

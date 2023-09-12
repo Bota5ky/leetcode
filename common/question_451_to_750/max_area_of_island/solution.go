@@ -1,6 +1,6 @@
 package max_area_of_island
 
-// https://leetcode.cn/problems/max-area-of-island/
+// 695. 岛屿的最大面积 https://leetcode.cn/problems/max-area-of-island/
 func maxAreaOfIsland(grid [][]int) int {
 	//访问过的设置为0
 	max := 0
