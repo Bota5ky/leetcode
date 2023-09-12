@@ -1,6 +1,6 @@
 package find_winner_on_a_tic_tac_toe_game
 
-// https://leetcode.cn/problems/find-winner-on-a-tic-tac-toe-game/
+// 1275. 找出井字棋的获胜者 https://leetcode.cn/problems/find-winner-on-a-tic-tac-toe-game/
 func tictactoe(moves [][]int) string {
 	var square [3][3]byte
 	for i := 0; i < 4 && i < len(moves); i++ {
@@ -33,6 +33,7 @@ func tictactoe(moves [][]int) string {
 	}
 	return "Pending"
 }
+
 func isThreesome(square [3][3]byte, x int, y int) bool {
 	if square[x][0] == square[x][1] && square[x][0] == square[x][2] {
 		return true

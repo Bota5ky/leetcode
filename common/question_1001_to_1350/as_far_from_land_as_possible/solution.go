@@ -1,6 +1,6 @@
 package as_far_from_land_as_possible
 
-// https://leetcode.cn/problems/as-far-from-land-as-possible/
+// 1162. 地图分析 https://leetcode.cn/problems/as-far-from-land-as-possible/
 func maxDistance(grid [][]int) int {
 	level := 1
 	for {
@@ -8,7 +8,7 @@ func maxDistance(grid [][]int) int {
 		for i := 0; i < len(grid); i++ {
 			for j := 0; j < len(grid[i]); j++ {
 				if grid[i][j] == level {
-					cnt += deal2(grid, i, j, level)
+					cnt += deal(grid, i, j, level)
 				}
 			}
 		}
@@ -22,7 +22,8 @@ func maxDistance(grid [][]int) int {
 	}
 	return level - 1
 }
-func deal2(grid [][]int, i, j, level int) int {
+
+func deal(grid [][]int, i, j, level int) int {
 	cnt := 0
 	grid[i][j] = level + 1
 	if i > 0 && grid[i-1][j] == 0 {

@@ -1,6 +1,6 @@
 package find_in_mountain_array
 
-// https://leetcode.cn/problems/find-in-mountain-array/
+// 1095. 山脉数组中查找目标值 https://leetcode.cn/problems/find-in-mountain-array/
 func findInMountainArray(target int, mountainArr *MountainArray) int {
 	l := mountainArr.length()
 	top := findTop(mountainArr, l)
@@ -70,7 +70,6 @@ func findTop(mountainArr *MountainArray, l int) int {
 	return i
 }
 
-// MountainArray MountainArray
 type MountainArray struct {
 }
 

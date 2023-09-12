@@ -1,6 +1,6 @@
 package check_if_n_and_its_double_exist
 
-// https://leetcode.cn/problems/check-if-n-and-its-double-exist/
+// 1346. 检查整数及其两倍数是否存在 https://leetcode.cn/problems/check-if-n-and-its-double-exist/
 func checkIfExist(arr []int) bool {
 	m := make(map[int]bool)
 	for _, v := range arr {

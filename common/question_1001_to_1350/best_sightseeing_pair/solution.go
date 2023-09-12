@@ -1,6 +1,6 @@
 package best_sightseeing_pair
 
-// https://leetcode.cn/problems/best-sightseeing-pair/
+// 1014. 最佳观光组合 https://leetcode.cn/problems/best-sightseeing-pair/
 func maxScoreSightseeingPair(A []int) int {
 	B := make([]int, len(A))
 	for c, v := range A {

@@ -1,6 +1,6 @@
 package maximum_69_number
 
-//https://leetcode.cn/problems/maximum-69-number/
+// 1323. 6 和 9 组成的最大数字 https://leetcode.cn/problems/maximum-69-number/
 import (
 	"strconv"
 )

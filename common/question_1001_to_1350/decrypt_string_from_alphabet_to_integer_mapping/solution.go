@@ -1,7 +1,6 @@
 package decrypt_string_from_alphabet_to_integer_mapping
 
-// https://leetcode.cn/problems/decrypt-string-from-alphabet-to-integer-mapping/
-// jklmnopqrs,tuvwxyz
+// 1309. 解码字母到整数映射 https://leetcode.cn/problems/decrypt-string-from-alphabet-to-integer-mapping/
 func freqAlphabets(s string) string {
 	var ret []byte
 	for i := 0; i < len(s); i++ {

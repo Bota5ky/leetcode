@@ -2,7 +2,7 @@ package rank_transform_of_an_array
 
 import "sort"
 
-// https://leetcode.cn/problems/rank-transform-of-an-array/
+// 1331. 数组序号转换 https://leetcode.cn/problems/rank-transform-of-an-array/
 func arrayRankTransform(arr []int) []int {
 	ret := make([]int, len(arr))
 	for i := 0; i < len(arr); i++ {

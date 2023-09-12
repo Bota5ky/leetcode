@@ -1,6 +1,6 @@
 package decompress_run_length_encoded_list
 
-// https://leetcode.cn/problems/decompress-run-length-encoded-list/
+// 1313. 解压缩编码列表 https://leetcode.cn/problems/decompress-run-length-encoded-list/
 func decompressRLElist(nums []int) []int {
 	var ret []int
 	if len(nums)%2 == 1 {

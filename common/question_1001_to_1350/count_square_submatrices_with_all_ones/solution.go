@@ -1,6 +1,6 @@
 package count_square_submatrices_with_all_ones
 
-// https://leetcode.cn/problems/count-square-submatrices-with-all-ones/
+// 1277. 统计全为 1 的正方形子矩阵 https://leetcode.cn/problems/count-square-submatrices-with-all-ones/
 func countSquares(matrix [][]int) int {
 	cnt := 0
 	for i := 0; i < len(matrix); i++ {

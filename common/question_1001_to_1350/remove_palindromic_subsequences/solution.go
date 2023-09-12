@@ -1,6 +1,6 @@
 package remove_palindromic_subsequences
 
-// https://leetcode.cn/problems/remove-palindromic-subsequences/
+// 1332. 删除回文子序列 https://leetcode.cn/problems/remove-palindromic-subsequences/
 func removePalindromeSub(s string) int {
 	if len(s) == 0 {
 		return 0

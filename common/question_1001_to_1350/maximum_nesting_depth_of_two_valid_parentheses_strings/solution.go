@@ -1,6 +1,6 @@
 package maximum_nesting_depth_of_two_valid_parentheses_strings
 
-// https://leetcode.cn/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/
+// 1111. 有效括号的嵌套深度 https://leetcode.cn/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/
 func maxDepthAfterSplit(seq string) []int {
 	res := make([]int, len(seq))
 	isZero := 1

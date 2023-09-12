@@ -1,6 +1,6 @@
 package greatest_common_divisor_of_strings
 
-// https://leetcode.cn/problems/greatest-common-divisor-of-strings/
+// 1071. 字符串的最大公因子 https://leetcode.cn/problems/greatest-common-divisor-of-strings/
 func gcdOfStrings(str1 string, str2 string) string {
 	if str1+str2 != str2+str1 {
 		return ""

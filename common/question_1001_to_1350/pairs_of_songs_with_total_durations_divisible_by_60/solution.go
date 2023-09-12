@@ -1,6 +1,6 @@
 package pairs_of_songs_with_total_durations_divisible_by_60
 
-// https://leetcode.cn/problems/pairs-of-songs-with-total-durations-divisible-by-60/
+// 1010. 总持续时间可被 60 整除的歌曲 https://leetcode.cn/problems/pairs-of-songs-with-total-durations-divisible-by-60/
 func numPairsDivisibleBy60(time []int) int {
 	m := make(map[int]int)
 	cnt := 0

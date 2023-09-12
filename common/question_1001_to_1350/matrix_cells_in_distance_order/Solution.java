@@ -1,4 +1,4 @@
-package matrix_cells_in_distance_order
+package common.question_1001_to_1350.matrix_cells_in_distance_order;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -8,7 +8,7 @@ import java.util.Comparator;
  * @link <a href="https://leetcode.cn/problems/matrix-cells-in-distance-order/">1030. 距离顺序排列矩阵单元格</a>
  * @since 2023-09-07 14:25
  */
-class Problem1030 {
+class Solution {
     public int[][] allCellsDistOrder(int R, int C, int r0, int c0) {
         int[][] res = new int[R * C][2];
         int k = 0;
