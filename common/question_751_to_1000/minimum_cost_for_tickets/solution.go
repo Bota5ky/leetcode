@@ -1,6 +1,6 @@
 package minimum_cost_for_tickets
 
-// https://leetcode.cn/problems/minimum-cost-for-tickets/
+// 983. 最低票价 https://leetcode.cn/problems/minimum-cost-for-tickets/
 func mincostTickets(days []int, costs []int) int {
 	//1 7 30
 	//dp[i]=min(dp[i-1]+costs[0],dp[i-7]+costs[1],dp[i-30]+costs[2])

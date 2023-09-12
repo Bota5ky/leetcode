@@ -1,6 +1,6 @@
 package magic_squares_in_grid
 
-// https://leetcode.cn/problems/magic-squares-in-grid/
+// 840. 矩阵中的幻方 https://leetcode.cn/problems/magic-squares-in-grid/
 func numMagicSquaresInside(grid [][]int) int {
 	cnt := 0
 	for i := 0; i < len(grid)-2; i++ { //行号
@@ -12,6 +12,7 @@ func numMagicSquaresInside(grid [][]int) int {
 	}
 	return cnt
 }
+
 func isMagic(grid [][]int, a int, b int) bool {
 	m := make(map[int]int, 9)
 	for i := a; i <= a+2; i++ {

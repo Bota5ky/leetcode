@@ -1,6 +1,6 @@
 package sort_an_array
 
-// https://leetcode.cn/problems/sort-an-array/
+// 912. 排序数组 https://leetcode.cn/problems/sort-an-array/
 func sortArray(nums []int) []int {
 	if len(nums) < 2 {
 		return nums

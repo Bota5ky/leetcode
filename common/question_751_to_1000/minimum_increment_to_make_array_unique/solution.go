@@ -2,7 +2,7 @@ package minimum_increment_to_make_array_unique
 
 import "sort"
 
-// https://leetcode.cn/problems/minimum-increment-to-make-array-unique/
+// 945. 使数组唯一的最小增量 https://leetcode.cn/problems/minimum-increment-to-make-array-unique/
 func minIncrementForUnique(A []int) int {
 	sort.Ints(A)
 	cnt := 0

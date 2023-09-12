@@ -2,7 +2,7 @@ package powerful_integers
 
 import "math"
 
-// https://leetcode.cn/problems/powerful-integers/
+// 970. 强整数 https://leetcode.cn/problems/powerful-integers/
 func powerfulIntegers(x int, y int, bound int) []int {
 	var ret []int
 	m := make(map[int]bool)

@@ -1,6 +1,6 @@
 package short_encoding_of_words
 
-// https://leetcode.cn/problems/short-encoding-of-words/
+// 820. 单词的压缩编码 https://leetcode.cn/problems/short-encoding-of-words/
 func minimumLengthEncoding(words []string) int {
 	cnt := 0
 	root := &trie2{}

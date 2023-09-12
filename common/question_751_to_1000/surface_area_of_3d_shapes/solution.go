@@ -1,6 +1,6 @@
 package surface_area_of_3d_shapes
 
-// https://leetcode.cn/problems/surface-area-of-3d-shapes/
+// 892. 三维形体的表面积 https://leetcode.cn/problems/surface-area-of-3d-shapes/
 func surfaceArea(grid [][]int) int {
 	sum := 0
 	for i := 0; i < len(grid); i++ {
@@ -31,4 +31,11 @@ func surfaceArea(grid [][]int) int {
 		}
 	}
 	return sum
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }

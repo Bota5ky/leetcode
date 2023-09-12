@@ -1,6 +1,6 @@
 package verifying_an_alien_dictionary
 
-// https://leetcode.cn/problems/verifying-an-alien-dictionary/
+// 953. 验证外星语词典 https://leetcode.cn/problems/verifying-an-alien-dictionary/
 func isAlienSorted(words []string, order string) bool {
 	//录入字典序
 	m := make(map[byte]int)

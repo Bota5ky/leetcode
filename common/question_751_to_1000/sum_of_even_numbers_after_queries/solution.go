@@ -1,6 +1,6 @@
 package sum_of_even_numbers_after_queries
 
-// https://leetcode.cn/problems/sum-of-even-numbers-after-queries/
+// 985. 查询后的偶数和 https://leetcode.cn/problems/sum-of-even-numbers-after-queries/
 func sumEvenAfterQueries(A []int, queries [][]int) []int {
 	sum := 0
 	for i := 0; i < len(A); i++ {

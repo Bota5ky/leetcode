@@ -1,6 +1,6 @@
 package rectangle_overlap
 
-// https://leetcode.cn/problems/rectangle-overlap/
+// 836. 矩形重叠 https://leetcode.cn/problems/rectangle-overlap/
 func isRectangleOverlap(rec1 []int, rec2 []int) bool {
 	x1, y1, x2, y2 := rec1[0], rec1[1], rec1[2], rec1[3]
 	x3, y3, x4, y4 := rec2[0], rec2[1], rec2[2], rec2[3]

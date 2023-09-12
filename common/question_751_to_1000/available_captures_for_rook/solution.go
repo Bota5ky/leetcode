@@ -1,6 +1,6 @@
 package available_captures_for_rook
 
-// https://leetcode.cn/problems/available-captures-for-rook/
+// 999. 可以被一步捕获的棋子数 https://leetcode.cn/problems/available-captures-for-rook/
 func numRookCaptures(board [][]byte) int {
 	dir := [][]int{{1, 0}, {-1, 0}, {0, 1}, {0, -1}}
 	//find the ROOK

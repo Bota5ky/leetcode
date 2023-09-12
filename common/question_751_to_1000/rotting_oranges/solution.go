@@ -1,6 +1,6 @@
 package rotting_oranges
 
-// https://leetcode.cn/problems/rotting-oranges/
+// 994. 腐烂的橘子 https://leetcode.cn/problems/rotting-oranges/
 func orangesRotting(grid [][]int) int {
 	time := 0
 	for {

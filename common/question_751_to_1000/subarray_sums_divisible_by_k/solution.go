@@ -1,6 +1,6 @@
 package subarray_sums_divisible_by_k
 
-// https://leetcode.cn/problems/subarray-sums-divisible-by-k/
+// 974. 和可被 K 整除的子数组 https://leetcode.cn/problems/subarray-sums-divisible-by-k/
 func subarraysDivByK(A []int, K int) int {
 	cnt := make([]int, K)
 	cnt[0] = 1

@@ -1,7 +1,6 @@
 package prime_number_of_set_bits_in_binary_representation
 
-// https://leetcode.cn/problems/prime-number-of-set-bits-in-binary-representation/
-// [2, 3, 5, 7, 11, 13, 17, 19]
+// 762. 二进制表示中质数个计算置位 https://leetcode.cn/problems/prime-number-of-set-bits-in-binary-representation/
 func countPrimeSetBits(L int, R int) int {
 	ret := 0
 	for i := L; i <= R; i++ {

@@ -1,6 +1,6 @@
 package positions_of_large_groups
 
-// https://leetcode.cn/problems/positions-of-large-groups/
+// 830. 较大分组的位置 https://leetcode.cn/problems/positions-of-large-groups/
 func largeGroupPositions(S string) [][]int {
 	var ret [][]int
 	fast, slow := 0, 0

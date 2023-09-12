@@ -2,7 +2,7 @@ package largest_triangle_area
 
 import "math"
 
-// https://leetcode.cn/problems/largest-triangle-area/
+// 812. 最大三角形面积 https://leetcode.cn/problems/largest-triangle-area/
 func largestTriangleArea(points [][]int) float64 {
 	var area float64
 	for i := 0; i < len(points)-2; i++ {
