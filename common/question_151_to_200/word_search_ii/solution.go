@@ -1,6 +1,6 @@
 package word_search_ii
 
-// https://leetcode.cn/problems/word-search-ii/submissions/
+// 212. 单词搜索 II https://leetcode.cn/problems/word-search-ii/
 func findWords(board [][]byte, words []string) []string {
 	//1.构建前缀树
 	root := &Trie{}
@@ -30,6 +30,7 @@ func findWords(board [][]byte, words []string) []string {
 	}
 	return res
 }
+
 func dfsTrie(board [][]byte, i, j int, root *Trie, res *[]string) {
 	if i < 0 || i >= len(board) || j < 0 || j >= len(board[i]) {
 		return

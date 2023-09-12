@@ -1,4 +1,4 @@
-package count_primes
+package common.question_151_to_200.count_primes;
 
 import java.util.Arrays;
 
@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @link <a href="https://leetcode.cn/problems/count-primes/">204. 计数质数</a>
  * @since 2023-09-07 12:43
  */
-class Problem204 {
+class Solution {
     public int countPrimes(int n) {
         int[] isPrime = new int[n];
         Arrays.fill(isPrime, 1);

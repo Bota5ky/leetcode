@@ -1,6 +1,6 @@
 package course_schedule_ii
 
-// https://leetcode.cn/problems/course-schedule-ii/
+// 210. 课程表 II https://leetcode.cn/problems/course-schedule-ii/
 func findOrder(numCourses int, prerequisites [][]int) []int {
 	sons := make([][]int, numCourses)
 	indegree := make([]int, numCourses)
@@ -8,8 +8,8 @@ func findOrder(numCourses int, prerequisites [][]int) []int {
 		sons[conn[1]] = append(sons[conn[1]], conn[0])
 		indegree[conn[0]]++
 	}
-	res := []int{}
-	stack := []int{}
+	var res []int
+	var stack []int
 	for key, val := range indegree {
 		if val == 0 {
 			stack = append(stack, key) //入度为0的初始点

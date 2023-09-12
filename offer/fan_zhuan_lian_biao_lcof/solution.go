@@ -3,6 +3,7 @@ package fan_zhuan_lian_biao_lcof
 import . "leetcode/model"
 
 // 剑指 Offer 24. 反转链表 https://leetcode.cn/problems/fan-zhuan-lian-biao-lcof/
+// 206. 反转链表 https://leetcode.cn/problems/reverse-linked-list/
 func reverseList(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
 		return head

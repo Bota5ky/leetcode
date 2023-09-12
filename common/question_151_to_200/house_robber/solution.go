@@ -1,6 +1,6 @@
 package house_robber
 
-// https://leetcode.cn/problems/house-robber/
+// 198. 打家劫舍 https://leetcode.cn/problems/house-robber/
 func rob(nums []int) int {
 	if len(nums) == 0 {
 		return 0
@@ -16,4 +16,11 @@ func rob(nums []int) int {
 		dp[i] = max(dp[i-2]+nums[i], dp[i-1])
 	}
 	return dp[len(nums)-1]
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }

@@ -1,17 +1,29 @@
 package maximum_product_subarray
 
-import "leetcode/common/question_101_to_150"
-
-// https://leetcode.cn/problems/maximum-product-subarray/
+// 152. 乘积最大子数组 https://leetcode.cn/problems/maximum-product-subarray/
 func maxProduct(nums []int) int {
-	premax, premin, res := nums[0], nums[0], nums[0]
+	preMax, preMin, res := nums[0], nums[0], nums[0]
 	for i := 1; i < len(nums); i++ {
 		if nums[i] < 0 {
-			premax, premin = premin, premax
+			preMax, preMin = preMin, preMax
 		}
-		premax = common.max(premax*nums[i], nums[i])
-		premin = min(premin*nums[i], nums[i])
-		res = common.max(res, premax)
+		preMax = max(preMax*nums[i], nums[i])
+		preMin = min(preMin*nums[i], nums[i])
+		res = max(res, preMax)
 	}
 	return res
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
+func min(a, b int) int {
+	if a > b {
+		return b
+	}
+	return a
 }

@@ -1,4 +1,4 @@
-package maximum_gap
+package common.question_151_to_200.maximum_gap;
 
 import java.util.Arrays;
 
@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @link <a href="https://leetcode.cn/problems/maximum-gap/">164. 最大间距</a>
  * @since 2023-09-07 11:36
  */
-class Problem164 {
+class Solution {
     public int maximumGap(int[] nums) {
         Arrays.sort(nums);
         int gap = 0;

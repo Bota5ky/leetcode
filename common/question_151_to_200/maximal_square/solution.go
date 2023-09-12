@@ -1,6 +1,6 @@
 package maximal_square
 
-// https://leetcode.cn/problems/maximal-square/
+// 221. 最大正方形 https://leetcode.cn/problems/maximal-square/
 func maximalSquare(matrix [][]byte) int {
 	if len(matrix) == 0 || len(matrix[0]) == 0 {
 		return 0
