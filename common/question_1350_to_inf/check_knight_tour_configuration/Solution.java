@@ -1,5 +1,12 @@
+package common.question_1350_to_inf.check_knight_tour_configuration;
+
 import java.util.HashMap;
 
+/**
+ * @author Bota5ky
+ * @link <a href="https://leetcode.cn/problems/check-knight-tour-configuration/">2596. 检查骑士巡视方案</a>
+ * @since 2023-09-13 15:42
+ */
 class Solution {
     public boolean checkValidGrid(int[][] grid) {
         if (grid[0][0] != 0) {
