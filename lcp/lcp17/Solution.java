@@ -1,4 +1,4 @@
-package leetcodecup.lcp17;
+package lcp.lcp17;
 
 /**
  * @author Bota5ky

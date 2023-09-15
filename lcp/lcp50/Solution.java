@@ -1,4 +1,4 @@
-package leetcodecup.lcp50;
+package lcp.lcp50;
 
 import java.util.Arrays;
 
