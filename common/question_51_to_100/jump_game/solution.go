@@ -7,7 +7,7 @@ func canJump(nums []int) bool {
 	}
 	p := 0
 	for {
-		max := 0
+		maximum := 0
 		if p+nums[p] >= len(nums)-1 {
 			return true
 		}
@@ -15,11 +15,11 @@ func canJump(nums []int) bool {
 			break
 		}
 		for i := p; i < len(nums) && i <= p+nums[p]; i++ {
-			if i+nums[i] >= max+nums[max] {
-				max = i
+			if i+nums[i] >= maximum+nums[maximum] {
+				maximum = i
 			}
 		}
-		p = max
+		p = maximum
 	}
 	return false
 }
