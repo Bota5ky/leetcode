@@ -1,4 +1,4 @@
-package common.question_201_to_300.h_Index;
+package common.question_201_to_300.h_index;
 
 import java.util.Arrays;
 
