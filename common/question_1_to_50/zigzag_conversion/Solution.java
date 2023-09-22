@@ -10,7 +10,7 @@ class Solution {
         if (numRows == 1) {
             return s;
         }
-        var size = numRows * 2 - 2;  //8
+        var size = numRows * 2 - 2;
         var sb = new StringBuilder();
         for (int row = 0; row < numRows; row++) {
             for (int i = row; i < s.length(); i += size) {
