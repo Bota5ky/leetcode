@@ -78,8 +78,8 @@ class LRUCache {
 }
 
 /*
- JDK自带实现
- class LRUCache extends LinkedHashMap<Integer, Integer> {
+JDK自带实现
+class LRUCache extends LinkedHashMap<Integer, Integer> {
     private final int capacity;
 
     public LRUCache(int capacity) {
