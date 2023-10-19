@@ -1,4 +1,4 @@
-package lcp.bao_shi_bu_ji;
+package lcplcr.bao_shi_bu_ji;
 
 import java.util.Arrays;
 

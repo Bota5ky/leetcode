@@ -1,4 +1,4 @@
-package lcp.na_ying_bi;
+package lcplcr.na_ying_bi;
 
 /**
  * @author Bota5ky

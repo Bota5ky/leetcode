@@ -1,4 +1,4 @@
-package lcp.su_suan_ji_qi_ren;
+package lcplcr.su_suan_ji_qi_ren;
 
 /**
  * @author Bota5ky
