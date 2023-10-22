@@ -3,7 +3,6 @@ package binary_tree_maximum_path_sum
 import . "leetcode/model"
 
 // 124. 二叉树中的最大路径和 https://leetcode.cn/problems/binary-tree-maximum-path-sum/
-// LCR 051. 二叉树中的最大路径和 https://leetcode.cn/problems/jC7MId/
 func maxPathSum(root *TreeNode) int {
 	m := root.Val
 	maxWeight(root, &m)
