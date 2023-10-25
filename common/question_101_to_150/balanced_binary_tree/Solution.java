@@ -1,4 +1,4 @@
-package lcplcr.ping_heng_er_cha_shu_lcof;
+package common.question_101_to_150.balanced_binary_tree;
 
 import model.TreeNode;
 

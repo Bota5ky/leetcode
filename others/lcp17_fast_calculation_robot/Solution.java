@@ -1,4 +1,4 @@
-package lcplcr.su_suan_ji_qi_ren;
+package others.lcp17_fast_calculation_robot;
 
 /**
  * @author Bota5ky

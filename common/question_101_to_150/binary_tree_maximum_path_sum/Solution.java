@@ -1,4 +1,4 @@
-package lcplcr.binary_tree_maximum_path_sum;
+package common.question_101_to_150.binary_tree_maximum_path_sum;
 
 
 import model.TreeNode;

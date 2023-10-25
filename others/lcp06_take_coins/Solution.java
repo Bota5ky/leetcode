@@ -1,4 +1,4 @@
-package lcplcr.na_ying_bi;
+package others.lcp06_take_coins;
 
 /**
  * @author Bota5ky
