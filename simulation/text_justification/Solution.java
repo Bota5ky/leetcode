@@ -1,4 +1,4 @@
-package common.question_51_to_100.text_justification;
+package simulation.text_justification;
 
 import java.util.ArrayList;
 import java.util.List;

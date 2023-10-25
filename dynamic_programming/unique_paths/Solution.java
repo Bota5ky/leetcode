@@ -1,4 +1,4 @@
-package common.question_51_to_100.unique_paths;
+package dynamic_programming.unique_paths;
 
 /**
  * @author Bota5ky

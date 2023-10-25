@@ -1,4 +1,4 @@
-package common.question_51_to_100.merge_sorted_array;
+package multi_pointers.merge_sorted_array;
 
 /**
  * @author Bota5ky

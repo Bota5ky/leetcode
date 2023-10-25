@@ -1,7 +1,7 @@
-package ju_zhen_zhong_de_lu_jing_lcof
+package word_search
 
-// 剑指 Offer 12. 矩阵中的路径 https://leetcode.cn/problems/ju-zhen-zhong-de-lu-jing-lcof/
 // 79. 单词搜索 https://leetcode.cn/problems/word-search/
+// 剑指 Offer 12. 矩阵中的路径 https://leetcode.cn/problems/ju-zhen-zhong-de-lu-jing-lcof/
 func exist(board [][]byte, word string) bool {
 	if word == "" {
 		return false

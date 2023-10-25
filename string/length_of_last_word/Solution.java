@@ -1,4 +1,4 @@
-package common.question_51_to_100.length_of_last_word;
+package string.length_of_last_word;
 
 /**
  * @author Bota5ky

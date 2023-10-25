@@ -1,4 +1,4 @@
-package depth_first_search.lowest_common_ancestor_of_a_binary_search_tree;
+package tree.lowest_common_ancestor_of_a_binary_search_tree;
 
 import model.TreeNode;
 
