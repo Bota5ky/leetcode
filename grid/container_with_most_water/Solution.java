@@ -1,4 +1,4 @@
-package common.question_1_to_50.container_with_most_water;
+package grid.container_with_most_water;
 
 /**
  * @author Bota5ky

@@ -2,7 +2,8 @@ package common.question_1_to_50.longest_substring_without_repeating_characters;
 
 /**
  * @author Bota5ky
- * @link <a href="https://leetcode.cn/problems/longest-substring-without-repeating-characters/"></a>
+ * @link <a href="https://leetcode.cn/problems/longest-substring-without-repeating-characters/">3. 无重复字符的最长子串</a>
+ * @link <a href="https://leetcode.cn/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/">剑指 Offer 48. 最长不含重复字符的子字符串</a>
  * @since 2023-09-26 14:09
  */
 class Solution {

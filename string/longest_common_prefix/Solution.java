@@ -1,4 +1,4 @@
-package common.question_1_to_50.longest_common_prefix;
+package string.longest_common_prefix;
 
 /**
  * @author Bota5ky

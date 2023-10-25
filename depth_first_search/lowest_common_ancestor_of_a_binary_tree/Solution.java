@@ -1,4 +1,4 @@
-package common.question_201_to_300.lowest_common_ancestor_of_a_binary_tree;
+package depth_first_search.lowest_common_ancestor_of_a_binary_tree;
 
 import model.TreeNode;
 
@@ -9,10 +9,7 @@ import model.TreeNode;
  */
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if (root == null) {
-            return null;
-        }
-        if (root == p || root == q) {
+        if (root == null || root == p || root == q) {
             return root;
         }
         var left = lowestCommonAncestor(root.left, p, q);

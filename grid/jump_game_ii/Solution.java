@@ -1,4 +1,4 @@
-package common.question_1_to_50.jump_game_ii;
+package grid.jump_game_ii;
 
 /**
  * @author Bota5ky
