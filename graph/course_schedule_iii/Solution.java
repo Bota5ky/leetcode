@@ -1,4 +1,4 @@
-package common.question_451_to_750.course_schedule_iii;
+package graph.course_schedule_iii;
 
 import java.util.Arrays;
 import java.util.Comparator;

@@ -1,4 +1,4 @@
-package common.question_201_to_300.course_schedule;
+package graph.course_schedule;
 
 import java.util.ArrayList;
 

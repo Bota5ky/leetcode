@@ -1,4 +1,4 @@
-package common.question_1350_to_inf.course_schedule_iv;
+package graph.course_schedule_iv;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
