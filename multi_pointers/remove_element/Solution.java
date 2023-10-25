@@ -1,4 +1,4 @@
-package common.question_1_to_50.remove_element;
+package multi_pointers.remove_element;
 
 import java.util.Arrays;
 

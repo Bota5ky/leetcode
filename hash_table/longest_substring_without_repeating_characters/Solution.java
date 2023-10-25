@@ -1,4 +1,4 @@
-package common.question_1_to_50.longest_substring_without_repeating_characters;
+package hash_table.longest_substring_without_repeating_characters;
 
 /**
  * @author Bota5ky

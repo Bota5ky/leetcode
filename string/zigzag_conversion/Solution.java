@@ -1,4 +1,4 @@
-package common.question_1_to_50.zigzag_conversion;
+package string.zigzag_conversion;
 
 /**
  * @author Bota5ky

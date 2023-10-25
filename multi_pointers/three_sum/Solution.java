@@ -1,4 +1,4 @@
-package common.question_1_to_50.three_sum;
+package multi_pointers.three_sum;
 
 import java.util.ArrayList;
 import java.util.Arrays;

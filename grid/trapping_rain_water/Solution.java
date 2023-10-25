@@ -1,4 +1,4 @@
-package common.question_1_to_50.trapping_rain_water;
+package grid.trapping_rain_water;
 
 /**
  * @author Bota5ky

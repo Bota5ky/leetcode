@@ -1,4 +1,4 @@
-package common.question_1_to_50.roman_to_integer;
+package math.roman_to_integer;
 
 /**
  * @author Bota5ky

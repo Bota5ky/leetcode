@@ -1,4 +1,4 @@
-package common.question_1_to_50.remove_duplicates_from_sorted_array;
+package multi_pointers.remove_duplicates_from_sorted_array;
 
 /**
  * @author Bota5ky
