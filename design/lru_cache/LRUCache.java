@@ -6,6 +6,7 @@ import java.util.Map;
 /**
  * @author Bota5ky
  * @link <a href="https://leetcode.cn/problems/lru-cache/">146. LRU 缓存</a>
+ * @link <a href="https://leetcode.cn/problems/lru-cache-lcci/">面试题 16.25. LRU 缓存</a>
  * @since 2023-09-24 11:29
  */
 class LRUCache {

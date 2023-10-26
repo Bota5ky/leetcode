@@ -3,6 +3,7 @@ package integer_to_english_words
 import "strconv"
 
 // 273. 整数转换英文表示 https://leetcode.cn/problems/integer-to-english-words/
+// 面试题 16.08. 整数的英语表示 https://leetcode.cn/problems/english-int-lcci/
 func numberToWords(num int) string {
 	if num == 0 {
 		return "Zero"
