@@ -1,6 +1,4 @@
-package common.question_201_to_300.product_of_array_except_self;
-
-import java.util.Arrays;
+package array.product_of_array_except_self;
 
 /**
  * @author Bota5ky

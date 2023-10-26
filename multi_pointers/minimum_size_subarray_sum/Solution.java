@@ -1,4 +1,4 @@
-package common.question_201_to_300.minimum_size_subarray_sum;
+package multi_pointers.minimum_size_subarray_sum;
 
 /**
  * @author Bota5ky
