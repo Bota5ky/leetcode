@@ -1,4 +1,4 @@
-package common.question_451_to_750.minimum_moves_to_equal_array_elements;
+package math.minimum_moves_to_equal_array_elements;
 
 import java.util.Arrays;
 

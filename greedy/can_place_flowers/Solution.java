@@ -1,4 +1,4 @@
-package common.question_451_to_750.can_place_flowers;
+package greedy.can_place_flowers;
 
 /**
  * @author Bota5ky

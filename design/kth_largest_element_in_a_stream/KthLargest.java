@@ -1,4 +1,4 @@
-package common.question_451_to_750.kth_largest_element_in_a_stream;
+package design.kth_largest_element_in_a_stream;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package common.question_451_to_750.minimum_number_of_arrows_to_burst_balloons;
+package greedy.minimum_number_of_arrows_to_burst_balloons;
 
 import java.util.Arrays;
 

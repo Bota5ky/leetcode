@@ -1,4 +1,4 @@
-package common.question_451_to_750.image_smoother;
+package simulation.image_smoother;
 
 /**
  * @author Bota5ky

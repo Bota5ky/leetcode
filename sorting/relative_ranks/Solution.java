@@ -1,4 +1,4 @@
-package common.question_451_to_750.relative_ranks;
+package sorting.relative_ranks;
 
 import java.util.Arrays;
 import java.util.HashMap;
