@@ -1,4 +1,4 @@
-package common.question_1350_to_inf.distribute_money_to_maximum_children;
+package greedy.distribute_money_to_maximum_children;
 
 /**
  * @author Bota5ky

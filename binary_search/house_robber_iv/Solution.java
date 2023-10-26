@@ -1,4 +1,4 @@
-package common.question_1350_to_inf.house_robber_iv;
+package binary_search.house_robber_iv;
 
 import java.util.Arrays;
 

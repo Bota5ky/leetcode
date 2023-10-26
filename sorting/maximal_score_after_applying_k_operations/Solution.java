@@ -1,4 +1,4 @@
-package common.question_1350_to_inf.maximal_score_after_applying_k_operations;
+package sorting.maximal_score_after_applying_k_operations;
 
 import java.util.PriorityQueue;
 

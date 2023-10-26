@@ -1,4 +1,4 @@
-package common.question_1350_to_inf.sum_multiples;
+package math.sum_multiples;
 
 /**
  * @author Bota5ky

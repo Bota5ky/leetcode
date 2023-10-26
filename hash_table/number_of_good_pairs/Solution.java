@@ -1,4 +1,4 @@
-package common.question_1350_to_inf.number_of_good_pairs;
+package hash_table.number_of_good_pairs;
 
 import java.util.HashMap;
 import java.util.Map;

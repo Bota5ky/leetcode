@@ -1,4 +1,4 @@
-package common.question_1001_to_1350.queens_that_can_attack_the_king;
+package simulation.queens_that_can_attack_the_king;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -14,14 +14,14 @@ func luckyNumbers(matrix [][]int) []int {
 		m[small] = true
 	}
 	for j := 0; j < len(matrix[0]); j++ {
-		max := matrix[0][j]
+		maximum := matrix[0][j]
 		for i := 1; i < len(matrix); i++ {
-			if matrix[i][j] > max {
-				max = matrix[i][j]
+			if matrix[i][j] > maximum {
+				maximum = matrix[i][j]
 			}
 		}
-		if m[max] {
-			ret = append(ret, max)
+		if m[maximum] {
+			ret = append(ret, maximum)
 		}
 	}
 	return ret

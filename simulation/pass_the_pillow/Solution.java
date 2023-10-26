@@ -1,4 +1,4 @@
-package common.question_1350_to_inf.pass_the_pillow;
+package simulation.pass_the_pillow;
 
 /**
  * @author Bota5ky

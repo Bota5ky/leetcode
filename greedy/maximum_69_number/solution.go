@@ -1,10 +1,8 @@
 package maximum_69_number
 
-// 1323. 6 和 9 组成的最大数字 https://leetcode.cn/problems/maximum-69-number/
-import (
-	"strconv"
-)
+import "strconv"
 
+// 1323. 6 和 9 组成的最大数字 https://leetcode.cn/problems/maximum-69-number/
 func maximum69Number(num int) int {
 	n := strconv.Itoa(num)
 	ret := []byte(n)

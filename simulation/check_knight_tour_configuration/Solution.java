@@ -1,4 +1,4 @@
-package common.question_1350_to_inf.check_knight_tour_configuration;
+package simulation.check_knight_tour_configuration;
 
 import java.util.HashMap;
 
