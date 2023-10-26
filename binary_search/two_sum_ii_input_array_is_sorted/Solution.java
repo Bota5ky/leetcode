@@ -1,4 +1,4 @@
-package common.question_151_to_200.two_sum_ii_input_array_is_sorted;
+package binary_search.two_sum_ii_input_array_is_sorted;
 
 /**
  * @author Bota5ky

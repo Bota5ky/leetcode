@@ -1,4 +1,4 @@
-package common.question_151_to_200.rotate_array;
+package multi_pointers.rotate_array;
 
 /**
  * @author Bota5ky

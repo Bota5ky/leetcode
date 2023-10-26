@@ -7,21 +7,21 @@ func maxProduct(nums []int) int {
 		if nums[i] < 0 {
 			preMax, preMin = preMin, preMax
 		}
-		preMax = max(preMax*nums[i], nums[i])
-		preMin = min(preMin*nums[i], nums[i])
-		res = max(res, preMax)
+		preMax = maxInt(preMax*nums[i], nums[i])
+		preMin = minInt(preMin*nums[i], nums[i])
+		res = maxInt(res, preMax)
 	}
 	return res
 }
 
-func max(a, b int) int {
+func maxInt(a, b int) int {
 	if a > b {
 		return a
 	}
 	return b
 }
 
-func min(a, b int) int {
+func minInt(a, b int) int {
 	if a > b {
 		return b
 	}

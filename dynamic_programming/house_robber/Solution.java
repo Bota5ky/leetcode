@@ -1,4 +1,4 @@
-package common.question_151_to_200.house_robber;
+package dynamic_programming.house_robber;
 
 /**
  * @author Bota5ky

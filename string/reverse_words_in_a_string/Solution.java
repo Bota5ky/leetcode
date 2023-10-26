@@ -1,10 +1,11 @@
-package common.question_151_to_200.reverse_words_in_a_string;
+package string.reverse_words_in_a_string;
 
 import java.util.Arrays;
 
 /**
  * @author Bota5ky
  * @link <a href="https://leetcode.cn/problems/reverse-words-in-a-string/">151. 反转字符串中的单词</a>
+ * @link <a href="https://leetcode.cn/problems/fan-zhuan-dan-ci-shun-xu-lcof/">LCR 181. 字符串中的单词反转</a>
  * @since 2023-09-20 09:33
  */
 class Solution {

@@ -1,4 +1,4 @@
-package common.question_151_to_200.maximum_gap;
+package sorting.maximum_gap;
 
 import java.util.Arrays;
 
