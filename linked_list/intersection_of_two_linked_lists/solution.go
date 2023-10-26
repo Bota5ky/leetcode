@@ -3,7 +3,7 @@ package intersection_of_two_linked_lists
 import . "leetcode/_model"
 
 // 160. 相交链表 https://leetcode.cn/problems/intersection-of-two-linked-lists/
-// 剑指 Offer 52. 两个链表的第一个公共节点 https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/
+// LCR 171. 训练计划 V https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/
 func getIntersectionNode(headA, headB *ListNode) *ListNode {
 	recA, recB := headA, headB
 	for headA != nil || headB != nil {

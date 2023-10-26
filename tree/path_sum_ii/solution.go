@@ -3,7 +3,7 @@ package path_sum_ii
 import . "leetcode/_model"
 
 // 113. 路径总和 II https://leetcode.cn/problems/path-sum-ii/
-// 剑指 Offer 34. 二叉树中和为某一值的路径 https://leetcode.cn/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/
+// LCR 153. 二叉树中和为目标值的路径 https://leetcode.cn/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/
 func pathSum(root *TreeNode, sum int) [][]int {
 	var ret [][]int
 	if root == nil {

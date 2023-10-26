@@ -1,7 +1,7 @@
 package best_time_to_buy_and_sell_stock
 
-// 剑指 Offer 63. 股票的最大利润 https://leetcode.cn/problems/gu-piao-de-zui-da-li-run-lcof/
-func maxProfit2(prices []int) int {
+// LCR 188. 买卖芯片的最佳时机 https://leetcode.cn/problems/gu-piao-de-zui-da-li-run-lcof/
+func maxProfit(prices []int) int {
 	stack1 := make([]int, len(prices))
 	stack2 := make([]int, len(prices))
 	for i := 0; i < len(prices); i++ {

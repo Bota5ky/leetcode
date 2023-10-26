@@ -1,9 +1,8 @@
 package implement_queue_using_stacks
 
-// MyQueue LCR 125. 图书整理 II https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/
-// 232. 用栈实现队列 https://leetcode.cn/problems/implement-queue-using-stacks/
+// MyQueue 232. 用栈实现队列 https://leetcode.cn/problems/implement-queue-using-stacks/
+// LCR 125. 图书整理 II https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/
 // 面试题 03.04. 化栈为队 https://leetcode.cn/problems/implement-queue-using-stacks-lcci/
-// 剑指 Offer 09. 用两个栈实现队列 https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/
 type MyQueue struct {
 	stack1 []int
 	stack2 []int

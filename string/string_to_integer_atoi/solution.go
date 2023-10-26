@@ -1,7 +1,7 @@
 package string_to_integer_atoi
 
 // 8. 字符串转换整数 (atoi) https://leetcode.cn/problems/string-to-integer-atoi/
-// 剑指 Offer 67. 把字符串转换成整数 https://leetcode.cn/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/
+// LCR 192. 把字符串转换成整数 (atoi) https://leetcode.cn/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/
 func myAtoi(str string) int {
 	res, i, flag := 0, 0, 1
 	//去空格

@@ -5,7 +5,6 @@ import _model.TreeNode;
 /**
  * @author Bota5ky
  * @link <a href="https://leetcode.cn/problems/balanced-binary-tree/">110. 平衡二叉树</a>
- * @link <a href="https://leetcode.cn/problems/ping-heng-er-cha-shu-lcof/">剑指 Offer 55 - II. 平衡二叉树</a>
  * @link <a href="https://leetcode.cn/problems/check-balance-lcci/">面试题 04.04. 检查平衡性</a>
  * @link <a href="https://leetcode.cn/problems/ping-heng-er-cha-shu-lcof/">LCR 176. 判断是否为平衡二叉树</a>
  * @since 2023-10-19 22:01

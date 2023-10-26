@@ -1,7 +1,7 @@
 package number_of_digit_one
 
 // 233. 数字 1 的个数 https://leetcode.cn/problems/number-of-digit-one/
-// 剑指 Offer 43. 1～n 整数中 1 出现的次数 https://leetcode.cn/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/
+// LCR 162. 数字 1 的个数 https://leetcode.cn/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/
 func countDigitOne(n int) int {
 	f := [11]int{0, 1, 20, 300, 4000, 50000, 600000, 7000000, 80000000, 900000000, 1000000000}
 	j := 1

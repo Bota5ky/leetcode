@@ -1,7 +1,7 @@
 package spiral_matrix
 
 // 54. 螺旋矩阵 https://leetcode.cn/problems/spiral-matrix/
-// 剑指 Offer 29. 顺时针打印矩阵 https://leetcode.cn/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/
+// LCR 146. 螺旋遍历二维数组 https://leetcode.cn/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/
 func spiralOrder(matrix [][]int) []int {
 	var res []int
 	if len(matrix) == 0 || len(matrix[0]) == 0 {
