@@ -1,7 +1,7 @@
-package zhan_de_ya_ru_dan_chu_xu_lie_lcof
+package validate_stack_sequences
 
-// 剑指 Offer 31. 栈的压入、弹出序列 https://leetcode.cn/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/
 // 946. 验证栈序列 https://leetcode.cn/problems/validate-stack-sequences/
+// LCR 148. 验证图书取出顺序 https://leetcode.cn/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/
 func validateStackSequences(pushed []int, popped []int) bool {
 	var stack []int
 	j := 0

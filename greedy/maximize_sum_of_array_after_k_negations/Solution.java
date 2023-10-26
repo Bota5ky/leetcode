@@ -1,4 +1,4 @@
-package common.question_1001_to_1350.maximize_sum_of_array_after_k_negations;
+package greedy.maximize_sum_of_array_after_k_negations;
 
 import java.util.Arrays;
 

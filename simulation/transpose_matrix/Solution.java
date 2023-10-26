@@ -1,4 +1,4 @@
-package common.question_751_to_1000.transpose_matrix;
+package simulation.transpose_matrix;
 
 /**
  * @author Bota5ky

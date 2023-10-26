@@ -1,4 +1,4 @@
-package common.question_1001_to_1350.filter_restaurants_by_vegan_friendly_price_and_distance;
+package sorting.filter_restaurants_by_vegan_friendly_price_and_distance;
 
 import java.util.ArrayList;
 import java.util.Comparator;
