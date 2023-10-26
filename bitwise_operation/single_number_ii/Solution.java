@@ -1,4 +1,4 @@
-package bit_manipulation.single_number_ii;
+package bitwise_operation.single_number_ii;
 
 /**
  * @author Bota5ky
