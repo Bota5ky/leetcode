@@ -1,6 +1,6 @@
 package intersection_of_two_linked_lists_lcci
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 面试题 02.07. 链表相交 https://leetcode.cn/problems/intersection-of-two-linked-lists-lcci/
 func getIntersectionNode2(headA, headB *ListNode) *ListNode {

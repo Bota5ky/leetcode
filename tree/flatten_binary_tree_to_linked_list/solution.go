@@ -1,6 +1,6 @@
 package flatten_binary_tree_to_linked_list
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 114. 二叉树展开为链表 https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/
 func flatten(root *TreeNode) {

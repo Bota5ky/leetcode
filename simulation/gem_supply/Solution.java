@@ -1,4 +1,4 @@
-package others.lcp50_gem_supply;
+package simulation.gem_supply;
 
 import java.util.Arrays;
 

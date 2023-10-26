@@ -1,6 +1,6 @@
 package symmetric_tree
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 101. 对称二叉树 https://leetcode.cn/problems/symmetric-tree/
 // 剑指 Offer 28. 对称的二叉树 https://leetcode.cn/problems/dui-cheng-de-er-cha-shu-lcof/

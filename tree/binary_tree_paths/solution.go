@@ -1,7 +1,7 @@
 package binary_tree_paths
 
 import (
-	. "leetcode/model"
+	. "leetcode/_model"
 	"strconv"
 )
 

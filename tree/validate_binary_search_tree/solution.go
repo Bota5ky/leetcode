@@ -1,7 +1,7 @@
 package validate_binary_search_tree
 
 import (
-	. "leetcode/model"
+	. "leetcode/_model"
 	"math"
 )
 

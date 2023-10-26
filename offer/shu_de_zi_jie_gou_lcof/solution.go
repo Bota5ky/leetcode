@@ -1,6 +1,6 @@
 package shu_de_zi_jie_gou_lcof
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 剑指 Offer 26. 树的子结构 https://leetcode.cn/problems/shu-de-zi-jie-gou-lcof/
 func isSubStructure(A *TreeNode, B *TreeNode) bool {

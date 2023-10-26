@@ -1,6 +1,6 @@
 package shan_chu_lian_biao_de_jie_dian_lcof
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 剑指 Offer 18. 删除链表的节点 https://leetcode.cn/problems/shan-chu-lian-biao-de-jie-dian-lcof/
 func deleteNodeByValue(head *ListNode, val int) *ListNode {

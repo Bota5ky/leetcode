@@ -1,6 +1,6 @@
 package rotate_list
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 61. 旋转链表 https://leetcode.cn/problems/rotate-list/
 func rotateRight(head *ListNode, k int) *ListNode {

@@ -1,6 +1,6 @@
 package path_sum
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 112. 路径总和 https://leetcode.cn/problems/path-sum/
 func hasPathSum(root *TreeNode, sum int) bool {

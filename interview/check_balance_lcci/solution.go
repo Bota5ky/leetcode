@@ -1,6 +1,6 @@
 package check_balance_lcci
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 面试题 04.04. 检查平衡性 https://leetcode.cn/problems/check-balance-lcci/
 // 剑指 Offer 55 - II. 平衡二叉树 https://leetcode.cn/problems/ping-heng-er-cha-shu-lcof/

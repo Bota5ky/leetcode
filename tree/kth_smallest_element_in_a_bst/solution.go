@@ -1,6 +1,6 @@
 package kth_smallest_element_in_a_bst
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 230. 二叉搜索树中第K小的元素 https://leetcode.cn/problems/kth-smallest-element-in-a-bst/
 func kthSmallest(root *TreeNode, k int) int {

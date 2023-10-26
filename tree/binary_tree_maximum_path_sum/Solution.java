@@ -1,7 +1,7 @@
 package tree.binary_tree_maximum_path_sum;
 
 
-import model.TreeNode;
+import _model.TreeNode;
 
 /**
  * @author Bota5ky

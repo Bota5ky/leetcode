@@ -1,4 +1,4 @@
-package others.lcp17_fast_calculation_robot;
+package simulation.fast_calculating_robot;
 
 /**
  * @author Bota5ky

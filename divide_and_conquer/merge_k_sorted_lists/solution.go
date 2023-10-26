@@ -1,6 +1,6 @@
 package merge_k_sorted_lists
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 23. 合并 K 个升序链表 https://leetcode.cn/problems/merge-k-sorted-lists/
 func mergeKLists(lists []*ListNode) *ListNode {

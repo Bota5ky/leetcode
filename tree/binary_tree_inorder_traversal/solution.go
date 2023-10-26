@@ -1,6 +1,6 @@
 package binary_tree_inorder_traversal
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 94. 二叉树的中序遍历 https://leetcode.cn/problems/binary-tree-inorder-traversal/
 func inorderTraversal(root *TreeNode) []int {

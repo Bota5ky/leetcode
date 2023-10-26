@@ -1,6 +1,6 @@
 package maximum_depth_of_binary_tree
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 104. 二叉树的最大深度 https://leetcode.cn/problems/maximum-depth-of-binary-tree/
 // 剑指 Offer 55 - I. 二叉树的深度 https://leetcode.cn/problems/er-cha-shu-de-shen-du-lcof/

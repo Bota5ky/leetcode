@@ -1,6 +1,6 @@
 package sum_lists_lcci
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 面试题 02.05. 链表求和 https://leetcode.cn/problems/sum-lists-lcci/
 // 2. 两数相加 https://leetcode.cn/problems/add-two-numbers/

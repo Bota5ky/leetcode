@@ -1,6 +1,6 @@
 package tree.balanced_binary_tree;
 
-import model.TreeNode;
+import _model.TreeNode;
 
 /**
  * @author Bota5ky

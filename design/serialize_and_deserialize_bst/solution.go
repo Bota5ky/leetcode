@@ -1,7 +1,7 @@
 package serialize_and_deserialize_bst
 
 import (
-	. "leetcode/model"
+	. "leetcode/_model"
 	"strconv"
 	"strings"
 )

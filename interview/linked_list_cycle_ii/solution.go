@@ -1,6 +1,6 @@
 package linked_list_cycle_ii
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 面试题 02.08. 环路检测 https://leetcode.cn/problems/linked-list-cycle-lcci/
 // 142. 环形链表 II https://leetcode.cn/problems/linked-list-cycle-ii/

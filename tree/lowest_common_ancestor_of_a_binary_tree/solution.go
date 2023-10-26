@@ -1,6 +1,6 @@
 package lowest_common_ancestor_of_a_binary_tree
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 236. 二叉树的最近公共祖先 https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {

@@ -1,6 +1,6 @@
 package binary_tree_preorder_traversal
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 144. 二叉树的前序遍历 https://leetcode.cn/problems/binary-tree-preorder-traversal/
 func preorderTraversal(root *TreeNode) []int {

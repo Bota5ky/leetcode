@@ -1,7 +1,7 @@
 package xu_lie_hua_er_cha_shu_lcof
 
 import (
-	. "leetcode/model"
+	. "leetcode/_model"
 	"strconv"
 	"strings"
 )

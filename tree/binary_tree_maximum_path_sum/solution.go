@@ -1,6 +1,6 @@
 package binary_tree_maximum_path_sum
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 124. 二叉树中的最大路径和 https://leetcode.cn/problems/binary-tree-maximum-path-sum/
 func maxPathSum(root *TreeNode) int {

@@ -1,4 +1,4 @@
-package model;
+package _model;
 
 public class TreeNode {
     public int val;

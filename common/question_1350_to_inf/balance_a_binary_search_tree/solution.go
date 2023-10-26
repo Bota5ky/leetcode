@@ -1,6 +1,6 @@
 package balance_a_binary_search_tree
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 1382. 将二叉搜索树变平衡 https://leetcode.cn/problems/balance-a-binary-search-tree/
 func balanceBST(root *TreeNode) *TreeNode {

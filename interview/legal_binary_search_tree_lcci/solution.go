@@ -1,6 +1,6 @@
 package legal_binary_search_tree_lcci
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 面试题 04.05. 合法二叉搜索树 https://leetcode.cn/problems/legal-binary-search-tree-lcci/
 func isValidBST(root *TreeNode) bool {

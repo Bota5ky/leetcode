@@ -1,6 +1,6 @@
 package er_cha_sou_suo_shu_yu_shuang_xiang_lian_biao_lcof
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // TODO
 // 剑指 Offer 36. 二叉搜索树与双向链表 https://leetcode.cn/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/

@@ -1,6 +1,6 @@
 package same_tree
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 100. 相同的树 https://leetcode.cn/problems/same-tree/
 func isSameTree(p *TreeNode, q *TreeNode) bool {

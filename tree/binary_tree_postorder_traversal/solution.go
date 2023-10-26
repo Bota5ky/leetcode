@@ -1,6 +1,6 @@
 package binary_tree_postorder_traversal
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 145. 二叉树的后序遍历 https://leetcode.cn/problems/binary-tree-postorder-traversal/
 func postorderTraversal(root *TreeNode) []int {

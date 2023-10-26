@@ -1,6 +1,6 @@
 package lian_biao_zhong_dao_shu_di_kge_jie_dian_lcof
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 剑指 Offer 22. 链表中倒数第k个节点 https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/
 func getKthFromEnd(head *ListNode, k int) *ListNode {

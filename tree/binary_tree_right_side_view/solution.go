@@ -1,6 +1,6 @@
 package binary_tree_right_side_view
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 199. 二叉树的右视图 https://leetcode.cn/problems/binary-tree-right-side-view/
 func rightSideView(root *TreeNode) []int {

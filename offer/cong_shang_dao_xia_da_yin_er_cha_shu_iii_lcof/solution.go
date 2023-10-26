@@ -1,6 +1,6 @@
 package cong_shang_dao_xia_da_yin_er_cha_shu_iii_lcof
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 剑指 Offer 32 - III. 从上到下打印二叉树 III https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/
 func levelOrder3(root *TreeNode) [][]int {

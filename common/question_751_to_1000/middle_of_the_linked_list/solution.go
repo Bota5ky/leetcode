@@ -1,6 +1,6 @@
 package middle_of_the_linked_list
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 876. 链表的中间结点 https://leetcode.cn/problems/middle-of-the-linked-list/
 func middleNode(head *ListNode) *ListNode {

@@ -1,6 +1,6 @@
 package reverse_nodes_in_k_group
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 25. K 个一组翻转链表 https://leetcode.cn/problems/reverse-nodes-in-k-group/
 func reverseKGroup(head *ListNode, k int) *ListNode {

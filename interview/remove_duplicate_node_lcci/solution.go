@@ -1,6 +1,6 @@
 package remove_duplicate_node_lcci
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 面试题 02.01. 移除重复节点 https://leetcode.cn/problems/remove-duplicate-node-lcci/
 func removeDuplicateNodes(head *ListNode) *ListNode {

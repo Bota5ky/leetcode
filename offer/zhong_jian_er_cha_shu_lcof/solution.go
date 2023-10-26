@@ -1,6 +1,6 @@
 package zhong_jian_er_cha_shu_lcof
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 剑指 Offer 07. 重建二叉树 https://leetcode.cn/problems/zhong-jian-er-cha-shu-lcof/
 func buildTree(preorder []int, inorder []int) *TreeNode {

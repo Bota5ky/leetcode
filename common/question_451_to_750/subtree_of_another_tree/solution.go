@@ -1,6 +1,6 @@
 package subtree_of_another_tree
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 572. 另一棵树的子树 https://leetcode.cn/problems/subtree-of-another-tree/
 func isSubtree(s *TreeNode, t *TreeNode) bool {

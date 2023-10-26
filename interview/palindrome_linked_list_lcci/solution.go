@@ -1,6 +1,6 @@
 package palindrome_linked_list_lcci
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 面试题 02.06. 回文链表 https://leetcode.cn/problems/palindrome-linked-list-lcci/
 func isPalindrome(head *ListNode) bool {

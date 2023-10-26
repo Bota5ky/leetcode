@@ -1,6 +1,6 @@
 package reverse_linked_list
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 206. 反转链表 https://leetcode.cn/problems/reverse-linked-list/
 // LCR 141. 训练计划 III https://leetcode.cn/problems/fan-zhuan-lian-biao-lcof/

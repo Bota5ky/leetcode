@@ -1,6 +1,6 @@
 package he_bing_liang_ge_pai_xu_de_lian_biao_lcof
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 剑指 Offer 25. 合并两个排序的链表 https://leetcode.cn/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/
 // 21. 合并两个有序链表 https://leetcode.cn/problems/merge-two-sorted-lists/

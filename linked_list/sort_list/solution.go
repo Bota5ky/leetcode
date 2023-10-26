@@ -1,6 +1,6 @@
 package sort_list
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 148. 排序链表 https://leetcode.cn/problems/sort-list/
 func sortList(head *ListNode) *ListNode {

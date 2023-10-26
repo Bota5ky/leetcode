@@ -1,6 +1,6 @@
 package partition_list_lcci
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 面试题 02.04. 分割链表 https://leetcode.cn/problems/partition-list-lcci/
 func partition(head *ListNode, x int) *ListNode {

@@ -1,6 +1,6 @@
 package average_of_levels_in_binary_tree
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 637. 二叉树的层平均值 https://leetcode.cn/problems/average-of-levels-in-binary-tree/
 func averageOfLevels(root *TreeNode) []float64 {

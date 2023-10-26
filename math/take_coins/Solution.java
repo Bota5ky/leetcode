@@ -1,4 +1,4 @@
-package others.lcp06_take_coins;
+package math.take_coins;
 
 /**
  * @author Bota5ky

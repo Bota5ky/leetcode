@@ -1,6 +1,6 @@
 package binary_tree_zigzag_level_order_traversal
 
-import . "leetcode/model"
+import . "leetcode/_model"
 
 // 103. 二叉树的锯齿形层序遍历 https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/
 func zigzagLevelOrder(root *TreeNode) [][]int {
