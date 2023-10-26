@@ -3,6 +3,7 @@ package binary_search.two_sum_ii_input_array_is_sorted;
 /**
  * @author Bota5ky
  * @link <a href="https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/">167. 两数之和 II - 输入有序数组</a>
+ * @link <a href="https://leetcode.cn/problems/he-wei-sde-liang-ge-shu-zi-lcof/">LCR 179. 查找总价格为目标值的两个商品</a>
  * @since 2023-09-22 19:26
  */
 class Solution {
