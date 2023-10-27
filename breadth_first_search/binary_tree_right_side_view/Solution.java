@@ -1,4 +1,4 @@
-package tree.binary_tree_right_side_view;
+package breadth_first_search.binary_tree_right_side_view;
 
 import _model.TreeNode;
 
