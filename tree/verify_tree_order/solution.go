@@ -1,7 +1,7 @@
 package er_cha_sou_suo_shu_de_hou_xu_bian_li_xu_lie_lcof
 
 // LCR 152. 验证二叉搜索树的后序遍历序列 https://leetcode.cn/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/
-func verifyPostorder(postorder []int) bool {
+func verifyTreeOrder(postorder []int) bool {
 	j := len(postorder) - 1
 	if j < 0 {
 		return true
@@ -18,5 +18,5 @@ func verifyPostorder(postorder []int) bool {
 			return false
 		}
 	}
-	return verifyPostorder(postorder[:p]) && verifyPostorder(postorder[p:j])
+	return verifyTreeOrder(postorder[:p]) && verifyTreeOrder(postorder[p:j])
 }
