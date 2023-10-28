@@ -11,23 +11,17 @@ import java.util.Arrays;
  */
 class Solution {
     public TreeNode buildTree(int[] inorder, int[] postorder) {
-        if (inorder.length == 0) {
-            return null;
-        }
-        int rootNodeVal = postorder[postorder.length - 1];
-        var node = new TreeNode(rootNodeVal);
-        int[] leftNodes = {};
-        int[] rightNodes = {};
-        int i;
-        for (i = 0; i < inorder.length; i++) {
+        for (int i = 0; i < inorder.length; i++) {
+            int rootNodeVal = postorder[postorder.length - 1];
             if (inorder[i] == rootNodeVal) {
-                leftNodes = Arrays.copyOfRange(inorder, 0, i);
-                rightNodes = Arrays.copyOfRange(inorder, i + 1, inorder.length);
-                break;
+                var node = new TreeNode(rootNodeVal);
+                var leftNodes = Arrays.copyOfRange(inorder, 0, i);
+                var rightNodes = Arrays.copyOfRange(inorder, i + 1, inorder.length);
+                node.left = buildTree(leftNodes, Arrays.copyOfRange(postorder, 0, i));
+                node.right = buildTree(rightNodes, Arrays.copyOfRange(postorder, i, postorder.length - 1));
+                return node;
             }
         }
-        node.left = buildTree(leftNodes, Arrays.copyOfRange(postorder, 0, i));
-        node.right = buildTree(rightNodes, Arrays.copyOfRange(postorder, i, postorder.length - 1));
-        return node;
+        return null;
     }
 }
