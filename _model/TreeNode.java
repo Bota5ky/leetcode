@@ -1,5 +1,7 @@
 package _model;
 
+import java.util.ArrayList;
+
 public class TreeNode {
     public int val;
     public TreeNode left;
@@ -12,9 +14,31 @@ public class TreeNode {
         this.val = val;
     }
 
-    TreeNode(int val, TreeNode left, TreeNode right) {
+    public TreeNode(int val, TreeNode left, TreeNode right) {
         this.val = val;
         this.left = left;
         this.right = right;
+    }
+
+    public static TreeNode create(int[] nums) {
+        if (nums.length == 0) {
+            return null;
+        }
+        var root = new TreeNode(nums[0]);
+        var layer = new ArrayList<TreeNode>();
+        layer.add(root);
+        for (int i = 1; i < nums.length;) {
+            var nextLayer = new ArrayList<TreeNode>();
+            for (TreeNode treeNode : layer) {
+                treeNode.left = new TreeNode(nums[i++]);
+                nextLayer.add(treeNode.left);
+                if (i < nums.length) {
+                    treeNode.right = new TreeNode(nums[i++]);
+                    nextLayer.add(treeNode.right);
+                }
+            }
+            layer = nextLayer;
+        }
+        return root;
     }
 }
