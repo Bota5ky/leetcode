@@ -11,24 +11,24 @@ import java.util.List;
  */
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-        var map = new HashMap<String, ArrayList<String>>();
+        HashMap<String, ArrayList<String>> map = new HashMap<>();
         for (String str : strs) {
-            var key = generateKey(str);
-            var list = map.getOrDefault(key, new ArrayList<>());
+            String key = generateKey(str);
+            ArrayList<String> list = map.getOrDefault(key, new ArrayList<>());
             list.add(str);
             map.put(key, list);
         }
-        var res = new ArrayList<List<String>>();
+        ArrayList<List<String>> res = new ArrayList<List<String>>();
         map.forEach((k,v) -> res.add(v));
         return res;
     }
 
     private String generateKey(String str) {
-        var chars = new int[26];
+        int[] chars = new int[26];
         for (int i = 0; i < str.length(); i++) {
             chars[str.charAt(i) - 'a']++;
         }
-        var sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder();
         for (int i = 0; i < chars.length; i++) {
             int count = chars[i];
             if (count > 0) {

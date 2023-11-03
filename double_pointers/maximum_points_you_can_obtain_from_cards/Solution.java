@@ -11,7 +11,7 @@ class Solution {
         for (int i = 0; i < k; i++) {
             max += cardPoints[i];
         }
-        var sum = max;
+        int sum = max;
         for (int i = k - 1, j = cardPoints.length - 1; i >= 0; i--) {
             sum = sum - cardPoints[i] + cardPoints[j--];
             max = Math.max(max, sum);
