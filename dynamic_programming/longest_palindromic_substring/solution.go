@@ -2,11 +2,11 @@ package longest_palindromic_substring
 
 // 5. 最长回文子串 https://leetcode.cn/problems/longest-palindromic-substring/
 func longestPalindrome(s string) string {
-	max := 0
+	maximum := 0
 	var ret string
 	for i := 0; i < len(s); i++ {
-		longest(s, i, i, &max, &ret)
-		longest(s, i, i+1, &max, &ret)
+		longest(s, i, i, &maximum, &ret)
+		longest(s, i, i+1, &maximum, &ret)
 	}
 	return ret
 }
