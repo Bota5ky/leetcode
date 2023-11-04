@@ -9,11 +9,11 @@ class Solution {
     public void rotate(int[] nums, int k) {
         k = k % nums.length;
         for (int i = 0; i < gcd(nums.length, k); i++) {
-            var cur = i;
-            var pre = nums[cur];
+            int cur = i;
+            int pre = nums[cur];
             do {
-                var next = (cur + k) % nums.length;
-                var temp = nums[next];
+                int next = (cur + k) % nums.length;
+                int temp = nums[next];
                 nums[next] = pre;
                 pre = temp;
                 cur = next;

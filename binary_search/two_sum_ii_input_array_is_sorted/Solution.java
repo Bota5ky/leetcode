@@ -10,10 +10,10 @@ class Solution {
     // binary search O(nlogn)
     public int[] twoSum(int[] numbers, int target) {
         for (int i = 0; i < numbers.length - 1; i++) {
-            var low = i + 1;
-            var high = numbers.length - 1;
+            int low = i + 1;
+            int high = numbers.length - 1;
             while (low <= high) {
-                var mid = (low + high) / 2;
+                int mid = (low + high) / 2;
                 if (numbers[mid] == target - numbers[i]) {
                     return new int[]{i + 1, mid + 1};
                 } else if (numbers[mid] < target - numbers[i]) {

@@ -21,9 +21,15 @@ class Solution {
             int rankPosition = score.length - i;
             if (rankPosition <= 3) {
                 switch (rankPosition) {
-                    case 1 -> rank[originPosition.get(score[i])] = "Gold Medal";
-                    case 2 -> rank[originPosition.get(score[i])] = "Silver Medal";
-                    case 3 -> rank[originPosition.get(score[i])] = "Bronze Medal";
+                    case 1:
+                        rank[originPosition.get(score[i])] = "Gold Medal";
+                        break;
+                    case 2:
+                        rank[originPosition.get(score[i])] = "Silver Medal";
+                        break;
+                    case 3:
+                        rank[originPosition.get(score[i])] = "Bronze Medal";
+                        break;
                 }
             } else {
                 rank[originPosition.get(score[i])] = String.valueOf(rankPosition);

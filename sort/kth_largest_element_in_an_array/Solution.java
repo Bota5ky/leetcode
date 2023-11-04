@@ -9,7 +9,7 @@ import java.util.PriorityQueue;
  */
 class Solution {
     public int findKthLargest(int[] nums, int k) {
-        var heap = new PriorityQueue<Integer>();
+        PriorityQueue<Integer> heap = new PriorityQueue<>();
         for (int num : nums) {
             if (heap.size() < k) {
                 heap.offer(num);

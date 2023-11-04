@@ -9,7 +9,7 @@ import _model.TreeNode;
  */
 class Solution {
     public int rob(TreeNode root) {
-        var maxRob = dfs(root);
+        int[] maxRob = dfs(root);
         return Math.max(maxRob[0], maxRob[1]);
     }
 
@@ -19,8 +19,8 @@ class Solution {
         }
         int[] r = dfs(root.right);
         int[] l = dfs(root.left);
-        var robCurrent = root.val + r[1] + l[1];
-        var notRobCurrent = Math.max(l[0], l[1]) + Math.max(r[0], r[1]);
+        int robCurrent = root.val + r[1] + l[1];
+        int notRobCurrent = Math.max(l[0], l[1]) + Math.max(r[0], r[1]);
         return new int[]{robCurrent, notRobCurrent};
     }
 }

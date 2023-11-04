@@ -7,7 +7,7 @@ package math.take_coins;
  */
 class Solution {
     public int minCount(int[] coins) {
-        var times = 0;
+        int times = 0;
         for (int coin : coins) {
             times += (coin + 1) / 2;
         }

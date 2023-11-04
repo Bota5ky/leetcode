@@ -8,7 +8,7 @@ package double_pointers.minimum_size_subarray_sum;
 class Solution {
     public int minSubArrayLen(int target, int[] nums) {
         int minLen = Integer.MAX_VALUE;
-        var sum = nums[0];
+        int sum = nums[0];
         for (int i = 0, j = 0; ; ) {
             if (sum >= target) {
                 minLen = Math.min(minLen, j - i + 1);

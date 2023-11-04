@@ -39,7 +39,7 @@ class LRUCache {
 
     public int get(int key) {
         if (cache.containsKey(key)) {
-            var getNode = cache.get(key);
+            Node getNode = cache.get(key);
             deleteNode(getNode);
             insertNode(getNode);
             return getNode.val;
@@ -49,7 +49,7 @@ class LRUCache {
 
     public void put(int key, int value) {
         if (cache.containsKey(key)) {
-            var getNode = cache.get(key);
+            Node getNode = cache.get(key);
             deleteNode(getNode);
             insertNode(getNode);
             getNode.val = value;
@@ -63,7 +63,7 @@ class LRUCache {
 
     private void insertNode(Node node) {
         cache.put(node.key, node);
-        var preHead = this.head.pre;
+        Node preHead = this.head.pre;
         preHead.next = node;
         node.pre = preHead;
         node.next = this.head;
@@ -72,7 +72,7 @@ class LRUCache {
 
     private void deleteNode(Node node) {
         cache.remove(node.key);
-        var preNode = node.pre;
+        Node preNode = node.pre;
         preNode.next = node.next;
         node.next.pre = preNode;
     }

@@ -9,8 +9,8 @@ import java.util.*;
  */
 class Solution {
     public List<List<String>> solveNQueens(int n) {
-        var res = new ArrayList<List<String>>();
-        var queens = new int[n];
+        ArrayList<List<String>> res = new ArrayList<List<String>>();
+        int[] queens = new int[n];
         Arrays.fill(queens, -1);
         backtrack(res, queens, 0, new HashSet<>(), new HashSet<>(), new HashSet<>());
         return res;
@@ -44,9 +44,9 @@ class Solution {
     }
 
     private List<String> generateBoard(int[] queens) {
-        var board = new ArrayList<String>(queens.length);
+        ArrayList<String> board = new ArrayList<String>(queens.length);
         for (int queen : queens) {
-            var row = new char[queens.length];
+            char[] row = new char[queens.length];
             Arrays.fill(row, '.');
             row[queen] = 'Q';
             board.add(new String(row));

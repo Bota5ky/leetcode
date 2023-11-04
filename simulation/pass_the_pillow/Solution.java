@@ -7,8 +7,8 @@ package simulation.pass_the_pillow;
  */
 class Solution {
     public int passThePillow(int n, int time) {
-        var round = time / (n - 1);
-        var remain = time % (n - 1);
+        int round = time / (n - 1);
+        int remain = time % (n - 1);
         if (round % 2 == 1) {
             return n - remain;
         }

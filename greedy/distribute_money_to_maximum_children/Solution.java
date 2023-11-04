@@ -11,8 +11,8 @@ class Solution {
         if (money < 0) {
             return -1;
         }
-        var max = Math.min(money / 7, children);
-        var remain = money - 7 * max;
+        int max = Math.min(money / 7, children);
+        int remain = money - 7 * max;
         if (remain == 3 && max == children - 1 || max == children && remain > 0) {
             return max - 1;
         }

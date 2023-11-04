@@ -7,7 +7,7 @@ package greedy.candy;
  */
 class Solution {
     public int candy(int[] ratings) {
-        var left = new int[ratings.length];
+        int[] left = new int[ratings.length];
         for (int i = 0, pre = 0; i < ratings.length; i++) {
             if (i == 0 || ratings[i] > ratings[i - 1]) {
                 pre++;
@@ -16,7 +16,7 @@ class Solution {
             }
             left[i] = pre;
         }
-        var sum = 0;
+        int sum = 0;
         for (int i = ratings.length - 1, pre = 0; i >= 0; i--) {
             if (i == ratings.length - 1 || ratings[i] > ratings[i + 1]) {
                 pre++;

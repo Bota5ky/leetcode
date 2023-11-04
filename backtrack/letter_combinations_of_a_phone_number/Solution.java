@@ -10,7 +10,7 @@ import java.util.List;
  */
 class Solution {
     public List<String> letterCombinations(String digits) {
-        var combinations = new ArrayList<String>();
+        ArrayList<String> combinations = new ArrayList<String>();
         if (digits.isEmpty()) {
             return combinations;
         }
@@ -30,16 +30,25 @@ class Solution {
     }
 
     private String[] getCharacters(char c) {
-        return switch (c) {
-            case '2' -> new String[]{"a", "b", "c"};
-            case '3' -> new String[]{"d", "e", "f"};
-            case '4' -> new String[]{"g", "h", "i"};
-            case '5' -> new String[]{"j", "k", "l"};
-            case '6' -> new String[]{"m", "n", "o"};
-            case '7' -> new String[]{"p", "q", "r", "s"};
-            case '8' -> new String[]{"t", "u", "v"};
-            case '9' -> new String[]{"w", "x", "y", "z"};
-            default -> new String[0];
-        };
+        switch (c) {
+            case '2':
+                return new String[]{"a", "b", "c"};
+            case '3':
+                return new String[]{"d", "e", "f"};
+            case '4':
+                return new String[]{"g", "h", "i"};
+            case '5':
+                return new String[]{"j", "k", "l"};
+            case '6':
+                return new String[]{"m", "n", "o"};
+            case '7':
+                return new String[]{"p", "q", "r", "s"};
+            case '8':
+                return new String[]{"t", "u", "v"};
+            case '9':
+                return new String[]{"w", "x", "y", "z"};
+            default:
+                return new String[0];
+        }
     }
 }

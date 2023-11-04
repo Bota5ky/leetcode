@@ -7,7 +7,7 @@ package array.product_of_array_except_self;
  */
 class Solution {
     public int[] productExceptSelf(int[] nums) {
-        var res = new int[nums.length];
+        int[] res = new int[nums.length];
         res[0] = 1;
         for (int i = 1, pre = nums[0]; i < nums.length; i++) {
             res[i] = pre;

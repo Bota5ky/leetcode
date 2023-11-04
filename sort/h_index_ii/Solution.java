@@ -7,9 +7,9 @@ package sort.h_index_ii;
  */
 class Solution {
     public int hIndex(int[] citations) {
-        var h = 0;
+        int h = 0;
         for (int i = 0, j = citations.length - 1; i <= j;) {
-            var mid = (i + j) / 2;
+            int mid = (i + j) / 2;
             if (citations[mid] >= citations.length - mid) {
                 h = Math.max(h, citations.length - mid);
                 j = mid - 1;

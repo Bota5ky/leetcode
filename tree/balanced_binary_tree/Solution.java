@@ -18,8 +18,8 @@ class Solution {
         if (node == null) {
             return 0;
         }
-        var left = getHeight(node.left);
-        var right = getHeight(node.right);
+        int left = getHeight(node.left);
+        int right = getHeight(node.right);
         if (left < 0 || right < 0 || Math.abs(left - right) > 1) {
             return -1;
         }

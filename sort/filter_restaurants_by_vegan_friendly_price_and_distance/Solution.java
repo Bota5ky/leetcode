@@ -12,13 +12,13 @@ import java.util.PriorityQueue;
  */
 class Solution {
     public List<Integer> filterRestaurants(int[][] restaurants, int veganFriendly, int maxPrice, int maxDistance) {
-        var priorQueue = new PriorityQueue<>((Comparator<int[]>) (r1, r2) -> r1[1] != r2[1] ? r2[1] - r1[1] : r2[0] - r1[0]);
+        PriorityQueue<int[]> priorQueue = new PriorityQueue<>((r1, r2) -> r1[1] != r2[1] ? r2[1] - r1[1] : r2[0] - r1[0]);
         for (int[] r : restaurants) {
             if (r[2] >= veganFriendly && maxPrice >= r[3] && maxDistance >= r[4]) {
                 priorQueue.offer(r);
             }
         }
-        var result = new ArrayList<Integer>(priorQueue.size());
+        ArrayList<Integer> result = new ArrayList<Integer>(priorQueue.size());
         while (!priorQueue.isEmpty()) {
             result.add(priorQueue.poll()[0]);
         }

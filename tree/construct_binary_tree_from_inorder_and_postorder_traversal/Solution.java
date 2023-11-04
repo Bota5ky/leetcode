@@ -14,9 +14,9 @@ class Solution {
         for (int i = 0; i < inorder.length; i++) {
             int rootNodeVal = postorder[postorder.length - 1];
             if (inorder[i] == rootNodeVal) {
-                var node = new TreeNode(rootNodeVal);
-                var leftNodes = Arrays.copyOfRange(inorder, 0, i);
-                var rightNodes = Arrays.copyOfRange(inorder, i + 1, inorder.length);
+                TreeNode node = new TreeNode(rootNodeVal);
+                int[] leftNodes = Arrays.copyOfRange(inorder, 0, i);
+                int[] rightNodes = Arrays.copyOfRange(inorder, i + 1, inorder.length);
                 node.left = buildTree(leftNodes, Arrays.copyOfRange(postorder, 0, i));
                 node.right = buildTree(rightNodes, Arrays.copyOfRange(postorder, i, postorder.length - 1));
                 return node;

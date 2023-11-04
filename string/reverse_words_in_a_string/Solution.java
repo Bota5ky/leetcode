@@ -10,8 +10,8 @@ import java.util.Arrays;
  */
 class Solution {
     public String reverseWords(String s) {
-        var start = 0;
-        var end = s.length();
+        int start = 0;
+        int end = s.length();
         while (start < end && s.charAt(start) == ' ') {
             start++;
         }
@@ -19,8 +19,8 @@ class Solution {
             end--;
         }
 
-        var chars = new char[end - start];
-        var j = 0;
+        char[] chars = new char[end - start];
+        int j = 0;
         for (int i = end - 1; i >= start; i--) {
             char c = s.charAt(i);
             if (c == ' ' && i < s.length() - 1 && c == s.charAt(i + 1)) {
@@ -29,7 +29,7 @@ class Solution {
             chars[j++] = c;
         }
         for (int i = 0; i < j;) {
-            var k = i + 1;
+            int k = i + 1;
             while (k < j && chars[k] != ' ') {
                 k++;
             }
@@ -41,7 +41,7 @@ class Solution {
 
     private void reverse(char[] chars, int start, int end) {
         for (int i = 0; i < (end - start + 1) / 2; i++) {
-            var temp = chars[start + i];
+            char temp = chars[start + i];
             chars[start + i] =  chars[end - i];
             chars[end - i] = temp;
         }

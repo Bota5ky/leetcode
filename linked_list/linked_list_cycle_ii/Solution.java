@@ -9,8 +9,8 @@ import _model.ListNode;
  */
 public class Solution {
     public ListNode detectCycle(ListNode head) {
-        var fast = head;
-        var low = head;
+        ListNode fast = head;
+        ListNode low = head;
         do {
             if (fast == null || fast.next == null) {
                 return null;

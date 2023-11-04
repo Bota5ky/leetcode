@@ -7,10 +7,10 @@ package string.longest_common_prefix;
  */
 class Solution {
     public String longestCommonPrefix(String[] strs) {
-        var sb = new StringBuilder();
-        var sample = strs[0];
+        StringBuilder sb = new StringBuilder();
+        String sample = strs[0];
         for (int i = 0; i < strs[0].length(); i++) {
-            var sampleChar = sample.charAt(i);
+            char sampleChar = sample.charAt(i);
             for (int j = 1; j < strs.length; j++) {
                 if (strs[j].length() <= i || strs[j].charAt(i) != sampleChar) {
                     return sb.toString();

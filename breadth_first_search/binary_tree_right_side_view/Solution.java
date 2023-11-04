@@ -12,20 +12,20 @@ import java.util.List;
  */
 class Solution {
     public List<Integer> rightSideView(TreeNode root) {
-        var list = new ArrayList<TreeNode>();
+        ArrayList<TreeNode> list = new ArrayList<TreeNode>();
         if (root != null) {
             list.add(root);
         }
-        var res = new ArrayList<Integer>();
+        ArrayList<Integer> res = new ArrayList<Integer>();
         while (!list.isEmpty()) {
             res.add(list.get(0).val);
-            var temp = new ArrayList<TreeNode>();
+            ArrayList<TreeNode> temp = new ArrayList<TreeNode>();
             for (TreeNode node : list) {
-                var right = node.right;
+                TreeNode right = node.right;
                 if (right != null) {
                     temp.add(right);
                 }
-                var left = node.left;
+                TreeNode left = node.left;
                 if (left != null) {
                     temp.add(left);
                 }

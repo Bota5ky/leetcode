@@ -12,7 +12,7 @@ import java.util.List;
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
-        var res = new ArrayList<List<Integer>>();
+        ArrayList<List<Integer>> res = new ArrayList<>();
         for (int i = 0; i < nums.length - 2 && nums[i] <= 0; i++) {
             if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
@@ -22,13 +22,17 @@ class Solution {
                     continue;
                 }
                 // binarySearch
-                var head = j + 1;
-                var tail = nums.length - 1;
+                int head = j + 1;
+                int tail = nums.length - 1;
                 while (head <= tail) {
-                    var mid = (head + tail) / 2;
+                    int mid = (head + tail) / 2;
                     int sum = nums[i] + nums[j] + nums[mid];
                     if (sum == 0) {
-                        res.add(List.of(nums[i], nums[j], nums[mid]));
+                        List<Integer> e = new ArrayList<>();
+                        e.add(nums[i]);
+                        e.add(nums[j]);
+                        e.add(nums[mid]);
+                        res.add(e);
                         break;
                     } else if (sum > 0) {
                         tail = mid - 1;

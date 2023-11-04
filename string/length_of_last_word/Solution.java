@@ -7,11 +7,11 @@ package string.length_of_last_word;
  */
 class Solution {
     public int lengthOfLastWord(String s) {
-        var i = s.length() - 1;
+        int i = s.length() - 1;
         while (i >= 0 && s.charAt(i) == ' ') {
             i--;
         }
-        var j = i - 1;
+        int j = i - 1;
         while (j >= 0 && s.charAt(j) != ' ') {
             j--;
         }

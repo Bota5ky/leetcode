@@ -24,11 +24,11 @@ public class TreeNode {
         if (nums.length == 0) {
             return null;
         }
-        var root = new TreeNode(nums[0]);
-        var layer = new ArrayList<TreeNode>();
+        TreeNode root = new TreeNode(nums[0]);
+        ArrayList<TreeNode> layer = new ArrayList<TreeNode>();
         layer.add(root);
         for (int i = 1; i < nums.length;) {
-            var nextLayer = new ArrayList<TreeNode>();
+            ArrayList<TreeNode> nextLayer = new ArrayList<TreeNode>();
             for (TreeNode treeNode : layer) {
                 treeNode.left = new TreeNode(nums[i++]);
                 nextLayer.add(treeNode.left);

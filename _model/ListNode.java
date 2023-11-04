@@ -9,8 +9,8 @@ public class ListNode {
     }
 
     public static ListNode create(int[] nums) {
-        var head = new ListNode(-1);
-        var node = head;
+        ListNode head = new ListNode(-1);
+        ListNode node = head;
         for (int num : nums) {
             node.next = new ListNode(num);
             node = node.next;

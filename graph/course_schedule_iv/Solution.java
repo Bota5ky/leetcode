@@ -17,7 +17,7 @@ class Solution {
             g[i] = new ArrayList<>();
         }
 
-        var inDegree = new int[numCourses];
+        int[] inDegree = new int[numCourses];
         for (int[] p : prerequisites) {
             ++inDegree[p[1]];
             g[p[0]].add(p[1]);
@@ -28,10 +28,10 @@ class Solution {
                 queue.offer(i);
             }
         }
-        var isPre = new boolean[numCourses][numCourses];
+        boolean[][] isPre = new boolean[numCourses][numCourses];
         while (!queue.isEmpty()) {
-            var father = queue.poll();
-            var sons = g[father];
+            Integer father = queue.poll();
+            List<Integer> sons = g[father];
             for (Integer son : sons) {
                 isPre[father][son] = true;
                 --inDegree[son];
@@ -44,7 +44,7 @@ class Solution {
             }
         }
 
-        var result = new ArrayList<Boolean>(queries.length);
+        ArrayList<Boolean> result = new ArrayList<>(queries.length);
         for (int[] query : queries) {
             result.add(isPre[query[0]][query[1]]);
         }

@@ -8,7 +8,7 @@ package double_pointers.find_the_index_of_the_first_occurrence_in_a_string;
 class Solution {
     // KMP算法
     public int strStr(String haystack, String needle) {
-        var next = buildNext(needle);
+        int[] next = buildNext(needle);
         for (int i = 0, j = 0; i < haystack.length(); i++) {
             while (j > 0 && haystack.charAt(i) != needle.charAt(j)) {
                 j = next[j - 1];
@@ -24,7 +24,7 @@ class Solution {
     }
 
     private int[] buildNext(String pattern) {
-        var next = new int[pattern.length()];
+        int[] next = new int[pattern.length()];
         for (int i = 1, j = 0; i < pattern.length(); i++) {
             while (j > 0 && pattern.charAt(i) != pattern.charAt(j)) {
                 j = next[j - 1];

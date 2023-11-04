@@ -7,14 +7,14 @@ package math.sum_multiples;
  */
 class Solution {
     public int sumOfMultiples(int n) {
-        var sum = 0;
-        var prev = 0;
+        int sum = 0;
+        int prev = 0;
         int[] nums = {3, 5, 7};
         int[] gain = {1, 1, 1};
         for (; ; ) {
-            var first = nums[0] * gain[0];
-            var second = nums[1] * gain[1];
-            var third = nums[2] * gain[2];
+            int first = nums[0] * gain[0];
+            int second = nums[1] * gain[1];
+            int third = nums[2] * gain[2];
             if (first > n && second > n && third > n) {
                 return sum + prev;
             }

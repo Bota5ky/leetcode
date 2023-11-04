@@ -21,8 +21,8 @@ class Solution {
         if (node == null) {
             return 0;
         }
-        var leftMax = Math.max(maxPath(node.left), 0);
-        var rightMax = Math.max(maxPath(node.right), 0);
+        int leftMax = Math.max(maxPath(node.left), 0);
+        int rightMax = Math.max(maxPath(node.right), 0);
         max = Math.max(max, leftMax + rightMax + node.val);
         return node.val + Math.max(leftMax, rightMax);
     }

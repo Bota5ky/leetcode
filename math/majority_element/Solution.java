@@ -9,8 +9,8 @@ package math.majority_element;
  */
 class Solution {
     public int majorityElement(int[] nums) {
-        var hold = Integer.MAX_VALUE;
-        var count = 0;
+        int hold = Integer.MAX_VALUE;
+        int count = 0;
         for (int num : nums) {
             if (count == 0 || hold == num) {
                 count++;

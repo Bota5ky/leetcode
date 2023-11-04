@@ -7,10 +7,10 @@ package math.roman_to_integer;
  */
 class Solution {
     public int romanToInt(String s) {
-        var res = 0;
-        var preNum = 1001;
+        int res = 0;
+        int preNum = 1001;
         for (int i = 0; i < s.length(); i++) {
-            var num = translate(s.charAt(i));
+            int num = translate(s.charAt(i));
             if (num > preNum) {
                 res -= preNum;
             } else {
@@ -23,27 +23,20 @@ class Solution {
 
     private int translate(char c) {
         switch (c) {
-            case 'I' -> {
+            case 'I':
                 return 1;
-            }
-            case 'V' -> {
+            case 'V':
                 return 5;
-            }
-            case 'X' -> {
+            case 'X':
                 return 10;
-            }
-            case 'L' -> {
+            case 'L':
                 return 50;
-            }
-            case 'C' -> {
+            case 'C':
                 return 100;
-            }
-            case 'D' -> {
+            case 'D':
                 return 500;
-            }
-            default -> {
+            default:
                 return 1000;
-            }
         }
     }
 }

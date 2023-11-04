@@ -10,7 +10,7 @@ import java.util.Arrays;
 class Solution {
     public int hIndex(int[] citations) {
         Arrays.sort(citations);
-        var h = 0;
+        int h = 0;
         for (int i = citations.length - 1; i >= 0 && citations[i] > h; i--) {
             h++;
         }

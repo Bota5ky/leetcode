@@ -14,11 +14,11 @@ class Solution {
         Arrays.sort(courses, Comparator.comparingInt(a -> a[1]));
         int total = 0;
 
-        var priorQueue = new PriorityQueue<Integer>((a, b) -> (b - a));
+        PriorityQueue<Integer> priorQueue = new PriorityQueue<>((a, b) -> (b - a));
 
         for (int[] course : courses) {
-            var costTime = course[0];
-            var endDate = course[1];
+            int costTime = course[0];
+            int endDate = course[1];
             if (costTime + total <= endDate) {
                 total += costTime;
                 priorQueue.offer(costTime);

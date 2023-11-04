@@ -9,8 +9,8 @@ import java.util.Arrays;
  */
 class Solution {
     public int minCapability(int[] nums, int k) {
-        var r = Arrays.stream(nums).max().getAsInt();
-        var l = Arrays.stream(nums).min().getAsInt();
+        int r = Arrays.stream(nums).max().getAsInt();
+        int l = Arrays.stream(nums).min().getAsInt();
         while (l <= r) {
             int cnt = 0;
             int mid = (l + r) / 2;

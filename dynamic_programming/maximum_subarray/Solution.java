@@ -7,8 +7,8 @@ package dynamic_programming.maximum_subarray;
  */
 class Solution {
     public int maxSubArray(int[] nums) {
-        var sum = 0;
-        var max = nums[0];
+        int sum = 0;
+        int max = nums[0];
         for (int num : nums) {
             sum += num;
             max = Math.max(max, sum);

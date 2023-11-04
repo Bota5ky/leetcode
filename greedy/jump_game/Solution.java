@@ -10,7 +10,7 @@ class Solution {
         int i = 0;
         int j = 0;
         while(j < nums.length){
-            var pre = j;
+            int pre = j;
             for (int k = i; k <= j && k < nums.length; k++) {
                 j = Math.max(j, k + nums[k]);
             }

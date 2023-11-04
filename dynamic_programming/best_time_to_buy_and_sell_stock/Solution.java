@@ -7,8 +7,8 @@ package dynamic_programming.best_time_to_buy_and_sell_stock;
  */
 class Solution {
     public int maxProfit(int[] prices) {
-        var i = 0;
-        var profit = 0;
+        int i = 0;
+        int profit = 0;
         for (int j = 1; j < prices.length; j++) {
             if (prices[j] <= prices[i]) {
                 i = j;

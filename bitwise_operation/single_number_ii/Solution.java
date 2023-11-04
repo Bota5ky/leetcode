@@ -7,8 +7,8 @@ package bitwise_operation.single_number_ii;
  */
 class Solution {
     public int singleNumber(int[] nums) {
-        var ones = 0;
-        var twos = 0;
+        int ones = 0;
+        int twos = 0;
         for (int num : nums) {
             ones = ~twos & (ones ^ num);
             twos = ~ones & (twos ^ num);

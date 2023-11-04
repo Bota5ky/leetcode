@@ -7,7 +7,7 @@ package double_pointers.remove_duplicates_from_sorted_array;
  */
 class Solution {
     public int removeDuplicates(int[] nums) {
-        var p = 0;
+        int p = 0;
         for (int i = 1; i < nums.length; i++) {
             if (nums[i] != nums[p]) {
                 nums[++p] = nums[i];

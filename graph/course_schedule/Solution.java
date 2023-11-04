@@ -14,20 +14,20 @@ class Solution {
         for (int i = 0; i < numCourses; i++) {
             table[i] = new ArrayList<>();
         }
-        var inDegrees = new int[numCourses];
+        int[] inDegrees = new int[numCourses];
         for (int[] p : prerequisites) {
             table[p[1]].add(p[0]);
             ++inDegrees[p[0]];
         }
 
-        var remain = numCourses;
+        int remain = numCourses;
         for (; ; ) {
-            var preRemain = remain;
+            int preRemain = remain;
             for (int i = 0; i < inDegrees.length; i++) {
                 if (inDegrees[i] == 0) {
                     --inDegrees[i];
                     remain--;
-                    var nextCourses = table[i];
+                    ArrayList<Integer> nextCourses = table[i];
                     for (Integer nextCourse : nextCourses) {
                         --inDegrees[nextCourse];
                     }

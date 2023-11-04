@@ -8,12 +8,12 @@ package hash_table.longest_substring_without_repeating_characters;
  */
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        var record = new int[128];
-        var maxLen = 0;
+        int[] record = new int[128];
+        int maxLen = 0;
         for (int i = 0, j = 0; j < s.length(); j++) {
             char idx = s.charAt(j);
             if (record[idx] > 0) {
-                var p = record[idx];
+                int p = record[idx];
                 for (int k = i; k < record[idx]; k++) {
                     record[s.charAt(k)] = 0;
                 }

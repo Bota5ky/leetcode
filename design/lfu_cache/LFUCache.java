@@ -15,7 +15,7 @@ class LFUCache {
 
     public LFUCache(int capacity) {
         this.capacity = capacity;
-        var headList = new DoubleLinkedList(Integer.MAX_VALUE);
+        DoubleLinkedList headList = new DoubleLinkedList(Integer.MAX_VALUE);
         this.tailList = new DoubleLinkedList(0);
         headList.lessFreq = this.tailList;
         this.tailList.moreFreq = headList;
@@ -24,12 +24,12 @@ class LFUCache {
 
     public int get(int key) {
         if (cache.containsKey(key)) {
-            var node = cache.get(key);
-            var list = node.doubleLinkedList;
-            var nodeFreq = list.frequency + 1;
+            Node node = cache.get(key);
+            DoubleLinkedList list = node.doubleLinkedList;
+            int nodeFreq = list.frequency + 1;
             list.removeNode(node);
             if (list.moreFreq.frequency > nodeFreq) {
-                var newAddedList = new DoubleLinkedList(nodeFreq);
+                DoubleLinkedList newAddedList = new DoubleLinkedList(nodeFreq);
                 newAddedList.addNode(node);
                 addDoubleLinkedListAt(list, newAddedList);
             } else {
@@ -45,14 +45,14 @@ class LFUCache {
 
     public void put(int key, int value) {
         if (cache.containsKey(key)) {
-            var node = cache.get(key);
+            Node node = cache.get(key);
             node.val = value;
             get(key);
         } else {
-            var node = new Node(key, value);
-            var leastFreqList = tailList.moreFreq;
+            Node node = new Node(key, value);
+            DoubleLinkedList leastFreqList = tailList.moreFreq;
             if (capacity == cache.size()) {
-                var removed = leastFreqList.tail.pre;
+                Node removed = leastFreqList.tail.pre;
                 cache.remove(removed.key);
                 leastFreqList.removeNode(removed);
                 if (leastFreqList.head.next == leastFreqList.tail) {
@@ -61,7 +61,7 @@ class LFUCache {
             }
             leastFreqList = tailList.moreFreq;
             if (leastFreqList.frequency != 1) {
-                var newAddedList = new DoubleLinkedList(1);
+                DoubleLinkedList newAddedList = new DoubleLinkedList(1);
                 newAddedList.addNode(node);
                 addDoubleLinkedListAt(tailList, newAddedList);
             } else {
@@ -72,7 +72,7 @@ class LFUCache {
     }
 
     private void addDoubleLinkedListAt(DoubleLinkedList target, DoubleLinkedList newAddedList) {
-        var moreFreqList = target.moreFreq;
+        DoubleLinkedList moreFreqList = target.moreFreq;
         moreFreqList.lessFreq = newAddedList;
         newAddedList.moreFreq = moreFreqList;
         newAddedList.lessFreq = target;
@@ -80,8 +80,8 @@ class LFUCache {
     }
 
     private void removeDoubleLinkedList(DoubleLinkedList list) {
-        var moreFreqList = list.moreFreq;
-        var lessFreqList = list.lessFreq;
+        DoubleLinkedList moreFreqList = list.moreFreq;
+        DoubleLinkedList lessFreqList = list.lessFreq;
         moreFreqList.lessFreq = lessFreqList;
         lessFreqList.moreFreq = moreFreqList;
     }
@@ -103,7 +103,7 @@ class LFUCache {
 
         void addNode(Node node) {
             node.doubleLinkedList = this;
-            var preHead = head.next;
+            Node preHead = head.next;
             preHead.pre = node;
             node.pre = head;
             head.next = node;
@@ -111,8 +111,8 @@ class LFUCache {
         }
 
         void removeNode(Node node) {
-            var nextNode = node.next;
-            var preNode = node.pre;
+            Node nextNode = node.next;
+            Node preNode = node.pre;
             nextNode.pre = preNode;
             preNode.next = nextNode;
         }

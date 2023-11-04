@@ -9,7 +9,7 @@ import java.util.PriorityQueue;
  */
 class Solution {
     public long maxKelements(int[] nums, int k) {
-        var q = new PriorityQueue<Integer>((a, b) -> b - a);
+        PriorityQueue<Integer> q = new PriorityQueue<>((a, b) -> b - a);
         for (int num : nums) {
             q.offer(num);
         }

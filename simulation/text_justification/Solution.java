@@ -10,15 +10,15 @@ import java.util.List;
  */
 class Solution {
     public List<String> fullJustify(String[] words, int maxWidth) {
-        var wordsLen = 0;
-        var wordsCount = 0;
-        var result = new ArrayList<String>();
-        for (int i = 0; i < words.length;) {
+        int wordsLen = 0;
+        int wordsCount = 0;
+        ArrayList<String> result = new ArrayList<>();
+        for (int i = 0; i < words.length; ) {
             if (wordsLen + wordsCount + words[i].length() <= maxWidth) {
                 wordsLen += words[i].length();
                 wordsCount++;
                 if (i == words.length - 1) {
-                    var sb = new StringBuilder();
+                    StringBuilder sb = new StringBuilder();
                     for (int j = i - wordsCount + 1; j <= i; j++) {
                         if (j == i - wordsCount + 1) {
                             sb.append(words[j]);
@@ -26,26 +26,26 @@ class Solution {
                             sb.append(" ").append(words[j]);
                         }
                     }
-                    var lastLine = sb.toString();
-                    var restSpaces = maxWidth - lastLine.length();
-                    result.add(lastLine + " ".repeat(restSpaces));
+                    String lastLine = sb.toString();
+                    int restSpaces = maxWidth - lastLine.length();
+                    result.add(lastLine + repeat(" ", restSpaces));
                 }
                 i++;
             } else {
-                var totalSpaces = maxWidth - wordsLen;
-                var sb = new StringBuilder();
+                int totalSpaces = maxWidth - wordsLen;
+                StringBuilder sb = new StringBuilder();
                 for (int j = i - wordsCount; j < i; j++) {
                     if (j == i - wordsCount) {
                         sb.append(words[j]);
                         if (wordsCount == 1) {
-                            sb.append(" ".repeat(maxWidth - words[j].length()));
+                            sb.append(repeat(" ", maxWidth - words[j].length()));
                         }
                     } else {
-                        var appendSpaces = totalSpaces / (wordsCount - 1);
+                        int appendSpaces = totalSpaces / (wordsCount - 1);
                         if (j - (i - wordsCount) <= totalSpaces % (wordsCount - 1)) {
                             appendSpaces++;
                         }
-                        sb.append(" ".repeat(appendSpaces)).append(words[j]);
+                        sb.append(repeat(" ", appendSpaces)).append(words[j]);
                     }
                 }
                 result.add(sb.toString());
@@ -54,5 +54,13 @@ class Solution {
             }
         }
         return result;
+    }
+
+    private String repeat(String sample, int n) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < n; i++) {
+            sb.append(sample);
+        }
+        return sb.toString();
     }
 }

@@ -7,12 +7,12 @@ package greedy.can_place_flowers;
  */
 class Solution {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
-        var canPlant = 0;
+        int canPlant = 0;
         for (int i = 0, j = 0; j < flowerbed.length; j++) {
             while (j < flowerbed.length && flowerbed[j] == 0) {
                 j++;
             }
-            var len = j - i;
+            int len = j - i;
             if (i == 0) {
                 len++;
             }

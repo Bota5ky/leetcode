@@ -7,7 +7,7 @@ package greedy.best_time_to_buy_and_sell_stock_ii;
  */
 class Solution {
     public int maxProfit(int[] prices) {
-        var profit = 0;
+        int profit = 0;
         for (int i = 1; i < prices.length; i++) {
             profit += prices[i] > prices[i - 1] ? prices[i] - prices[i - 1] : 0;
         }

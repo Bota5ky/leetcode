@@ -10,7 +10,7 @@ class Solution {
         if (s.length() > t.length()) {
             return false;
         }
-        var i = 0;
+        int i = 0;
         for (int j = 0; i < s.length() && j < t.length();) {
             if (s.charAt(i) == t.charAt(j)) {
                 i++;

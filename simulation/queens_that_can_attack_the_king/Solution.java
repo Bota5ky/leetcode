@@ -11,8 +11,8 @@ import java.util.List;
  */
 class Solution {
     public List<List<Integer>> queensAttacktheKing(int[][] queens, int[] king) {
-        var res = new ArrayList<List<Integer>>();
-        var exist = new boolean[8][8];
+        ArrayList<List<Integer>> res = new ArrayList<List<Integer>>();
+        boolean[][] exist = new boolean[8][8];
         for (int[] queen : queens) {
             exist[queen[0]][queen[1]] = true;
         }

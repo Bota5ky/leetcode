@@ -10,7 +10,7 @@ class Solution {
         if (nums.length < 3) {
             return nums.length;
         }
-        var p = 1;
+        int p = 1;
         for (int i = 2; i < nums.length; i++) {
             if (nums[i] != nums[p - 1]) {
                 nums[++p] = nums[i];

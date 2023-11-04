@@ -7,12 +7,12 @@ package greedy.jump_game_ii;
  */
 class Solution {
     public int jump(int[] nums) {
-        var jumpCnt = 0;
+        int jumpCnt = 0;
         for (int i = 0, j = 0; ; ) {
             if (j >= nums.length - 1) {
                 break;
             }
-            var pre = j;
+            int pre = j;
             for (int k = i; k <= pre; k++) {
                 j = Math.max(j, nums[k] + k);
             }

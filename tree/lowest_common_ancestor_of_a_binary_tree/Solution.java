@@ -12,8 +12,8 @@ class Solution {
         if (root == null || root == p || root == q) {
             return root;
         }
-        var left = lowestCommonAncestor(root.left, p, q);
-        var right = lowestCommonAncestor(root.right, p, q);
+        TreeNode left = lowestCommonAncestor(root.left, p, q);
+        TreeNode right = lowestCommonAncestor(root.right, p, q);
         if (left != null && right != null) {
             return root;
         }
