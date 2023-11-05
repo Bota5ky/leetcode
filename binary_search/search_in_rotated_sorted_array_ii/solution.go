@@ -1,7 +1,7 @@
 package search_in_rotated_sorted_array_ii
 
 // 81. 搜索旋转排序数组 II https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/
-func search3(nums []int, target int) bool {
+func search(nums []int, target int) bool {
 	l, r := 0, len(nums)-1
 	for l <= r {
 		m := (l + r) / 2
