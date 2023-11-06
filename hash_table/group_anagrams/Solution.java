@@ -18,7 +18,7 @@ class Solution {
             list.add(str);
             map.put(key, list);
         }
-        ArrayList<List<String>> res = new ArrayList<List<String>>();
+        ArrayList<List<String>> res = new ArrayList<>();
         map.forEach((k,v) -> res.add(v));
         return res;
     }
