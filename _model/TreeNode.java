@@ -25,10 +25,10 @@ public class TreeNode {
             return null;
         }
         TreeNode root = new TreeNode(nums[0]);
-        ArrayList<TreeNode> layer = new ArrayList<TreeNode>();
+        ArrayList<TreeNode> layer = new ArrayList<>();
         layer.add(root);
         for (int i = 1; i < nums.length;) {
-            ArrayList<TreeNode> nextLayer = new ArrayList<TreeNode>();
+            ArrayList<TreeNode> nextLayer = new ArrayList<>();
             for (TreeNode treeNode : layer) {
                 treeNode.left = new TreeNode(nums[i++]);
                 nextLayer.add(treeNode.left);
