@@ -13,7 +13,7 @@ public class ListNode {
         this.next = next;
     }
 
-    public static ListNode create(int[] nums) {
+    public static ListNode build(int[] nums) {
         ListNode head = new ListNode(-1);
         ListNode node = head;
         for (int num : nums) {
@@ -21,5 +21,18 @@ public class ListNode {
             node = node.next;
         }
         return head.next;
+    }
+
+    public void print() {
+        ListNode node = this;
+        while (true) {
+            if (node == null) {
+                System.out.print("null");
+                break;
+            } else {
+                System.out.printf("%d -> ", node.val);
+                node = node.next;
+            }
+        }
     }
 }
