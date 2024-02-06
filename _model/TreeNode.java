@@ -1,6 +1,7 @@
 package _model;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class TreeNode {
     public int val;
@@ -20,25 +21,37 @@ public class TreeNode {
         this.right = right;
     }
 
-    public static TreeNode create(int[] nums) {
-        if (nums.length == 0) {
+    public static TreeNode build(Integer[] nums) {
+        return build(nums, 0);
+    }
+
+    public static TreeNode build(Integer[] nums, int i) {
+        if (i >= nums.length || nums[i] == null) {
             return null;
         }
-        TreeNode root = new TreeNode(nums[0]);
-        ArrayList<TreeNode> layer = new ArrayList<>();
-        layer.add(root);
-        for (int i = 1; i < nums.length;) {
-            ArrayList<TreeNode> nextLayer = new ArrayList<>();
-            for (TreeNode treeNode : layer) {
-                treeNode.left = new TreeNode(nums[i++]);
-                nextLayer.add(treeNode.left);
-                if (i < nums.length) {
-                    treeNode.right = new TreeNode(nums[i++]);
-                    nextLayer.add(treeNode.right);
+        TreeNode node = new TreeNode(nums[i]);
+        node.left = build(nums, 2 * i + 1);
+        node.right = build(nums, 2 * i + 2);
+        return node;
+    }
+
+    public void print() {
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(this);
+
+        while (!queue.isEmpty()) {
+            int levelSize = queue.size();
+            for (int i = 0; i < levelSize; i++) {
+                TreeNode node = queue.poll();
+                if (node != null) {
+                    System.out.printf("%-6d", node.val);
+                    queue.offer(node.left);
+                    queue.offer(node.right);
+                } else {
+                    System.out.print("#     ");
                 }
             }
-            layer = nextLayer;
+            System.out.println();
         }
-        return root;
     }
 }
