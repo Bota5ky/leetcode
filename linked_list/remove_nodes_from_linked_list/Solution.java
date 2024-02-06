@@ -1,3 +1,5 @@
+package linked_list.remove_nodes_from_linked_list;
+
 import _model.ListNode;
 
 /**
