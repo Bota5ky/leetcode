@@ -1,3 +1,5 @@
+package bitwise_operation.valid_sudoku;
+
 /**
  * @author Bota5ky
  * @link <a href="https://leetcode.cn/problems/valid-sudoku/">36. 有效的数独</a>
