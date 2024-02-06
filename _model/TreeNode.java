@@ -38,8 +38,13 @@ public class TreeNode {
     public void print() {
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(this);
+        boolean isAllNull = false;
 
         while (!queue.isEmpty()) {
+            if (isAllNull) {
+                break;
+            }
+            isAllNull = true;
             int levelSize = queue.size();
             for (int i = 0; i < levelSize; i++) {
                 TreeNode node = queue.poll();
@@ -47,6 +52,7 @@ public class TreeNode {
                     System.out.printf("%-6d", node.val);
                     queue.offer(node.left);
                     queue.offer(node.right);
+                    isAllNull = node.left == null && node.right == null && isAllNull;
                 } else {
                     System.out.print("#     ");
                 }
