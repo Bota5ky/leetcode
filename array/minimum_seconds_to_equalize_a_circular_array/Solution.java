@@ -1,3 +1,5 @@
+package array.minimum_seconds_to_equalize_a_circular_array;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
