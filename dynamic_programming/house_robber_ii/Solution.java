@@ -1,4 +1,4 @@
-package common.question_201_to_300.house_robber_ii;
+package dynamic_programming.house_robber_ii;
 
 import java.util.Arrays;
 
