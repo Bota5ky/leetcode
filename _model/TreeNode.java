@@ -1,6 +1,9 @@
 package _model;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 public class TreeNode {
@@ -22,17 +25,36 @@ public class TreeNode {
     }
 
     public static TreeNode build(Integer[] nums) {
-        return build(nums, 0);
+        Queue<Integer> queue = new LinkedList<>(Arrays.asList(nums));
+        Integer first = queue.poll();
+        TreeNode root = create(first);
+        List<TreeNode> layer = new ArrayList<>();
+        layer.add(root);
+        while (!queue.isEmpty()) {
+            List<TreeNode> nextLayer = new ArrayList<>();
+            for (TreeNode node : layer) {
+                node.left = create(queue.poll());
+                if (node.left != null) {
+                    nextLayer.add(node.left);
+                }
+                if (queue.isEmpty()) {
+                    break;
+                }
+                node.right = create(queue.poll());
+                if (node.right != null) {
+                    nextLayer.add(node.right);
+                }
+            }
+            layer = nextLayer;
+        }
+        return root;
     }
 
-    public static TreeNode build(Integer[] nums, int i) {
-        if (i >= nums.length || nums[i] == null) {
+    private static TreeNode create(Integer num) {
+        if (num == null) {
             return null;
         }
-        TreeNode node = new TreeNode(nums[i]);
-        node.left = build(nums, 2 * i + 1);
-        node.right = build(nums, 2 * i + 2);
-        return node;
+        return new TreeNode(num);
     }
 
     public void print() {
@@ -54,6 +76,7 @@ public class TreeNode {
                     queue.offer(node.right);
                     isAllNull = node.left == null && node.right == null && isAllNull;
                 } else {
+                    queue.offer(null);
                     System.out.print("#     ");
                 }
             }
