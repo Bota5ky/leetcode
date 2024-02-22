@@ -6,6 +6,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+/**
+ * Definition for a binary tree node.
+ */
 public class TreeNode {
     public int val;
     public TreeNode left;
